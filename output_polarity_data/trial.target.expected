@@ -1,6 +1,3 @@
-SentenceID: 1090587:0
-Polarity: NULL
-
 SentenceID: 1090587:1
 Polarity: positive
 
@@ -55,14 +52,8 @@ Polarity: positive
 SentenceID: 1349391:2
 Polarity: negative
 
-SentenceID: 1349391:3
-Polarity: NULL
-
 SentenceID: 1357554:0
 Polarity: positive
-
-SentenceID: 1357554:1
-Polarity: NULL
 
 SentenceID: 1357554:2
 Polarity: positive
@@ -78,9 +69,6 @@ Polarity: positive
 
 SentenceID: 1357554:5
 Polarity: positive
-
-SentenceID: 1730014:0
-Polarity: NULL
 
 SentenceID: 1730014:1
 Polarity: positive
@@ -99,12 +87,6 @@ Polarity: negative
 
 SentenceID: 1730014:3
 Polarity: positive
-
-SentenceID: 1730014:4
-Polarity: NULL
-
-SentenceID: 1500453:0
-Polarity: NULL
 
 SentenceID: 1500453:1
 Polarity: positive
@@ -156,9 +138,6 @@ Polarity: positive
 
 SentenceID: 505535:1
 Polarity: negative
-
-SentenceID: 505535:2
-Polarity: NULL
 
 SentenceID: 1016296:0
 Polarity: negative

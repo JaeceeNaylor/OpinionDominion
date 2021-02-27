@@ -1,6 +1,3 @@
-SentenceID: 1090587:0
-Category: NULL
-
 SentenceID: 1090587:1
 Category: LOCATION#GENERAL
 
@@ -55,14 +52,8 @@ Category: FOOD#QUALITY
 SentenceID: 1349391:2
 Category: RESTAURANT#GENERAL
 
-SentenceID: 1349391:3
-Category: NULL
-
 SentenceID: 1357554:0
 Category: DRINKS#STYLE_OPTIONS
-
-SentenceID: 1357554:1
-Category: NULL
 
 SentenceID: 1357554:2
 Category: FOOD#QUALITY
@@ -78,9 +69,6 @@ Category: AMBIENCE#GENERAL
 
 SentenceID: 1357554:5
 Category: RESTAURANT#GENERAL
-
-SentenceID: 1730014:0
-Category: NULL
 
 SentenceID: 1730014:1
 Category: SERVICE#GENERAL
@@ -99,12 +87,6 @@ Category: FOOD#QUALITY
 
 SentenceID: 1730014:3
 Category: RESTAURANT#GENERAL
-
-SentenceID: 1730014:4
-Category: NULL
-
-SentenceID: 1500453:0
-Category: NULL
 
 SentenceID: 1500453:1
 Category: AMBIENCE#GENERAL
@@ -156,9 +138,6 @@ Category: FOOD#QUALITY
 
 SentenceID: 505535:1
 Category: FOOD#QUALITY
-
-SentenceID: 505535:2
-Category: NULL
 
 SentenceID: 1016296:0
 Category: RESTAURANT#GENERAL

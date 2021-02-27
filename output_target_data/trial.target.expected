@@ -1,8 +1,3 @@
-SentenceID: 1090587:0
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
-
 SentenceID: 1090587:1
 Target: view
 TargetStartIndex: 80
@@ -93,20 +88,10 @@ Target: NULL
 TargetStartIndex: 0
 TargetEndIndex: 0
 
-SentenceID: 1349391:3
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
-
 SentenceID: 1357554:0
 Target: Bombay beer
 TargetStartIndex: 21
 TargetEndIndex: 32
-
-SentenceID: 1357554:1
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
 
 SentenceID: 1357554:2
 Target: NULL
@@ -129,11 +114,6 @@ TargetStartIndex: 12
 TargetEndIndex: 17
 
 SentenceID: 1357554:5
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
-
-SentenceID: 1730014:0
 Target: NULL
 TargetStartIndex: 0
 TargetEndIndex: 0
@@ -164,16 +144,6 @@ TargetStartIndex: 100
 TargetEndIndex: 106
 
 SentenceID: 1730014:3
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
-
-SentenceID: 1730014:4
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
-
-SentenceID: 1500453:0
 Target: NULL
 TargetStartIndex: 0
 TargetEndIndex: 0
@@ -262,11 +232,6 @@ SentenceID: 505535:1
 Target: pad thai
 TargetStartIndex: 49
 TargetEndIndex: 57
-
-SentenceID: 505535:2
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
 
 SentenceID: 1016296:0
 Target: restaurant
