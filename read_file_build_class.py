@@ -230,6 +230,13 @@ def create_files(predicted_file_name, expected_file_name, all_reviews, type_file
 
 
 
+
+
+
+
+
+
+
 '''
 ===============================================================================================================
                                             Calculate Feature Scores
@@ -474,6 +481,10 @@ def calcuate_polarity_recall_precision(all_reviews):
     average_percision = precisions_added_together / total_attr_labels
     average_recall = recalls_added_together / total_attr_labels
     return average_recall, average_percision
+
+
+
+
 
 
 
