@@ -128,9 +128,9 @@ def parse_xml(xml_file, had_opinion_expected):
                     opinion_predicted = predict_opinion(sentence_id, review_id, text)
                     opinions_predicted.append(opinion_predicted)
             #UNCOMMENT THIS LINE TO GET 1.0 for all scores
-            
+            '''
             opinions_predicted = opinions_expected
-            
+            '''
             sentence_gathered = Sentence(sentence_id, review_id, text, opinions_predicted, opinions_expected)
             sentences_for_review_object.append(sentence_gathered)
         review_collected = Review(review_id, sentences_for_review_object)
@@ -346,6 +346,8 @@ def calcuate_entity_recall_precision(all_reviews):
             recalls_added_together += recall
             percision = correct_amounts_of_entity_type[entity_type] / algorithm_amounts_of_entity_type[entity_type]
             precisions_added_together += percision
+    if total_entity_labels == 0:
+        return 0.0, 0.0
     average_percision = precisions_added_together / total_entity_labels
     average_recall = recalls_added_together / total_entity_labels
     return average_recall, average_percision
@@ -387,6 +389,8 @@ def calcuate_attribute_recall_precision(all_reviews):
             recalls_added_together += recall
             percision = correct_amounts_of_attribute_type[attr_type] / algorithm_amounts_of_attribute_type[attr_type]
             precisions_added_together += percision
+    if total_attr_labels == 0:
+        return 0.0, 0.0
     average_percision = precisions_added_together / total_attr_labels
     average_recall = recalls_added_together / total_attr_labels
     return average_recall, average_percision
@@ -435,6 +439,8 @@ def calcuate_e_a_recall_precision(all_reviews):
             recalls_added_together += recall
             percision = correct_amounts_of_attribute_type[attr_type] / algorithm_amounts_of_attribute_type[attr_type]
             precisions_added_together += percision
+    if total_attr_labels == 0:
+        return 0.0, 0.0
     average_percision = precisions_added_together / total_attr_labels
     average_recall = recalls_added_together / total_attr_labels
     return average_recall, average_percision
@@ -478,6 +484,8 @@ def calcuate_polarity_recall_precision(all_reviews):
             recalls_added_together += recall
             percision = correct_amounts_of_attribute_type[attr_type] / algorithm_amounts_of_attribute_type[attr_type]
             precisions_added_together += percision
+    if total_attr_labels == 0:
+        return 0.0, 0.0
     average_percision = precisions_added_together / total_attr_labels
     average_recall = recalls_added_together / total_attr_labels
     return average_recall, average_percision

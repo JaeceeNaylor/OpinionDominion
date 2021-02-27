@@ -1,330 +1,330 @@
 SentenceID: 1090587:1
-Target: view
-TargetStartIndex: 80
-TargetEndIndex: 84
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1090587:2
-Target: service
-TargetStartIndex: 18
-TargetEndIndex: 25
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1090587:2
-Target: food
-TargetStartIndex: 36
-TargetEndIndex: 40
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1090587:2
-Target: food
-TargetStartIndex: 36
-TargetEndIndex: 40
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1090587:3
-Target: lava cake dessert
-TargetStartIndex: 4
-TargetEndIndex: 21
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1661043:0
-Target: Pizza
+Target: BASIC
 TargetStartIndex: 0
-TargetEndIndex: 5
+TargetEndIndex: 0
 
 SentenceID: 1661043:1
-Target: Salads
+Target: BASIC
 TargetStartIndex: 0
-TargetEndIndex: 6
+TargetEndIndex: 0
 
 SentenceID: 1661043:2
-Target: calamari
-TargetStartIndex: 23
-TargetEndIndex: 31
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1661043:3
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
 SentenceID: 1661043:4
-Target: Decor
+Target: BASIC
 TargetStartIndex: 0
-TargetEndIndex: 5
+TargetEndIndex: 0
 
 SentenceID: 1661043:5
-Target: Service
+Target: BASIC
 TargetStartIndex: 0
-TargetEndIndex: 7
+TargetEndIndex: 0
 
 SentenceID: 1349391:0
-Target: food
-TargetStartIndex: 21
-TargetEndIndex: 25
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1349391:0
-Target: service
-TargetStartIndex: 33
-TargetEndIndex: 40
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1349391:1
-Target: food
-TargetStartIndex: 20
-TargetEndIndex: 24
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1349391:1
-Target: service
-TargetStartIndex: 33
-TargetEndIndex: 40
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1349391:1
-Target: service
-TargetStartIndex: 76
-TargetEndIndex: 83
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1349391:1
-Target: good
-TargetStartIndex: 63
-TargetEndIndex: 67
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1349391:2
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
 SentenceID: 1357554:0
-Target: Bombay beer
-TargetStartIndex: 21
-TargetEndIndex: 32
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1357554:2
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
 SentenceID: 1357554:3
-Target: Service
+Target: BASIC
 TargetStartIndex: 0
-TargetEndIndex: 7
+TargetEndIndex: 0
 
 SentenceID: 1357554:3
-Target: people
-TargetStartIndex: 26
-TargetEndIndex: 32
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1357554:4
-Target: place
-TargetStartIndex: 12
-TargetEndIndex: 17
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1357554:5
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
 SentenceID: 1730014:1
-Target: Service
+Target: BASIC
 TargetStartIndex: 0
-TargetEndIndex: 7
+TargetEndIndex: 0
 
 SentenceID: 1730014:1
-Target: food
-TargetStartIndex: 24
-TargetEndIndex: 28
-
-SentenceID: 1730014:2
-Target: Guacamole+shrimp appetizer
+Target: BASIC
 TargetStartIndex: 0
-TargetEndIndex: 26
+TargetEndIndex: 0
 
 SentenceID: 1730014:2
-Target: filet
-TargetStartIndex: 61
-TargetEndIndex: 66
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1730014:2
-Target: frites
-TargetStartIndex: 100
-TargetEndIndex: 106
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: 1730014:2
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1730014:3
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
 SentenceID: 1500453:1
-Target: trattoria
-TargetStartIndex: 25
-TargetEndIndex: 34
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:1
-Target: trattoria
-TargetStartIndex: 25
-TargetEndIndex: 34
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:2
-Target: food
-TargetStartIndex: 4
-TargetEndIndex: 8
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:2
-Target: dishes
-TargetStartIndex: 72
-TargetEndIndex: 78
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:2
-Target: specials
-TargetStartIndex: 33
-TargetEndIndex: 41
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:2
-Target: regular menu-fare
-TargetStartIndex: 49
-TargetEndIndex: 66
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:3
-Target: parmesean porcini souffle
-TargetStartIndex: 17
-TargetEndIndex: 42
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:3
-Target: lamb glazed with balsamic vinegar
-TargetStartIndex: 50
-TargetEndIndex: 83
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:4
-Target: candle-light
-TargetStartIndex: 49
-TargetEndIndex: 61
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:4
-Target: food
-TargetStartIndex: 63
-TargetEndIndex: 67
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:4
-Target: service
-TargetStartIndex: 80
-TargetEndIndex: 87
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:4
-Target: tables
-TargetStartIndex: 13
-TargetEndIndex: 19
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1500453:5
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
 SentenceID: 505535:0
-Target: interior decor
-TargetStartIndex: 29
-TargetEndIndex: 43
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 505535:0
-Target: place
-TargetStartIndex: 12
-TargetEndIndex: 17
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 505535:1
-Target: pad se ew chicken
-TargetStartIndex: 4
-TargetEndIndex: 21
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 505535:1
-Target: pad thai
-TargetStartIndex: 49
-TargetEndIndex: 57
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1016296:0
-Target: restaurant
-TargetStartIndex: 34
-TargetEndIndex: 44
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1016296:1
-Target: cart attendant
-TargetStartIndex: 12
-TargetEndIndex: 26
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1016296:2
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
 SentenceID: 1016296:3
-Target: Food
+Target: BASIC
 TargetStartIndex: 0
-TargetEndIndex: 4
+TargetEndIndex: 0
 
 SentenceID: 1016296:4
-Target: Chow fun
+Target: BASIC
 TargetStartIndex: 0
-TargetEndIndex: 8
+TargetEndIndex: 0
 
 SentenceID: 1016296:4
-Target: pork shu mai
-TargetStartIndex: 18
-TargetEndIndex: 30
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: 1016296:4
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
 SentenceID: 1016296:5
-Target: place
-TargetStartIndex: 32
-TargetEndIndex: 37
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: Z#3:0
-Target: food
-TargetStartIndex: 10
-TargetEndIndex: 14
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: Z#3:0
-Target: interior
-TargetStartIndex: 29
-TargetEndIndex: 37
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: Z#3:1
-Target: space
-TargetStartIndex: 4
-TargetEndIndex: 9
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: Z#3:2
-Target: meal
-TargetStartIndex: 33
-TargetEndIndex: 37
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: Z#3:2
-Target: meal
-TargetStartIndex: 33
-TargetEndIndex: 37
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: Z#3:3
-Target: sake
-TargetStartIndex: 6
-TargetEndIndex: 10
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: PP#9:0
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
 SentenceID: PP#9:1
-Target: pizza
-TargetStartIndex: 12
-TargetEndIndex: 17
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: PP#9:2
-Target: staff
-TargetStartIndex: 22
-TargetEndIndex: 27
+Target: BASIC
+TargetStartIndex: 0
+TargetEndIndex: 0
 
 SentenceID: PP#9:2
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
 SentenceID: PP#9:3
-Target: NULL
+Target: BASIC
 TargetStartIndex: 0
 TargetEndIndex: 0
 
