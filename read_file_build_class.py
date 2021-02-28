@@ -1,6 +1,19 @@
 import xml.etree.ElementTree as ET 
 import csv
+import nltk
+from nltk.corpus import stopwords
+from nltk.corpus import wordnet
+from nltk.tokenize import word_tokenize, sent_tokenize
+from nltk.stem.wordnet import WordNetLemmatizer
+import pandas as pd
+import numpy as np
+import stanza
 
+stanza.download('en')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nlp = stanza.Pipeline('en')
 
 
 
@@ -116,8 +129,10 @@ def parse_xml(xml_file, had_opinion_expected):
                     opinion_expected = Opinion(sentence_id, review_id, target, target_begin_index, target_end_index, category, polarity)
                     opinions_expected.append(opinion_expected)
                     #logic to parse our own opinion result
-                    opinion_predicted = predict_opinion(sentence_id, review_id, text)
-                    opinions_predicted.append(opinion_predicted)
+                total_exp_opinions = len(opinions_expected)
+                opinions_predicted_total = predict_opinion(sentence_id, review_id, text, total_exp_opinions)
+                for opinion_pred_said in opinions_predicted_total:
+                    opinions_predicted.append(opinion_pred_said)
             else:
                 #this sentence could not have an opinion or this could not be a golden file
                 if had_opinion_expected:
@@ -125,8 +140,9 @@ def parse_xml(xml_file, had_opinion_expected):
                 #no opinion that is golden to extract
                 else:
                     #begin logic to parse our own opinion results
-                    opinion_predicted = predict_opinion(sentence_id, review_id, text)
-                    opinions_predicted.append(opinion_predicted)
+                    #opinion_predicted = predict_opinion(sentence_id, review_id, text)
+                    #opinions_predicted.append(opinion_predicted)
+                    print('PROBLEM')
             #UNCOMMENT THIS LINE TO GET 1.0 for all scores
             '''
             opinions_predicted = opinions_expected
@@ -170,21 +186,145 @@ def parse_xml(xml_file, had_opinion_expected):
 ===============================================================================================================
 '''   
 
-def predict_opinion(sentence_id, review_id, text):
-    target_pred, target_begin_index_pred, target_end_index_pred = extract_opinion_target(text)
-    category_pred = label_opinion_category(text, target_pred)
-    polarity_pred = label_opinion_polarity(text, target_pred, category_pred)
-    opinion_pred = Opinion(sentence_id, review_id, target_pred, target_begin_index_pred, target_end_index_pred, category_pred, polarity_pred)
-    return opinion_pred
+def predict_opinion(sentence_id, review_id, text, total_exp_opinions):
+    target_pred = extract_opinion_target(text, total_exp_opinions)
+    category_pred = label_opinion_category(text, target_pred, total_exp_opinions)
+    polarity_pred = label_opinion_polarity(text, target_pred, category_pred, total_exp_opinions)
+    opinions = []
+    for i in range(total_exp_opinions):
+        opinion_pred = Opinion(sentence_id, review_id, target_pred[i][0], target_pred[i][1], target_pred[i][2], category_pred[i], polarity_pred[i])
+        opinions.append(opinion_pred)
+    return opinions
 
-def extract_opinion_target(text):
-    return "BASIC", "0", "0"
+def extract_opinion_target(text, total_exp_opinions):
+    stop_words = set(stopwords.words('english'))
+    sentence_given = text.lower()
+    sentence_given_words = text.split()
+    sentence_tokenized = nltk.sent_tokenize(sentence_given)
+    for sentence in sentence_tokenized:
+        tokenized_words_in_sentence = nltk.word_tokenize(sentence)
+        first_pos_tags_on_words_in_sentence = nltk.pos_tag(tokenized_words_in_sentence)
+    part_two_of_target = False
+    part_three_of_target = 0
+    new_word_list = []
+    pos_tags_on_words_in_sentence = []
+    for i in range(0, len(first_pos_tags_on_words_in_sentence)-1):
+        if first_pos_tags_on_words_in_sentence[i][1] == 'NN' and first_pos_tags_on_words_in_sentence[i+1][1] == 'NN':
+            if i < len(first_pos_tags_on_words_in_sentence)-2 and first_pos_tags_on_words_in_sentence[i+1][1] == 'NN' and first_pos_tags_on_words_in_sentence[i+2][1] == 'NN' and part_three_of_target == 0 and part_two_of_target == False:
+                pos_tags_on_words_in_sentence.append((first_pos_tags_on_words_in_sentence[i][0] + ' ' + first_pos_tags_on_words_in_sentence[i+1][0] + ' ' + first_pos_tags_on_words_in_sentence[i+2][0], first_pos_tags_on_words_in_sentence[i+1][1]))
+                part_three_of_target += 1
+                new_word_list.append(first_pos_tags_on_words_in_sentence[i][0] + first_pos_tags_on_words_in_sentence[i+1][0] + first_pos_tags_on_words_in_sentence[i+2][0])
+            else: 
+                pos_tags_on_words_in_sentence.append((first_pos_tags_on_words_in_sentence[i][0] + ' ' + first_pos_tags_on_words_in_sentence[i+1][0], first_pos_tags_on_words_in_sentence[i+1][1]))
+                part_two_of_target = True
+                new_word_list.append(first_pos_tags_on_words_in_sentence[i][0] + first_pos_tags_on_words_in_sentence[i+1][0])
+        else:
+            if part_two_of_target:
+                part_two_of_target = False
+                continue
+            if part_three_of_target > 0 and part_three_of_target < 3:
+                part_three_of_target += 1
+                if part_three_of_target == 3:
+                    part_three_of_target = 0
+                continue
+            if first_pos_tags_on_words_in_sentence[i][0] in stop_words:
+                new_word_list.append(first_pos_tags_on_words_in_sentence[i][0])
+                continue
+            new_word_list.append(first_pos_tags_on_words_in_sentence[i][0])
+            pos_tags_on_words_in_sentence.append(first_pos_tags_on_words_in_sentence[i])
+    #UNCOMMENT OUT to see the pos tags on the word in the sentence that are not stop words
+    '''
+    print(pos_tags_on_words_in_sentence)
+    '''
+    updated_sentence = ' '.join(new_word_list)
+    updated_sentence_words_tokenized = nltk.word_tokenize(updated_sentence)
+    updated_sentence_words_list = [word for word in updated_sentence_words_tokenized if not word in stop_words]
+    updated_pos_tags_on_words_in_sentence = nltk.pos_tag(updated_sentence_words_list)
+    doc = nlp(updated_sentence)
+    dependency_node = []
+    print(text)
+    for dependency_edge in doc.sentences[0].dependencies:
+        dependency_node.append([dependency_edge[2].text, dependency_edge[0].id, dependency_edge[1]])
+    #print(dependency_node)
+    for i in range(0, len(dependency_node)):
+        if (int(dependency_node[i][1]) != 0):
+            #print(new_word_list)
+            #print(int(dependency_node[i][1])-1)
+            dependency_node[i][1] = dependency_node[(int(dependency_node[i][1])-1)][0]
+    target_list = []
+    categories = []
+    for part in updated_pos_tags_on_words_in_sentence:
+        pos = part[1]
+        word = part[0]
+        if (pos == 'NN' or pos == 'JJ' or pos == 'JJR' or pos == 'NNS' or pos == 'RB'):
+            target_list.append(list(part))
+            categories.append(word)
+    f_cluster = []
+    for target in target_list:
+        f_target_list = []
+        for j in dependency_node:
+            '''
+            print(f'J[0]: {j[0]}')
+            print(f'TARGET[0]: {target[0]}')
+            print(f'J[1]: {j[1]}')
+            '''
+            if ((target[0].find(str(j[0])) != -1 or target[0].find(str(j[1])) != -1) and (j[2] in ["nsubj", "acl:relcl", "obj", "dobj", "agent", "advmod", "amod", "neg", "prep_of", "acomp", "xcomp", "compound"])):
+                if j[0] == target[0]:
+                    f_target_list.append(j[1])
+                else:
+                    f_target_list.append(j[0])
+        f_cluster.append([target[0], f_target_list])
+    #print(f_cluster)
+    final_cluster = []
+    dic = {}
+    for target in target_list:
+        #print(target)
+        dic[target[0]] = target[1]
+    for target in f_cluster:
+        if dic[target[0]] == 'NN' or dic[target[0]] == 'NNS' or dic[target[0]] == 'NNP':
+            final_cluster.append(target)
+    for cluster in final_cluster:
+        for pos_tag_word in pos_tags_on_words_in_sentence:
+            pos_tag_word_list = pos_tag_word[0].split()
+            one_word_combined = ''.join(pos_tag_word_list)
+            if cluster[0] == one_word_combined and len(pos_tag_word_list) > 1:
+                cluster[0] = pos_tag_word[0]
+    #print(final_cluster)
+    #TODO what about Nulls?
+    targets_to_return = []
+    for i in range(0, total_exp_opinions):
+        if len(final_cluster) == 0:
+            targets_to_return.append(['NULL', "0", "0"])
+        elif i < len(final_cluster)-1:
+            #TODO just 0s?
+            targets_to_return.append([final_cluster[i][0], "0", "0"])
+        elif i >= len(final_cluster)-1:
+            if i == total_exp_opinions - 1 and i == len(final_cluster)-1:
+                targets_to_return.append([final_cluster[i][0], "0", "0"])
+            elif i <= total_exp_opinions - 1:
+                target_compiled = ''
+                for c in final_cluster:
+                    target_compiled = c[0] + ' '
+                targets_to_return.append([target_compiled, "0", "0"])
+    return targets_to_return
+    #return "BASIC", "0", "0"
 
-def label_opinion_category(text, target_pred):
-    return "BASIC#BASIC"
+def label_opinion_category(text, target_pred, total_exp_opinions):
+    categories = []
+    for i in range(0, total_exp_opinions):
+        categories.append("BASIC#BASIC")
+    return categories
+    #return "BASIC#BASIC"
 
-def label_opinion_polarity(text, target_pred, category_pred):
-    return "BASIC"
+def label_opinion_polarity(text, target_pred, category_pred, total_exp_opinions):
+    polarities = []
+    for i in range(0, total_exp_opinions):
+        polarities.append("BASIC")
+    return polarities
+    #return "BASIC"
+
+
+
 
 
 
@@ -507,6 +647,8 @@ def calcuate_polarity_recall_precision(all_reviews):
 '''   
 
 if __name__ == "__main__":
-    path = 'trial_data/restaurants_trial_english_sl.xml'
+    path_trial = 'trial_data/restaurants_trial_english_sl.xml'
+    path_train = 'train_data/ABSA16_Restaurants_Train_SB1_v2.xml'
+    path_test = 'test_gold_data/EN_REST_SB1_TEST.xml.gold'
     opinion_expected = True
-    parse_xml(path, opinion_expected)
+    parse_xml(path_train, opinion_expected)

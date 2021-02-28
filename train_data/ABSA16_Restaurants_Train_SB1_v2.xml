@@ -129,7 +129,7 @@
                 </Opinions>
             </sentence>
             <sentence id="1028246:1">
-                <text>Service was devine, oysters where a sensual as they come, and the price can't be beat!!!</text>
+                <text>Service was devine, oysters where a sensual as they come, and the price can't be beat!</text>
                 <Opinions>
                     <Opinion target="Service" category="SERVICE#GENERAL" polarity="positive" from="0" to="7"/>
                     <Opinion target="oysters" category="FOOD#QUALITY" polarity="positive" from="20" to="27"/>
@@ -1098,7 +1098,7 @@
                 </Opinions>
             </sentence>
             <sentence id="1162037:3">
-                <text>It's all about the food !!</text>
+                <text>It's all about the food!</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="19" to="23"/>
                 </Opinions>
@@ -1358,7 +1358,7 @@
                 </Opinions>
             </sentence>
             <sentence id="1221938:3">
-                <text>Downstairs lounge is always a good attraction</text>
+                <text>Downstairs lounge is always a good attraction.</text>
                 <Opinions>
                     <Opinion target="Downstairs lounge" category="AMBIENCE#GENERAL" polarity="positive" from="0" to="17"/>
                 </Opinions>
@@ -1441,7 +1441,7 @@
                 </Opinions>
             </sentence>
             <sentence id="1227999:4">
-                <text>Rude service, medicore food...there are tons of restaurants in NY...stay away from this one</text>
+                <text>Rude service, medicore food...there are tons of restaurants in NY...stay away from this one.</text>
                 <Opinions>
                     <Opinion target="service" category="SERVICE#GENERAL" polarity="negative" from="5" to="12"/>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="neutral" from="23" to="27"/>
@@ -2031,7 +2031,7 @@
     <Review rid="1303888">
         <sentences>
             <sentence id="1303888:0">
-                <text>All the staff is absolutely professional!! </text>
+                <text>All the staff is absolutely professional! </text>
                 <Opinions>
                     <Opinion target="staff" category="SERVICE#GENERAL" polarity="positive" from="8" to="13"/>
                 </Opinions>
@@ -2409,7 +2409,7 @@
                 </Opinions>
             </sentence>
             <sentence id="1341354:4">
-                <text>We'd go back again</text>
+                <text>We'd go back again.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -2692,7 +2692,7 @@
     <Review rid="1390357">
         <sentences>
             <sentence id="1390357:0">
-                <text>I absolutely love this place!!!</text>
+                <text>I absolutely love this place!</text>
                 <Opinions>
                     <Opinion target="place" category="RESTAURANT#GENERAL" polarity="positive" from="23" to="28"/>
                 </Opinions>
@@ -2710,7 +2710,7 @@
                 <text>I came here for my friend's birthday and keep coming back ever since.</text>
             </sentence>
             <sentence id="1390357:4">
-                <text>The sushi is amazing!!! </text>
+                <text>The sushi is amazing! </text>
                 <Opinions>
                     <Opinion target="sushi" category="FOOD#QUALITY" polarity="positive" from="4" to="9"/>
                 </Opinions>
@@ -2803,7 +2803,7 @@
                 </Opinions>
             </sentence>
             <sentence id="1395421:5">
-                <text>HIGHLY RECOMMENDED!!!!!</text>
+                <text>HIGHLY RECOMMENDED!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -2972,7 +2972,7 @@
                 <text>P.S. Please don't tell anyone in my family i eat there.</text>
             </sentence>
             <sentence id="1413697:6">
-                <text>LOL</text>
+                <text>LOl.</text>
             </sentence>
         </sentences>
     </Review>
@@ -3074,13 +3074,13 @@
                 <text>We had Lava Cake... we ordered when our food came it takes at least a 1/2 to make it. </text>
             </sentence>
             <sentence id="1430994:9">
-                <text>It's cuz it's so good you need to taste it!!! </text>
+                <text>It's cuz it's so good you need to taste it! </text>
                 <Opinions>
                     <Opinion target="NULL" category="FOOD#QUALITY" polarity="positive" from="0" to="0"/>
                 </Opinions>
             </sentence>
             <sentence id="1430994:10">
-                <text>All in all we're already coming up with excuses to go ahead really soon in the next few wks!!!!</text>
+                <text>All in all we're already coming up with excuses to go ahead really soon in the next few wks!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -3367,7 +3367,7 @@
                 </Opinions>
             </sentence>
             <sentence id="1459569:3">
-                <text>Food was good not great not worth the wait or another visit</text>
+                <text>Food was good not great not worth the wait or another visit.</text>
                 <Opinions>
                     <Opinion target="Food" category="FOOD#QUALITY" polarity="neutral" from="0" to="4"/>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
@@ -3797,7 +3797,7 @@
                 </Opinions>
             </sentence>
             <sentence id="1506491:6">
-                <text>Ciao Bella</text>
+                <text>Ciao Bella.</text>
             </sentence>
         </sentences>
     </Review>
@@ -4041,13 +4041,13 @@
                 <text>They are opening two more places as i saw a flyer there one in Yonkers which is a restraunt and banquet hall and another one in parsipanny new jersey.</text>
             </sentence>
             <sentence id="1573534:7">
-                <text>but overall i give it a 10</text>
+                <text>but overall i give it a 10.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
             </sentence>
             <sentence id="1573534:8">
-                <text>10</text>
+                <text>10.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -4205,7 +4205,7 @@
                 </Opinions>
             </sentence>
             <sentence id="1606837:3">
-                <text>I look forward to eating here again</text>
+                <text>I look forward to eating here again.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -4608,7 +4608,7 @@
     <Review rid="1655521">
         <sentences>
             <sentence id="1655521:0">
-                <text>I loved this place!!</text>
+                <text>I loved this place!</text>
                 <Opinions>
                     <Opinion target="place" category="RESTAURANT#GENERAL" polarity="positive" from="13" to="18"/>
                 </Opinions>
@@ -4638,7 +4638,7 @@
     <Review rid="1660047">
         <sentences>
             <sentence id="1660047:0">
-                <text>I like Cafe Noir dont get me wrong, it is jsut that the people who work there are evil and incompetent!!</text>
+                <text>I like Cafe Noir dont get me wrong, it is jsut that the people who work there are evil and incompetent!</text>
                 <Opinions>
                     <Opinion target="people" category="SERVICE#GENERAL" polarity="negative" from="56" to="62"/>
                     <Opinion target="Cafe Noir" category="RESTAURANT#GENERAL" polarity="positive" from="7" to="16"/>
@@ -5377,7 +5377,7 @@
                 </Opinions>
             </sentence>
             <sentence id="1727363:2">
-                <text>An excellent service</text>
+                <text>An excellent service.</text>
                 <Opinions>
                     <Opinion target="service" category="SERVICE#GENERAL" polarity="positive" from="13" to="20"/>
                 </Opinions>
@@ -6096,7 +6096,7 @@
                 <text>I live in the neightborhood and am a regular.</text>
             </sentence>
             <sentence id="455623:3">
-                <text>It hits the spot every time</text>
+                <text>It hits the spot every time.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -6141,7 +6141,7 @@
                 </Opinions>
             </sentence>
             <sentence id="464215:2">
-                <text>The cream cheeses are out of this world and I love that coffee!!</text>
+                <text>The cream cheeses are out of this world and I love that coffee!</text>
                 <Opinions>
                     <Opinion target="cream cheeses" category="FOOD#QUALITY" polarity="positive" from="4" to="17"/>
                     <Opinion target="coffee" category="DRINKS#QUALITY" polarity="positive" from="56" to="62"/>
@@ -6520,7 +6520,7 @@
                 </Opinions>
             </sentence>
             <sentence id="493013:2">
-                <text>I LOVE their Thai</text>
+                <text>I LOVE their Thai.</text>
                 <Opinions>
                     <Opinion target="Thai" category="FOOD#QUALITY" polarity="positive" from="13" to="17"/>
                 </Opinions>
@@ -6541,7 +6541,7 @@
                 </Opinions>
             </sentence>
             <sentence id="493013:6">
-                <text>In summer-eat outside on a terrace (another great feature of Suan)!!!</text>
+                <text>In summer-eat outside on a terrace (another great feature of Suan)!</text>
                 <Opinions>
                     <Opinion target="terrace" category="AMBIENCE#GENERAL" polarity="positive" from="27" to="34"/>
                 </Opinions>
@@ -6683,7 +6683,7 @@
                 </Opinions>
             </sentence>
             <sentence id="498657:7" OutOfScope="TRUE">
-                <text>(1) turnip cakes at the little kiosk on east side of Mott St. just south of bayard</text>
+                <text>(1) turnip cakes at the little kiosk on east side of Mott St. just south of bayard.</text>
             </sentence>
             <sentence id="498657:8" OutOfScope="TRUE">
                 <text>(2) egg custards and pork buns at either bakery on west side of Mott street just south of Canal.</text>
@@ -6724,7 +6724,7 @@
                 </Opinions>
             </sentence>
             <sentence id="503807:6">
-                <text>The restaurant is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal</text>
+                <text>The restaurant is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal.</text>
                 <Opinions>
                     <Opinion target="meal" category="FOOD#QUALITY" polarity="positive" from="111" to="115"/>
                     <Opinion target="restaurant" category="AMBIENCE#GENERAL" polarity="neutral" from="4" to="14"/>
@@ -6998,19 +6998,19 @@
     <Review rid="519425">
         <sentences>
             <sentence id="519425:0">
-                <text>The food was absolutely amazing!!</text>
+                <text>The food was absolutely amazing!</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="4" to="8"/>
                 </Opinions>
             </sentence>
             <sentence id="519425:1">
-                <text>The baked clams octopus we shared as appetizers were the best we've ever had!! </text>
+                <text>The baked clams octopus we shared as appetizers were the best we've ever had! </text>
                 <Opinions>
                     <Opinion target="baked clams octopus" category="FOOD#QUALITY" polarity="positive" from="4" to="23"/>
                 </Opinions>
             </sentence>
             <sentence id="519425:2">
-                <text>The lamb was tender so full of flavor, the dessert was divine!!</text>
+                <text>The lamb was tender so full of flavor, the dessert was divine!</text>
                 <Opinions>
                     <Opinion target="lamb" category="FOOD#QUALITY" polarity="positive" from="4" to="8"/>
                     <Opinion target="dessert" category="FOOD#QUALITY" polarity="positive" from="43" to="50"/>
@@ -7050,7 +7050,7 @@
                 </Opinions>
             </sentence>
             <sentence id="521916:2">
-                <text>Dessert is a joke...dont bother</text>
+                <text>Dessert is a joke... dont bother.</text>
                 <Opinions>
                     <Opinion target="Dessert" category="FOOD#QUALITY" polarity="negative" from="0" to="7"/>
                 </Opinions>
@@ -7165,7 +7165,7 @@
                 </Opinions>
             </sentence>
             <sentence id="535086:1">
-                <text>(Always ask the bartender for the SEASONAL beer!!!</text>
+                <text>(Always ask the bartender for the SEASONAL beer!</text>
                 <Opinions>
                     <Opinion target="SEASONAL beer" category="DRINKS#QUALITY" polarity="positive" from="34" to="47"/>
                 </Opinions>
@@ -8135,7 +8135,7 @@
                 </Opinions>
             </sentence>
             <sentence id="713152:2">
-                <text>But $1 for each small piece???</text>
+                <text>But $1 for each small piece?</text>
                 <Opinions>
                     <Opinion target="NULL" category="FOOD#PRICES" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -8395,7 +8395,7 @@
                 </Opinions>
             </sentence>
             <sentence id="740923:4">
-                <text>No thanks!!!</text>
+                <text>No thanks!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -8705,7 +8705,7 @@
                 </Opinions>
             </sentence>
             <sentence id="875139:6">
-                <text>The pasta penne was pretty extra buttery, creamy which means a big task to diggest.. tasty at first but i would say that i was full with a slice of pizza and 7 to count, penne...got a little moody afterwards cause was stuffed...lol</text>
+                <text>The pasta penne was pretty extra buttery, creamy which means a big task to diggest.. tasty at first but i would say that i was full with a slice of pizza and 7 to count, penne...got a little moody afterwards cause was stuffed...lol.</text>
                 <Opinions>
                     <Opinion target="pasta penne" category="FOOD#QUALITY" polarity="negative" from="4" to="15"/>
                     <Opinion target="pasta penne" category="FOOD#STYLE_OPTIONS" polarity="negative" from="4" to="15"/>
@@ -8774,7 +8774,7 @@
                 </Opinions>
             </sentence>
             <sentence id="935633:6">
-                <text>Definately check it out!!!</text>
+                <text>Definately check it out!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -8886,7 +8886,7 @@
     <Review rid="ADLT#8">
         <sentences>
             <sentence id="ADLT#8:0">
-                <text>Love Al Di La</text>
+                <text>Love Al Di La.</text>
                 <Opinions>
                     <Opinion target="Al Di La" category="RESTAURANT#GENERAL" polarity="positive" from="5" to="13"/>
                 </Opinions>
@@ -9079,7 +9079,7 @@
     <Review rid="Y#7">
         <sentences>
             <sentence id="Y#7:0">
-                <text>Reliable, Fresh Sushi</text>
+                <text>Reliable, Fresh Sushi.</text>
                 <Opinions>
                     <Opinion target="Sushi" category="FOOD#QUALITY" polarity="positive" from="16" to="21"/>
                 </Opinions>
@@ -9164,7 +9164,7 @@
     <Review rid="Y#2">
         <sentences>
             <sentence id="Y#2:0">
-                <text>Very, very nice</text>
+                <text>Very, very nice.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -9177,7 +9177,7 @@
                 </Opinions>
             </sentence>
             <sentence id="Y#2:2">
-                <text>not only is the food</text>
+                <text>not only is the food.</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="16" to="20"/>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
@@ -9188,7 +9188,7 @@
     <Review rid="WE#9">
         <sentences>
             <sentence id="WE#9:0">
-                <text>Loved It</text>
+                <text>Loved It.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -9221,7 +9221,7 @@
     <Review rid="TR#3">
         <sentences>
             <sentence id="TR#3:0">
-                <text>Great place to relax and enjoy your dinner</text>
+                <text>Great place to relax and enjoy your dinner.</text>
                 <Opinions>
                     <Opinion target="place" category="AMBIENCE#GENERAL" polarity="positive" from="6" to="11"/>
                 </Opinions>
@@ -9256,7 +9256,7 @@
     <Review rid="TM#7">
         <sentences>
             <sentence id="TM#7:0">
-                <text>Excellent food for great prices</text>
+                <text>Excellent food for great prices.</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="10" to="14"/>
                     <Opinion target="food" category="FOOD#PRICES" polarity="positive" from="10" to="14"/>
@@ -9298,13 +9298,13 @@
                 </Opinions>
             </sentence>
             <sentence id="RL#7:1">
-                <text>my favorite place lol</text>
+                <text>my favorite place lol.</text>
                 <Opinions>
                     <Opinion target="place" category="RESTAURANT#GENERAL" polarity="positive" from="12" to="17"/>
                 </Opinions>
             </sentence>
             <sentence id="RL#7:2">
-                <text>i love their chicken pasta cant remember the name but is sooo good</text>
+                <text>i love their chicken pasta cant remember the name but is sooo good.</text>
                 <Opinions>
                     <Opinion target="chicken pasta" category="FOOD#QUALITY" polarity="positive" from="13" to="26"/>
                 </Opinions>
@@ -9314,7 +9314,7 @@
     <Review rid="RL#3">
         <sentences>
             <sentence id="RL#3:0">
-                <text>its alright</text>
+                <text>its alright.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="neutral" from="0" to="0"/>
                 </Opinions>
@@ -9343,7 +9343,7 @@
     <Review rid="PP#9">
         <sentences>
             <sentence id="PP#9:0">
-                <text>Way below average</text>
+                <text>Way below average.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -9362,7 +9362,7 @@
                 </Opinions>
             </sentence>
             <sentence id="PP#9:3">
-                <text>Would NEVER go back</text>
+                <text>Would NEVER go back.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -9372,7 +9372,7 @@
     <Review rid="PP#4">
         <sentences>
             <sentence id="PP#4:0">
-                <text>I love this place</text>
+                <text>I love this place.</text>
                 <Opinions>
                     <Opinion target="place" category="RESTAURANT#GENERAL" polarity="positive" from="12" to="17"/>
                 </Opinions>
@@ -9438,7 +9438,7 @@
     <Review rid="P#1">
         <sentences>
             <sentence id="P#1:0">
-                <text>WORST PLACE ON SMITH STREET IN BROOKLYN</text>
+                <text>WORST PLACE ON SMITH STREET IN BROOKLYn.</text>
                 <Opinions>
                     <Opinion target="PLACE" category="RESTAURANT#GENERAL" polarity="negative" from="6" to="11"/>
                 </Opinions>
@@ -9463,13 +9463,13 @@
     <Review rid="RL#9">
         <sentences>
             <sentence id="RL#9:0">
-                <text>awesome</text>
+                <text>awesome.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
             </sentence>
             <sentence id="RL#9:1">
-                <text>the food is always fresh ...</text>
+                <text>the food is always fresh...</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="4" to="8"/>
                 </Opinions>
@@ -9479,7 +9479,7 @@
     <Review rid="Y#5">
         <sentences>
             <sentence id="Y#5:0">
-                <text>overpriced japanese food with mediocre service</text>
+                <text>overpriced japanese food with mediocre service.</text>
                 <Opinions>
                     <Opinion target="japanese food" category="FOOD#PRICES" polarity="negative" from="11" to="24"/>
                     <Opinion target="service" category="SERVICE#GENERAL" polarity="neutral" from="39" to="46"/>
@@ -9492,7 +9492,7 @@
                 </Opinions>
             </sentence>
             <sentence id="Y#5:2">
-                <text>Chicken teriyaki had tomato or pimentos on top??</text>
+                <text>Chicken teriyaki had tomato or pimentos on top?</text>
                 <Opinions>
                     <Opinion target="Chicken teriyaki" category="FOOD#STYLE_OPTIONS" polarity="negative" from="0" to="16"/>
                 </Opinions>
@@ -9547,7 +9547,7 @@
     <Review rid="Y#4">
         <sentences>
             <sentence id="Y#4:0">
-                <text>Red Dragon Roll - my favorite thing to eat, of any food group - hands down</text>
+                <text>Red Dragon Roll - my favorite thing to eat, of any food group - hands down.</text>
                 <Opinions>
                     <Opinion target="Red Dragon Roll" category="FOOD#QUALITY" polarity="positive" from="0" to="15"/>
                 </Opinions>
@@ -9582,7 +9582,7 @@
     <Review rid="Y#6">
         <sentences>
             <sentence id="Y#6:0">
-                <text>Favorite Sushi in NYC</text>
+                <text>Favorite Sushi in NYC.</text>
                 <Opinions>
                     <Opinion target="Sushi" category="FOOD#QUALITY" polarity="positive" from="9" to="14"/>
                 </Opinions>
@@ -9623,13 +9623,13 @@
     <Review rid="RL#4">
         <sentences>
             <sentence id="RL#4:0">
-                <text>SO GOOD</text>
+                <text>SO GOOD.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
             </sentence>
             <sentence id="RL#4:1">
-                <text>I CAN EAT HERE EVERY DAY OF THE WEEK REALLY LOL LOVE THIS PLACE ...)</text>
+                <text>I CAN EAT HERE EVERY DAY OF THE WEEK REALLY LOL LOVE THIS PLACE...</text>
                 <Opinions>
                     <Opinion target="PLACE" category="RESTAURANT#GENERAL" polarity="positive" from="58" to="63"/>
                 </Opinions>
@@ -9639,7 +9639,7 @@
     <Review rid="P#10">
         <sentences>
             <sentence id="P#10:0">
-                <text>Gross food – Wow-</text>
+                <text>Gross food – Wow.</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="negative" from="6" to="10"/>
                 </Opinions>
@@ -9816,7 +9816,7 @@
                 </Opinions>
             </sentence>
             <sentence id="BG#1:2">
-                <text>Great survice</text>
+                <text>Great survice.</text>
                 <Opinions>
                     <Opinion target="survice" category="SERVICE#GENERAL" polarity="positive" from="6" to="13"/>
                 </Opinions>
@@ -9826,7 +9826,7 @@
     <Review rid="ADLT#4">
         <sentences>
             <sentence id="ADLT#4:0">
-                <text>MMMMMMMMMmmmmmm so delicious</text>
+                <text>MMMMMMMMMmmmmmm so delicious.</text>
                 <Opinions>
                     <Opinion target="NULL" category="FOOD#QUALITY" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -9927,7 +9927,7 @@
     <Review rid="BG#6">
         <sentences>
             <sentence id="BG#6:0">
-                <text>Best Indian Restaurant in the City</text>
+                <text>Best Indian Restaurant in the City.</text>
                 <Opinions>
                     <Opinion target="Indian Restaurant" category="RESTAURANT#GENERAL" polarity="positive" from="5" to="22"/>
                 </Opinions>
@@ -9973,7 +9973,7 @@
     <Review rid="NP#10">
         <sentences>
             <sentence id="NP#10:0">
-                <text>Best restaurant in Brooklyn</text>
+                <text>Best restaurant in Brooklyn.</text>
                 <Opinions>
                     <Opinion target="restaurant" category="RESTAURANT#GENERAL" polarity="positive" from="5" to="15"/>
                 </Opinions>
@@ -10136,7 +10136,7 @@
                 </Opinions>
             </sentence>
             <sentence id="WE#4:7">
-                <text>Ruth, mother of the Bride</text>
+                <text>Ruth, mother of the Bride.</text>
             </sentence>
         </sentences>
     </Review>
@@ -10208,7 +10208,7 @@
    <Review rid="TFS#10">
         <sentences>
             <sentence id="TFS#10:0">
-                <text>Good Experience</text>
+                <text>Good Experience.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -10338,7 +10338,7 @@
                 </Opinions>
             </sentence>
             <sentence id="NP#3:1">
-                <text>Subtle food and service</text>
+                <text>Subtle food and service.</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="7" to="11"/>
                     <Opinion target="service" category="SERVICE#GENERAL" polarity="positive" from="16" to="23"/>
@@ -10390,7 +10390,7 @@
     <Review rid="BHD#7">
         <sentences>
             <sentence id="BHD#7:0">
-                <text>amazing fresh dogs but best of all endless toppings!!!</text>
+                <text>amazing fresh dogs but best of all endless toppings!</text>
                 <Opinions>
                     <Opinion target="dogs" category="FOOD#QUALITY" polarity="positive" from="14" to="18"/>
                     <Opinion target="toppings" category="FOOD#STYLE_OPTIONS" polarity="positive" from="43" to="51"/>
@@ -10409,7 +10409,7 @@
                 </Opinions>
             </sentence>
             <sentence id="BHD#7:3">
-                <text>amazing fun for hot dog lovers of all ages PLEASE do yourself a favor and check this place out!!!!</text>
+                <text>amazing fun for hot dog lovers of all ages PLEASE do yourself a favor and check this place out!</text>
                 <Opinions>
                     <Opinion target="place" category="RESTAURANT#GENERAL" polarity="positive" from="85" to="90"/>
                     <Opinion target="hot dog" category="FOOD#QUALITY" polarity="positive" from="16" to="23"/>
@@ -10551,7 +10551,7 @@
     <Review rid="P#6">
         <sentences>
             <sentence id="P#6:0">
-                <text>Unhygienic</text>
+                <text>Unhygienic.</text>
                 <Opinions>
                     <Opinion target="NULL" category="FOOD#QUALITY" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -10607,7 +10607,7 @@
     <Review rid="TVU#4">
         <sentences>
             <sentence id="TVU#4:0">
-                <text>Awesome</text>
+                <text>Awesome.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -10636,7 +10636,7 @@
                 </Opinions>
             </sentence>
             <sentence id="Z#2:2">
-                <text>Very pleased</text>
+                <text>Very pleased.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -10825,7 +10825,7 @@
     <Review rid="ADLT#10">
         <sentences>
             <sentence id="ADLT#10:0">
-                <text>Best In ALL of NYC</text>
+                <text>Best In ALL of NYC.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -10869,7 +10869,7 @@
                 </Opinions>
             </sentence>
             <sentence id="ADLT#10:7">
-                <text>so delicious!!!!!!</text>
+                <text>so delicious!</text>
                 <Opinions>
                     <Opinion target="NULL" category="FOOD#QUALITY" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -10879,7 +10879,7 @@
     <Review rid="PP#3">
         <sentences>
             <sentence id="PP#3:0">
-                <text>Patsy's Pizza = true love</text>
+                <text>Patsy's Pizza = true love.</text>
                 <Opinions>
                     <Opinion target="Patsy's Pizza" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="13"/>
                 </Opinions>
@@ -10930,7 +10930,7 @@
     <Review rid="TM#5">
         <sentences>
             <sentence id="TM#5:0">
-                <text>great taste</text>
+                <text>great taste.</text>
                 <Opinions>
                     <Opinion target="NULL" category="FOOD#QUALITY" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -10966,7 +10966,7 @@
     <Review rid="TM#6">
         <sentences>
             <sentence id="TM#6:0">
-                <text>great food</text>
+                <text>great food.</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="6" to="10"/>
                 </Opinions>
@@ -11014,7 +11014,7 @@
     <Review rid="TVU#6">
         <sentences>
             <sentence id="TVU#6:0">
-                <text>AMAZING MY FAVORITE!!!</text>
+                <text>AMAZING MY FAVORITE!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -11062,7 +11062,7 @@
                 </Opinions>
 			</sentence>
             <sentence id="TVU#6:8">
-                <text>In the end you end up with a fair tab and NOTHING BUT A GREAT TIME!!!</text>
+                <text>In the end you end up with a fair tab and NOTHING BUT A GREAT TIME!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#PRICES" polarity="positive" from="0" to="0"/>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
@@ -11279,7 +11279,7 @@
     <Review rid="CLF#3">
         <sentences>
             <sentence id="CLF#3:0">
-                <text>Terrible Waste of money.. scammers</text>
+                <text>Terrible Waste of money.. scammers.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                     <Opinion target="NULL" category="RESTAURANT#PRICES" polarity="negative" from="0" to="0"/>
@@ -11619,7 +11619,7 @@
     <Review rid="BG#5">
         <sentences>
             <sentence id="BG#5:0">
-                <text>Great Indian food</text>
+                <text>Great Indian food.</text>
                 <Opinions>
                     <Opinion target="Indian food" category="FOOD#QUALITY" polarity="positive" from="6" to="17"/>
                 </Opinions>
@@ -11663,7 +11663,7 @@
                 </Opinions>
             </sentence>
             <sentence id="BG#5:7">
-                <text>But if you're prepared to spend some $ and remember to ask if something they offer is complimentary, then this is the place to go for Indian food</text>
+                <text>But if you're prepared to spend some $ and remember to ask if something they offer is complimentary, then this is the place to go for Indian food.</text>
                 <Opinions>
                     <Opinion target="Indian food" category="FOOD#QUALITY" polarity="positive" from="134" to="145"/>
                     <Opinion target="place" category="RESTAURANT#PRICES" polarity="negative" from="118" to="123"/>
@@ -11674,7 +11674,7 @@
     <Review rid="BG#8">
         <sentences>
             <sentence id="BG#8:0">
-                <text>One of the BEST</text>
+                <text>One of the BESt.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -11716,7 +11716,7 @@
     <Review rid="DBG#2">
         <sentences>
             <sentence id="DBG#2:0">
-                <text>Wretched and retching</text>
+                <text>Wretched and retching.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -11802,7 +11802,7 @@
     <Review rid="CLF#7">
         <sentences>
             <sentence id="CLF#7:0">
-                <text>Gorgeous place ideal for a romantic dinner</text>
+                <text>Gorgeous place ideal for a romantic dinner.</text>
                 <Opinions>
                     <Opinion target="place" category="AMBIENCE#GENERAL" polarity="positive" from="9" to="14"/>
                     <Opinion target="place" category="RESTAURANT#MISCELLANEOUS" polarity="positive" from="9" to="14"/>
@@ -11836,7 +11836,7 @@
     <Review rid="DBG#7">
         <sentences>
             <sentence id="DBG#7:0">
-                <text>More Williamsburg Garbage</text>
+                <text>More Williamsburg Garbage.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -11938,7 +11938,7 @@
     <Review rid="ADLT#9">
         <sentences>
             <sentence id="ADLT#9:0">
-                <text>Lives up to the hype</text>
+                <text>Lives up to the hype.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -11983,7 +11983,7 @@
     <Review rid="EVPK#4">
         <sentences>
             <sentence id="EVPK#4:0">
-                <text>i love margherita pizza – i looove east village pizza</text>
+                <text>i love margherita pizza – i looove east village pizza.</text>
                 <Opinions>
                     <Opinion target="east village pizza" category="RESTAURANT#GENERAL" polarity="positive" from="35" to="53"/>
                     <Opinion target="margherita pizza" category="FOOD#QUALITY" polarity="positive" from="7" to="23"/>
@@ -12021,7 +12021,7 @@
     <Review rid="Z#6">
         <sentences>
             <sentence id="Z#6:0">
-                <text>Possibly the Most Romantic Restaurant in the City</text>
+                <text>Possibly the Most Romantic Restaurant in the City.</text>
                 <Opinions>
                     <Opinion target="Restaurant" category="AMBIENCE#GENERAL" polarity="positive" from="27" to="37"/>
                 </Opinions>
@@ -12131,7 +12131,7 @@
                 <text>We were 10 people celebrtating a birthday, we sat in the tent.</text>
             </sentence>
             <sentence id="CLF#6:3">
-                <text>We paid a fixed pricce but got nothing!!</text>
+                <text>We paid a fixed pricce but got nothing!</text>
                 <Opinions>
                     <Opinion target="NULL" category="SERVICE#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -12152,7 +12152,7 @@
                 </Opinions>
             </sentence>
             <sentence id="CLF#6:6">
-                <text>Stay away</text>
+                <text>Stay away.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -12162,7 +12162,7 @@
     <Review rid="DBG#6">
         <sentences>
             <sentence id="DBG#6:0">
-                <text>Great Shabu Shabu</text>
+                <text>Great Shabu Shabu.</text>
                 <Opinions>
                     <Opinion target="Shabu Shabu" category="FOOD#QUALITY" polarity="positive" from="6" to="17"/>
                 </Opinions>
@@ -12234,7 +12234,7 @@
     <Review rid="TR#5">
         <sentences>
             <sentence id="TR#5:0">
-                <text>Restaurant with a view</text>
+                <text>Restaurant with a view.</text>
                 <Opinions>
                     <Opinion target="view" category="LOCATION#GENERAL" polarity="neutral" from="18" to="22"/>
                 </Opinions>
@@ -12276,7 +12276,7 @@
     <Review rid="Z#7">
         <sentences>
             <sentence id="Z#7:0">
-                <text>This place doesn't make any sense</text>
+                <text>This place doesn't make any sense.</text>
                 <Opinions>
                     <Opinion target="place" category="RESTAURANT#GENERAL" polarity="negative" from="5" to="10"/>
                 </Opinions>
@@ -12321,7 +12321,7 @@
     <Review rid="Z#10">
         <sentences>
             <sentence id="Z#10:0">
-                <text>Good Food</text>
+                <text>Good Food.</text>
                 <Opinions>
                     <Opinion target="Food" category="FOOD#QUALITY" polarity="positive" from="5" to="9"/>
                 </Opinions>
@@ -12351,7 +12351,7 @@
     <Review rid="P#7">
         <sentences>
             <sentence id="P#7:0">
-                <text>Loved it</text>
+                <text>Loved it.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -12402,7 +12402,7 @@
     <Review rid="FF#4">
         <sentences>
             <sentence id="FF#4:0">
-                <text>Dumbfoundingly Poor</text>
+                <text>Dumbfoundingly Poor.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -12557,7 +12557,7 @@
                 </Opinions>
             </sentence>
             <sentence id="FF#3:13" OutOfScope="TRUE">
-                <text>I've had better chicken at BBQs!!!!</text>
+                <text>I've had better chicken at BBQs!</text>
             </sentence>
             <sentence id="FF#3:14">
                 <text>So I decide to report back to the waitress because it was completely inedible.</text>
@@ -12572,13 +12572,13 @@
                 </Opinions>
             </sentence>
             <sentence id="FF#3:16">
-                <text>After that she simply took our plates, walked away, came back another TWENTY minutes later with the bill and the chicken on it!!!!!!!!!!!!</text>
+                <text>After that she simply took our plates, walked away, came back another TWENTY minutes later with the bill and the chicken on it!</text>
                 <Opinions>
                     <Opinion target="NULL" category="SERVICE#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
             </sentence>
             <sentence id="FF#3:17">
-                <text>No desert menu, no apology, nothing!!!!!!</text>
+                <text>No desert menu, no apology, nothing!</text>
                 <Opinions>
                     <Opinion target="NULL" category="SERVICE#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -12593,7 +12593,7 @@
                 </Opinions>
             </sentence>
             <sentence id="FF#3:20">
-                <text>Again, no apology, no is there anything else I can get you, no can I get you a drink to make up for it, nothing!!!!</text>
+                <text>Again, no apology, no is there anything else I can get you, no can I get you a drink to make up for it, nothing!</text>
                 <Opinions>
                     <Opinion target="NULL" category="SERVICE#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -12632,7 +12632,7 @@
     <Review rid="EVPK#9">
         <sentences>
             <sentence id="EVPK#9:0">
-                <text>cirspy crust margherita pizza</text>
+                <text>cirspy crust margherita pizza.</text>
                 <Opinions>
                     <Opinion target="margherita pizza" category="FOOD#QUALITY" polarity="positive" from="13" to="29"/>
                 </Opinions>
@@ -12664,7 +12664,7 @@
     <Review rid="CLF#4">
         <sentences>
             <sentence id="CLF#4:0">
-                <text>Single Worst Restaurant in Manhattan</text>
+                <text>Single Worst Restaurant in Manhattan.</text>
                 <Opinions>
                     <Opinion target="Restaurant" category="RESTAURANT#GENERAL" polarity="negative" from="13" to="23"/>
                 </Opinions>
@@ -12724,7 +12724,7 @@
                 </Opinions>
             </sentence>
             <sentence id="CLF#4:12">
-                <text>The decor however seems to be the distraction so you won't notice that you just payed 300 bucks for some cold eggplant that took 2 FRICKIN HOURS TO COME!!!!</text>
+                <text>The decor however seems to be the distraction so you won't notice that you just payed 300 bucks for some cold eggplant that took 2 FRICKIN HOURS TO COME!</text>
                 <Opinions>
                     <Opinion target="decor" category="AMBIENCE#GENERAL" polarity="neutral" from="4" to="9"/>
                     <Opinion target="eggplant" category="FOOD#QUALITY" polarity="negative" from="110" to="118"/>
@@ -12828,7 +12828,7 @@
                 </Opinions>
             </sentence>
             <sentence id="BFC#7:6">
-                <text>I was almost amused by the fact that she was turning away customers at 9pm on a Friday night because she "had a BBQ to go to" that night - WTF??</text>
+                <text>I was almost amused by the fact that she was turning away customers at 9pm on a Friday night because she "had a BBQ to go to" that night - WTF?</text>
                 <Opinions>
                     <Opinion target="NULL" category="SERVICE#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -12984,7 +12984,7 @@
     <Review rid="BHD#8">
         <sentences>
             <sentence id="BHD#8:0">
-                <text>Taking Hot Dogs to the next level</text>
+                <text>Taking Hot Dogs to the next level.</text>
                 <Opinions>
                     <Opinion target="Hot Dogs" category="FOOD#QUALITY" polarity="positive" from="7" to="15"/>
                 </Opinions>
@@ -13008,7 +13008,7 @@
    <Review rid="P#3">
         <sentences>
             <sentence id="P#3:0">
-                <text>Great Atmosphere</text>
+                <text>Great Atmosphere.</text>
                 <Opinions>
                     <Opinion target="Atmosphere" category="AMBIENCE#GENERAL" polarity="positive" from="6" to="16"/>
                 </Opinions>
@@ -13036,7 +13036,7 @@
     <Review rid="CLF#8">
         <sentences>
             <sentence id="CLF#8:0">
-                <text>Poor service and management</text>
+                <text>Poor service and management.</text>
                 <Opinions>
                     <Opinion target="service" category="SERVICE#GENERAL" polarity="negative" from="5" to="12"/>
                     <Opinion target="management" category="SERVICE#GENERAL" polarity="negative" from="17" to="27"/>
@@ -13141,7 +13141,7 @@
     <Review rid="WE#1">
         <sentences>
             <sentence id="WE#1:0">
-                <text>Expensive</text>
+                <text>Expensive.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#PRICES" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -13176,7 +13176,7 @@
     <Review rid="FF#6">
         <sentences>
             <sentence id="FF#6:0">
-                <text>So rude!!!</text>
+                <text>So rude!</text>
                 <Opinions>
                     <Opinion target="NULL" category="SERVICE#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -13248,7 +13248,7 @@
     <Review rid="FF#10">
         <sentences>
             <sentence id="FF#10:0">
-                <text>bad staff</text>
+                <text>bad staff.</text>
                 <Opinions>
                     <Opinion target="staff" category="SERVICE#GENERAL" polarity="negative" from="4" to="9"/>
                 </Opinions>
