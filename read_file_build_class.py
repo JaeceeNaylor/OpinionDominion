@@ -12,6 +12,21 @@ import pandas as pd
 import numpy as np
 import stanza
 
+category_dict = {
+    'RESTAURANT#GENERAL': {'NULL': '', 'trattoria': '', 'restaurant': '', 'place': ''}, 
+    'RESTAURANT#PRICES': {'place': ''}, 
+    'RESTAURANT#MISCELLANEOUS': {'NULL': ''}, 
+    'FOOD#PRICES': {'food': '', 'meal': ''}, 
+    'FOOD#QUALITY': {'food': '', 'lava cake dessert': '', 'Pizza': '', 'Salads': '', 'calamari': '', 'NULL': '', 'good': '', 'Guacamole+shrimp appetizer': '', 'filet': '', 'frites': '', 'dishes': '', 'specials': '', 'regular menu-fare': '', 'parmesean porcini souffle': '', 'lamb glazed with balsamic vinegar': '', 'pad se ew chicken': '', 'pad thai': '', 'Food': '', 'Chow fun': '', 'pork shu mai': '', 'meal': '', 'pizza': ''}, 
+    'FOOD#STYLE_OPTIONS': {}, 
+    'DRINKS#PRICES': {}, 
+    'DRINKS#QUALITY': {'sake': ''}, 
+    'DRINKS#STYLE_OPTIONS': {'Bombay beer': ''}, 
+    'AMBIENCE#GENERAL': {'Decor': '', 'place': '', 'trattoria': '', 'candle-light': '', 'tables': '', 'interior decor': '', 'interior': '', 'space': ''}, 
+    'SERVICE#GENERAL': {'service': '', 'Service': '', 'people': '', 'cart attendant': '', 'NULL': '', 'staff': ''}, 
+    'LOCATION#GENERAL': {'view': ''}
+}
+
 
 stanza.download('en')
 nltk.download('stopwords')
@@ -131,13 +146,16 @@ def parse_xml(xml_file, had_opinion_expected):
                     #logic to find expected opinion results
                     target, target_begin_index, target_end_index  = stated_opinion.attrib['target'], stated_opinion.attrib['from'], stated_opinion.attrib['to']
                     category, polarity = stated_opinion.attrib['category'], stated_opinion.attrib['polarity']
+                    category_dict[category][target] = ''
                     opinion_expected = Opinion(sentence_id, review_id, target, target_begin_index, target_end_index, category, polarity)
                     opinions_expected.append(opinion_expected)
                     #logic to parse our own opinion result
+                '''
                 total_exp_opinions = len(opinions_expected)
                 opinions_predicted_total = predict_opinion(sentence_id, review_id, text, total_exp_opinions)
                 for opinion_pred_said in opinions_predicted_total:
                     opinions_predicted.append(opinion_pred_said)
+                '''
             else:
                 #this sentence could not have an opinion or this could not be a golden file
                 if had_opinion_expected:
@@ -156,6 +174,13 @@ def parse_xml(xml_file, had_opinion_expected):
             sentences_for_review_object.append(sentence_gathered)
         review_collected = Review(review_id, sentences_for_review_object)
         all_reviews.append(review_collected)
+    for review in all_reviews:
+        for sentence in review.sentences:
+            total_exp_opinions = len(sentence.opinions_expected)
+            opinions_predicted_total = predict_opinion(sentence.sentence_id, sentence.review_id, sentence.text, total_exp_opinions)
+            for opinion_pred_said in opinions_predicted_total:
+                sentence.opinions_predicted.append(opinion_pred_said)
+    print(category_dict)
     #UNCOMMENT TO SEE REVIEWS
     '''
     for review in all_reviews:
@@ -178,6 +203,11 @@ def parse_xml(xml_file, had_opinion_expected):
 
     #calculate scores
     calculate_scores(all_reviews)
+
+
+
+
+
 
 
 
@@ -319,7 +349,11 @@ def label_opinion_category(text, target_pred, total_exp_opinions):
     attributes = []
     categories = []
     for i in range(0, total_exp_opinions):
-        categories.append("BASIC#BASIC")
+        for key in category_dict:
+            if target_pred[i][0] in category_dict[key]:
+                categories.append(key)
+            else:
+                categories.append('NULL#NULL')
     return categories
     #return "BASIC#BASIC"
 
@@ -448,6 +482,12 @@ def determin_pos(tag):
     elif tag.startswith('V'):
         return wordnet.VERB
     return None
+
+
+
+
+
+
 
 
 
