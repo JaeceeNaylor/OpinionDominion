@@ -5,14 +5,19 @@ from nltk.corpus import stopwords
 from nltk.corpus import wordnet
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.stem.wordnet import WordNetLemmatizer
+from nltk.corpus import sentiwordnet as swn
+from nltk.stem import PorterStemmer
+from nltk.stem import WordNetLemmatizer
 import pandas as pd
 import numpy as np
 import stanza
+
 
 stanza.download('en')
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
+lemmatizer = WordNetLemmatizer()
 nlp = stanza.Pipeline('en')
 
 
@@ -187,9 +192,9 @@ def parse_xml(xml_file, had_opinion_expected):
 '''   
 
 def predict_opinion(sentence_id, review_id, text, total_exp_opinions):
-    target_pred = extract_opinion_target(text, total_exp_opinions)
+    target_pred, final_cluster = extract_opinion_target(text, total_exp_opinions)
     category_pred = label_opinion_category(text, target_pred, total_exp_opinions)
-    polarity_pred = label_opinion_polarity(text, target_pred, category_pred, total_exp_opinions)
+    polarity_pred = label_opinion_polarity(text, target_pred, category_pred, final_cluster, total_exp_opinions)
     opinions = []
     for i in range(total_exp_opinions):
         opinion_pred = Opinion(sentence_id, review_id, target_pred[i][0], target_pred[i][1], target_pred[i][2], category_pred[i], polarity_pred[i])
@@ -242,7 +247,7 @@ def extract_opinion_target(text, total_exp_opinions):
     updated_pos_tags_on_words_in_sentence = nltk.pos_tag(updated_sentence_words_list)
     doc = nlp(updated_sentence)
     dependency_node = []
-    print(text)
+    #print(text)
     for dependency_edge in doc.sentences[0].dependencies:
         dependency_node.append([dependency_edge[2].text, dependency_edge[0].id, dependency_edge[1]])
     #print(dependency_node)
@@ -306,27 +311,143 @@ def extract_opinion_target(text, total_exp_opinions):
                 for c in final_cluster:
                     target_compiled = c[0] + ' '
                 targets_to_return.append([target_compiled, "0", "0"])
-    return targets_to_return
+    return targets_to_return, final_cluster
     #return "BASIC", "0", "0"
 
 def label_opinion_category(text, target_pred, total_exp_opinions):
+    entities = label_opinion_entity(text, target_pred, total_exp_opinions)
+    attributes = []
     categories = []
     for i in range(0, total_exp_opinions):
         categories.append("BASIC#BASIC")
     return categories
     #return "BASIC#BASIC"
 
-def label_opinion_polarity(text, target_pred, category_pred, total_exp_opinions):
+def label_opinion_polarity(text, target_pred, category_pred, final_cluster, total_exp_opinions):
     polarities = []
     for i in range(0, total_exp_opinions):
-        polarities.append("BASIC")
+        polarity_scores = []
+        if len(final_cluster) == 0:
+            polarities.append('neutral')
+        elif i < len(final_cluster) - 1:
+            feeling_words = final_cluster[i][1]
+            feeling_adj = ' '.join(feeling_words)
+            feeling_tokenized = nltk.sent_tokenize(feeling_adj)
+            if len(feeling_tokenized) > 0:
+                for sentence in feeling_tokenized:
+                    tokenized_words_in_sentence = nltk.word_tokenize(sentence)
+                    pos_tags_on_feeling_words = nltk.pos_tag(tokenized_words_in_sentence)
+                for tag in pos_tags_on_feeling_words:
+                    if tag[1].startswith('N') or tag[1].startswith('J') or tag[1].startswith('R') or tag[1].startswith('V'):
+                        pos_word = determin_pos(tag[1])
+                        lemma = lemmatizer.lemmatize(tag[0], pos=pos_word)
+                        if not lemma:
+                            polarity_scores.append([])
+                        else:
+                            synsets = wordnet.synsets(tag[0], pos=pos_word)
+                            if not synsets:
+                                polarity_scores.append([])
+                            if len(synsets) == 0:
+                                polarity_scores.append([])
+                            else:
+                                synset = synsets[0]
+                                swn_synset = swn.senti_synset(synset.name())
+                                polarity_scores.append([swn_synset.pos_score(), swn_synset.neg_score(), swn_synset.obj_score()])
+                    else:
+                        polarity_scores.append([])
+            else: 
+                polarity_scores.append([])
+            polarities.append(determine_polarity(polarity_scores))
+        elif i >= len(final_cluster)-1:
+            if i == total_exp_opinions - 1 and i == len(final_cluster)-1:
+                feeling_words = final_cluster[i][1]
+                feeling_adj = ' '.join(feeling_words)
+                feeling_tokenized = nltk.sent_tokenize(feeling_adj)
+                if len(feeling_tokenized) > 0:
+                    for sentence in feeling_tokenized: 
+                        tokenized_words_in_sentence = nltk.word_tokenize(sentence)
+                        pos_tags_on_feeling_words = nltk.pos_tag(tokenized_words_in_sentence)
+                    for tag in pos_tags_on_feeling_words:
+                        if tag[1].startswith('N') or tag[1].startswith('J') or tag[1].startswith('R') or tag[1].startswith('V'):
+                            pos_word = determin_pos(tag[1])
+                            lemma = lemmatizer.lemmatize(tag[0], pos=pos_word)
+                            if not lemma:
+                                polarity_scores.append([])
+                            else:
+                                synsets = wordnet.synsets(tag[0], pos=pos_word)
+                                if not synsets:
+                                    polarity_scores.append([])
+                                if len(synsets) == 0:
+                                    polarity_scores.append([])
+                                else:
+                                    synset = synsets[0]
+                                    swn_synset = swn.senti_synset(synset.name())
+                                    polarity_scores.append([swn_synset.pos_score(), swn_synset.neg_score(), swn_synset.obj_score()])
+                        else:
+                            polarity_scores.append([])
+                else:
+                    polarity_scores.append([])
+                polarities.append(determine_polarity(polarity_scores))
+            else:
+                feeling_adj = ''
+                for f_c in final_cluster:
+                    feeling_adj += ' '.join(f_c[1])
+                feeling_tokenized = nltk.sent_tokenize(feeling_adj)
+                if len(feeling_tokenized) > 0:
+                    for sentence in feeling_tokenized: 
+                        tokenized_words_in_sentence = nltk.word_tokenize(sentence)
+                        pos_tags_on_feeling_words = nltk.pos_tag(tokenized_words_in_sentence)
+                    for tag in pos_tags_on_feeling_words:
+                        if tag[1].startswith('N') or tag[1].startswith('J') or tag[1].startswith('R') or tag[1].startswith('V'):
+                            pos_word = determin_pos(tag[1])
+                            lemma = lemmatizer.lemmatize(tag[0], pos=pos_word)
+                            if not lemma:
+                                polarity_scores.append([])
+                            else:
+                                synsets = wordnet.synsets(tag[0], pos=pos_word)
+                                if not synsets:
+                                    polarity_scores.append([])
+                                if len(synsets) == 0:
+                                    polarity_scores.append([])
+                                else:
+                                    synset = synsets[0]
+                                    swn_synset = swn.senti_synset(synset.name())
+                                    polarity_scores.append([swn_synset.pos_score(), swn_synset.neg_score(), swn_synset.obj_score()])
+                        else:
+                            polarity_scores.append([])
+                else:
+                    polarity_scores.append([])
+                polarities.append(determine_polarity(polarity_scores))
     return polarities
     #return "BASIC"
 
+def label_opinion_entity(text, target_pred, total_exp_opinions):
+    return []
 
+def determine_polarity(polarity_scores):
+    polarity = 0
+    for polarity_score in polarity_scores:
+        if polarity_score == []:
+            continue
+        polarity += polarity_score[0]
+        polarity -= polarity_score[1]
+    if polarity > 0:
+        return 'positive'
+    elif polarity < 0:
+        return 'negative'
+    else:
+        return 'neutral'
 
-
-
+def determin_pos(tag):
+    if tag.startswith('J'):
+        return wordnet.ADJ
+    elif tag.startswith('N'):
+        return wordnet.NOUN
+    elif tag.startswith('R'):
+        return wordnet.ADV
+    elif tag.startswith('V'):
+        return wordnet.VERB
+    return None
 
 
 
@@ -651,4 +772,4 @@ if __name__ == "__main__":
     path_train = 'train_data/ABSA16_Restaurants_Train_SB1_v2.xml'
     path_test = 'test_gold_data/EN_REST_SB1_TEST.xml.gold'
     opinion_expected = True
-    parse_xml(path_train, opinion_expected)
+    parse_xml(path_trial, opinion_expected)
