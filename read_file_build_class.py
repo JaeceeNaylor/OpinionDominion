@@ -736,6 +736,11 @@ def calcuate_e_a_recall_precision(all_reviews):
     total_attr_labels = len(correct_amounts_of_attribute_type)
     for attr_type in attributes_possible:
         if attr_type in correct_amounts_of_attribute_type:
+            print(f'E#A TYPE: {attr_type}')
+            print(f'CORRECT GUESSES: {correct_amounts_of_attribute_type}')
+            print(f'EXPECTED: {expected_amounts_of_attribute_type}')
+            print(f'PREDICTED: {algorithm_amounts_of_attribute_type}')
+            print()
             recall = correct_amounts_of_attribute_type[attr_type] / expected_amounts_of_attribute_type[attr_type]
             recalls_added_together += recall
             percision = correct_amounts_of_attribute_type[attr_type] / algorithm_amounts_of_attribute_type[attr_type]
