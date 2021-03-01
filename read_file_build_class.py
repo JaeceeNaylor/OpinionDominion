@@ -12,20 +12,7 @@ import pandas as pd
 import numpy as np
 import stanza
 
-category_dict = {
-    'RESTAURANT#GENERAL': {'NULL': '', 'trattoria': '', 'restaurant': '', 'place': ''}, 
-    'RESTAURANT#PRICES': {'place': ''}, 
-    'RESTAURANT#MISCELLANEOUS': {'NULL': ''}, 
-    'FOOD#PRICES': {'food': '', 'meal': ''}, 
-    'FOOD#QUALITY': {'food': '', 'lava cake dessert': '', 'Pizza': '', 'Salads': '', 'calamari': '', 'NULL': '', 'good': '', 'Guacamole+shrimp appetizer': '', 'filet': '', 'frites': '', 'dishes': '', 'specials': '', 'regular menu-fare': '', 'parmesean porcini souffle': '', 'lamb glazed with balsamic vinegar': '', 'pad se ew chicken': '', 'pad thai': '', 'Food': '', 'Chow fun': '', 'pork shu mai': '', 'meal': '', 'pizza': ''}, 
-    'FOOD#STYLE_OPTIONS': {}, 
-    'DRINKS#PRICES': {}, 
-    'DRINKS#QUALITY': {'sake': ''}, 
-    'DRINKS#STYLE_OPTIONS': {'Bombay beer': ''}, 
-    'AMBIENCE#GENERAL': {'Decor': '', 'place': '', 'trattoria': '', 'candle-light': '', 'tables': '', 'interior decor': '', 'interior': '', 'space': ''}, 
-    'SERVICE#GENERAL': {'service': '', 'Service': '', 'people': '', 'cart attendant': '', 'NULL': '', 'staff': ''}, 
-    'LOCATION#GENERAL': {'view': ''}
-}
+category_dict = {'RESTAURANT#GENERAL': {'NULL': '', 'trattoria': '', 'restaurant': '', 'place': '', 'Saul': '', 'Fish': '', 'Restaurant Saul': '', 'pink pony': '', 'spot': '', 'Leon': '', 'Zucchero Pomodori': '', 'Gnocchi': '', 'Planet Thailand': '', 'Mizu': '', 'Jekyll and Hyde': '', 'Cafe Spice': '', 'Red Eye': '', 'Red Eye Grill': '', 'Jekyll and hyde Pub': '', 'bar': '', 'Jekyll and Hyde Pub': '', 'fresh restaurant': '', 'Big Wong': '', 'Patis': '', 'Pastis': '', 'Teodora': '', 'Myagi': '', 'Prune': '', 'Jeckll and Hydes': '', 'Shabu-Shabu Restaurant': '', 'Emilio': '', 'Amma': '', 'Haru on Park S': '', "Roth's": '', 'Planet Thai': '', 'Chennai Garden': '', 'PLACE': '', 'YUKA': '', 'Mermaid Inn': '', 'Cafe Noir': '', 'Casimir': '', 'mare': '', 'pizzeria': '', 'joint': '', 'pizza place': '', 'PIZZA 33': '', 'Pizza 33': '', 'Williamsburg spot': '', 'Lucky Strike': '', 'Suan': '', 'Ginger House': '', 'Chinese restaurant': '', 'Rao': '', 'Heartland Brewery': '', 'Corona': '', "Bloom's": '', 'Faan': '', "Rao's": '', 'Areo': '', 'Al Di La': '', 'Cypriot restaurant': '', 'restaraunt': '', 'The Four Seasons': '', 'Yamato': '', 'Indian Restaurant': '', "Water's Edge": '', 'Casa La Femme': '', "Patsy's Pizza": '', 'Village Underground': '', 'establishment': '', 'Bukhara Grill': '', 'Bukhara': '', 'east village pizza': '', 'modern Japanese brasserie': '', 'brasserie': '', 'Zenkichi': '', 'Pacifico': '', 'palce': '', 'Restaurant': '', 'Bark': '', 'The Four Seasons restaurant': '', 'Casa la Femme': ''}, 'RESTAURANT#PRICES': {'place': '', 'NULL': '', 'resturant': '', 'restaurant': '', 'Suan': '', 'Rice Avenue': '', "Baluchi's": '', 'The Four Seasons': '', 'location': '', 'Casa La Femme': '', 'brasserie': '', 'Bark': ''}, 'RESTAURANT#MISCELLANEOUS': {'NULL': '', 'crowd': '', 'place': '', 'signs': '', "VT's": '', '1st Ave spot': '', 'owner': '', 'staff': '', 'restaurant': '', 'spot': '', 'Thai restaurant': '', 'pizza place': '', 'sushi chef': '', 'establishment': '', 'Place': '', 'space': '', 'indian place': '', 'Pacifico': '', "Water's Edge": '', 'location': '', 'Yamato': '', 'The Four Seasons': '', 'Casa La Femme': '', 'Bark': '', 'BFC': ''}, 'FOOD#PRICES': {'food': '', 'meal': '', 'half price sushi deal': '', 'Prix Fixe menu': '', 'NULL': '', 'pizza': '', 'toppings': '', 'dessert': '', 'sushi': '', 'spicy Tuna roll': '', 'all you can eat deal': '', 'congee': '', 'noodles': '', 'rice dishes': '', 'prixe fixe tasting menu': '', 'dishes': '', 'sandwiches': '', 'Indian': '', 'seafood': '', 'lobster sandwich': '', 'Cheese plate': '', 'pizzas': '', 'menu': '', 'Taiwanese food': '', 'Food': '', 'dim sum': '', 'Spreads': '', 'eats': '', 'Chinese food': '', 'fish': '', 'all you can eat sushi': '', 'fish and chips': '', 'japanese food': '', 'dinner': '', 'guacamole': '', 'dish': '', 'dinner for two': '', 'chicken tikka masala': '', 'lunch buffet': '', 'stone bowl': '', 'BBE $29 fixe prix menu': '', 'pita bread': '', 'kimchi': '', 'salad': '', 'salmon': '', 'eggplant': ''}, 'FOOD#QUALITY': {'food': '', 'lava cake dessert': '', 'Pizza': '', 'Salads': '', 'calamari': '', 'NULL': '', 'good': '', 'Guacamole+shrimp appetizer': '', 'filet': '', 'frites': '', 'dishes': '', 'specials': '', 'regular menu-fare': '', 'parmesean porcini souffle': '', 'lamb glazed with balsamic vinegar': '', 'pad se ew chicken': '', 'pad thai': '', 'Food': '', 'Chow fun': '', 'pork shu mai': '', 'meal': '', 'pizza': '', 'foie gras terrine with figs': '', 'duck confit': '', 'oysters': '', 'duck breast special': '', 'Thai fusion stuff': '', 'Grilled Chicken special with Edamame Puree': '', 'Edamame pureed': '', 'spicy tuna roll': '', 'rock shrimp tempura': '', 'sea urchin': '', 'sushi': '', 'half price sushi deal': '', 'Prix Fixe menu': '', 'somosas': '', 'chai': '', 'chole': '', 'dhosas': '', 'dhal': '', 'French Onion soup': '', 'desserts': '', 'cheese': '', 'ingredients': '', 'crust': '', 'meals': '', 'seafood': '', 'Pastrami': '', 'fried shrimp': '', 'French bistro fare': '', 'lunch': '', 'Sauce': '', 'tuna of gari': '', 'thai food': '', 'rolls': '', 'sashimi': '', 'crunchy tuna': '', 'French food': '', 'Spicy Scallop roll': '', 'Moules': '', 'lobster ravioli': '', "chef's specials": '', 'exotic food': '', 'tuna': '', 'wasabe potatoes': '', 'fresh mozzarella': '', 'pie': '', 'salad': '', 'dining': '', 'chicken pot pie': '', 'cheeseburger': '', 'bagels': '', 'Uni Hand roll': '', 'lobster teriyaki': '', 'rose special roll': '', 'pork belly': '', 'raw vegatables in side orders': '', 'balance of herbs and tomatoes': '', 'pumkin tortelini': '', 'lobster roll': '', 'lobster': '', 'santa fe chopped salad': '', 'fish and chips': '', 'chow fun and chow see': '', 'scallion pancakes': '', 'fried dumplings': '', 'pad penang': '', 'chef': '', 'salads': '', "Pam's special fried fish": '', 'Ingredients': '', 'spicy Tuna roll': '', 'Yellowtail': '', 'Caesar Salad': '', 'arugula and goat cheese': '', 'pasta dish': '', 'tiramisu': '', 'chocolate cake': '', 'raddichio': '', 'mushroom pizza': '', 'homemade pasta': '', 'hanger steak': '', 'filet mignon dish': '', 'beef and noodle soup dishes': '', 'rosemary or orange flavoring': '', 'Fish': '', 'dessert': '', 'fish': '', 'tuna tartar appetizer': '', 'New England Chowder': '', 'Lobster Bisque': '', 'Prime Rib': '', 'chicken vindaloo': '', "Chef's tasting menu": '', 'prixe fixe tasting menu': '', 'lemon salad': '', 'grilled branzino': '', 'bagel': '', 'lox': '', 'Shabu-Shabu': '', 'Taxan': '', 'green curry with vegetables': '', 'ravioli': '', 'marinara/arrabiatta sauce': '', 'mozzarella en Carozza': '', 'pepperoni': '', 'family style salad': '', 'vegetarian dishes': '', 'non-veg selections': '', 'sea bass': '', 'Dal Bukhara': '', 'kababs': '', 'rice': '', 'all-u-can-eat sushi': '', 'soy sauce': '', 'dinner': '', 'eggs benedict': '', 'Pad Thai': '', 'Indian': '', 'lobster sandwich': '', 'spaghetti with Scallops and Shrimp': '', 'halibut special': '', 'steak': '', 'foods': '', 'jelly fish': '', 'drunken chicken': '', 'soupy dumplings': '', 'stir fry blue crab': '', 'Cheese plate': '', 'asparagus, truffle oil, parmesan bruschetta': '', 'thai cuisine': '', 'caviar': '', 'salmon dish': '', 'dim sum': '', 'cheesecake': '', 'pastries': '', 'spice': '', 'Tom Kha soup': '', 'Thai': '', 'pesto pizza': '', 'spicy Italian cheese': '', 'french fries': '', 'scallops': '', 'sauce': '', 'japanese comfort food': '', 'lamb sausages': '', 'sardines with biscuits': '', 'large whole shrimp': '', 'pistachio ice cream': '', 'ceviche mix (special)': '', 'crab dumplings': '', 'assorted sashimi': '', 'banana tempura': '', 'Thai food': '', 'Gulab Jamun (dessert)': '', 'pizzas': '', 'Sophia pizza': '', 'kitchen food': '', 'Sushi': '', 'cuisine': '', 'smoked salmon and roe appetizer': '', 'entree': '', 'menu': '', 'Taiwanese food': '', 'cold appetizer dishes': '', 'mahi mahi (on saffron risotto': '', 'chicken and mashed potatos': '', 'crab cakes': '', 'selection of thin crust pizza': '', 'Basil slice': '', 'calzones': '', 'dosas': '', 'sandwiches': '', 'Italian food': '', 'basic dishes': '', 'apppetizers': '', 'sushimi cucumber roll': '', 'spreads': '', 'cream cheeses': '', 'Bagels': '', 'turkey burgers': '', 'Japanese food': '', 'soup for the udon': '', 'Japanese cuisine': '', 'Margheritta slice': '', 'appetizer menu': '', 'brioche and lollies': '', 'salmon': '', 'crab salad': '', 'mussels in spicy tomato sauce': '', 'fries': '', 'noodles with shrimp and chicken and coconut juice': '', 'Indian food': '', 'balsamic vinegar over icecream': '', 'Go Go Hamburgers': '', 'turnip cake': '', 'roast pork buns': '', 'egg custards': '', 'braised lamb shank in red wine': '', 'Spreads': '', 'toppings': '', 'indian cuisine': '', 'shrimp appetizers': '', 'eats': '', 'indian food': '', 'baked clams octopus': '', 'lamb': '', 'Appetizers': '', 'potato stuff kanish': '', 'chicken': '', 'Dessert': '', 'anti-pasta': '', 'pasta mains': '', 'shrimp scampi': '', 'porcini mushroom pasta special': '', 'seafood tagliatelle': '', 'BBQ ribs': '', 'rice dishes': '', 'congee (rice porridge)': '', 'hot sauce': '', 'cheescake': '', 'chicken casserole': '', 'beef': '', 'lamb dishes': '', 'Reuben sandwich': '', 'sauces': '', 'Ravioli': '', 'Pakistani food': '', 'mussles': '', 'seabass': '', 'goat cheese salad': '', 'penne w/ chicken': '', 'desert': '', 'roti rolls': '', 'Unda (Egg) rolls': '', 'spices': '', 'onions': '', 'eggs': '', 'roti': '', 'drumsticks over rice': '', 'sour spicy soup': '', 'Beef noodle soup': '', 'dumplings': '', '$10 10-piece dim sum combo': '', 'crabmeat lasagna': '', 'chocolate bread pudding': '', 'egg noodles in the beef broth with shrimp dumplings and slices of BBQ roast pork': '', 'dish': '', 'congee': '', 'Ow Ley Soh': '', 'Chinese food': '', 'Japanese Tapas': '', 'Yakitori (bbq meats)': '', 'nigiri': '', 'pasta penne': '', 'La Rosa': '', 'mussels': '', 'Thin Crust Pizzas': '', 'Lasagna Menu': '', 'BBQ Salmon': '', 'Sea Bass': '', 'Crispy Duck': '', 'pastas': '', 'risottos': '', 'sepia': '', 'braised rabbit': '', 'Dog': '', 'dog': '', 'pork souvlaki': '', 'eggplant pizza': '', 'millennium roll': '', 'seafood spaghetti': '', 'indo-chinese food': '', 'chicken pasta': '', 'vitello alla marsala': '', 'veal': '', 'mushrooms': '', 'potato balls': '', 'Red Dragon Roll': '', 'Seafood Dynamite': '', 'japanese food': '', 'Dancing, White River and Millenium rolls': '', 'quesadilla': '', 'guacamole': '', 'Indian Food': '', 'baba ganoush': '', 'omlette for brunch': '', 'spinach': '', 'quacamole': '', 'wings with chimmichuri': '', 'chicken in the salads': '', 'portobello and asparagus mole': '', 'gyros': '', 'gyro meat': '', 'sausages': '', 'Greek and Cypriot dishes': '', 'gyro': '', 'stuff tilapia': '', 'bread': '', 'appetizer of olives': '', 'main course': '', 'pear torte': '', 'dogs': '', 'hot dog': '', 'mushroom sauce': '', 'triple color and norwegetan rolls': '', 'banana chocolate dessert': '', 'green tea tempura': '', 'appetizers': '', 'modern Japanese': '', 'modern Japanese food': '', 'Indo Chinese food': '', 'Chinese style Indian food': '', 'chicken lollipop': '', 'Chilli Chicken': '', 'vegetarian dish': '', 'hot dogs': '', 'indian chinese food': '', 'Indian Chinese': '', 'Vanison': '', 'Bison': '', 'dessserts': '', 'fried oysters and clams': '', 'lobster knuckles': '', 'Thai style Fried Sea Bass': '', 'grilled Mahi Mahi': '', 'lunch buffet': '', 'kimchee': '', 'Korean fair': '', 'four course prix fix menu': '', 'bibimbap': '', 'nakgi-bokum': '', 'stir-fried squid': '', 'side dishes': '', 'risotto': '', 'farro salad': '', 'mashed yukon potatoes': '', 'margherita pizza': '', 'slice of NYC pizza': '', 'sashimi amuse bouche': '', 'Grilled Black Cod': '', 'Grilled Salmon dish': '', 'frozen black sesame mousse': '', 'matcha (powdered green tea) and blueberry cheesecake': '', 'Shabu Shabu': '', 'meat': '', 'Korean food': '', 'fusion twists': '', 'pork belly tacos': '', 'pork croquette sandwich': '', 'bun': '', 'family seafood entree': '', 'main entree': '', 'appetizer': '', 'pita': '', 'hummus': '', 'grilled octopus': '', 'eggplant': '', 'Hot Dogs': '', 'Slamwich': '', 'fish dishes': '', 'Mussles': '', 'Lamb special': '', 'flank steak': '', 'fish tacos': '', 'pasta': ''}, 'FOOD#STYLE_OPTIONS': {'portions': '', 'Edamame pureed': '', 'sushi': '', 'rice to fish ration': '', 'Prix Fixe menu': '', 'food': '', 'French Onion soup': '', 'NULL': '', 'menu': '', 'portion': '', 'fried shrimp': '', 'specials menus': '', 'rolls': '', 'Steak Tartare': '', 'dessert': '', 'exotic food': '', 'appetizer selection': '', 'cheeseburger': '', 'bagel': '', 'spicy Tuna roll': '', 'all you can eat deal': '', 'dishes': '', 'Lobster Bisque': '', 'bagels': '', 'cream cheeses': '', 'fish': '', 'rice': '', 'sandwiches': '', 'portion sizes': '', 'lobster sandwich': '', 'Cheese plate': '', 'bruschettas': '', 'paninis': '', 'tramezzinis': '', 'buffet': '', 'cheeseburgers': '', 'burgers': '', 'pastrami sandwich on a roll': '', 'entree': '', 'selection of thin crust pizza': '', 'dosas': '', 'cheff': '', 'servings for main entree': '', 'veal': '', 'pasta mains': '', 'antipasti': '', 'BBQ ribs': '', 'chicken casserole': '', 'pastas': '', 'Personal pans': '', 'pizza': '', 'penne a la vodka': '', 'pasta penne': '', 'selection': '', 'half/half pizza': '', 'Chicken teriyaki': '', 'japanese food': '', 'quesadilla': '', 'toppings': '', 'trimmings': '', 'triple color and norwegetan rolls': '', 'special roll': '', 'regular roll': '', 'vegetarian dish': '', 'fried oysters and clams': '', 'lobster knuckles': '', '"salt encrusted shrimp" appetizer': '', 'grilled Mahi Mahi': '', 'Indian food': '', 'stone bowl': '', 'side dishes': '', 'BBE $29 fixe prix menu': '', 'meal': '', 'japanese tapas': '', 'chicken': '', 'hot dog': '', 'salad': '', 'pasta': ''}, 'DRINKS#PRICES': {'wine list': '', 'wine': '', 'house champagne': '', 'wine selection': '', 'wines': '', 'Drinks': '', 'Wine list': '', 'bottle minimun': '', 'martini': '', 'selecion of wines': '', 'bottles of wine': '', 'drinks': '', 'Voss bottles of water': '', 'bev': '', 'martinis': ''}, 'DRINKS#QUALITY': {'sake': '', 'wine': '', 'glass of wine': '', 'Gigondas': '', 'drinks': '', 'sangria': '', 'wines': '', 'expresso': '', 'iced tea': '', 'NULL': '', 'Change Mojito': '', 'martinis': '', 'premium sake': '', 'strawberry daiquiries': '', 'coffee': '', 'martini': '', 'Vanilla Shanty': '', 'SEASONAL beer': '', 'beer': '', 'drink': '', 'bottles of wine': '', 'sassy lassi': '', 'wine by the glass': '', 'margaritas': '', 'bar drinks': '', 'cocktail with Citrus Vodka and lemon and lime juice and mint leaves': '', 'sake’s': '', 'bottle of wine': ''}, 'DRINKS#STYLE_OPTIONS': {'Bombay beer': '', 'wine list': '', 'sake list': '', 'wine selection': '', 'bar': '', 'beers': '', 'sake menu': '', 'Wine list selection': '', 'wine-by-the-glass': '', 'wine': '', 'bottles of Korbett': '', 'selection of wines': '', 'wine choices': '', 'Wine list': '', 'beverage selections': '', 'martini': '', 'measures of liquers': '', 'beer': '', 'selecion of wines': '', 'wines by the glass': '', 'drink menu': '', 'selection of bottled beer': ''}, 'AMBIENCE#GENERAL': {'Decor': '', 'place': '', 'trattoria': '', 'candle-light': '', 'tables': '', 'interior decor': '', 'interior': '', 'space': '', 'decor': '', 'vent': '', 'Ambiance': '', 'NULL': '', 'ambience': '', 'Cosette': '', 'restaurant': '', 'Leon': '', 'atmosphere': '', 'atmoshpere': '', 'garden terrace': '', 'open kitchen': '', 'vibe': '', 'setting': '', 'Downstairs lounge': '', "Raga's": '', 'shows': '', 'actors': '', 'Traditional French decour': '', 'hall': '', 'semi-private boths': '', 'live jazz band': '', 'hidden bathrooms': '', 'Ambience': '', 'ambient': '', 'backyard dining area': '', 'dining room': '', 'ambiance': '', 'characters': '', 'resturant': '', 'feel': '', 'back room': '', 'room': '', 'seats': '', 'cigar bar': '', 'mileau': '', 'outside table': '', 'unisex bathroom': '', 'back patio': '', 'music': '', 'back garden sitting area': '', 'blond wood decor': '', 'Thalia': '', 'outdoor atmosphere': '', 'garden': '', 'atmoshere': '', 'late night atmosphere': '', 'in-house lady DJ': '', 'terrace': '', 'bar scene': '', 'bar': '', 'atomosphere': '', 'main dining room': '', 'ceiling': '', 'patio': '', 'outdoor seating': '', 'setting/atmosphere': '', 'design': '', 'jukebox': '', 'Toons': '', 'Indoor': '', 'jazz duo': '', 'Atmosphere': '', 'Rice Avenue': '', 'scene': '', 'Dining Garden': '', 'Jazz Bar': '', 'spot': '', 'back garden area': '', 'Egyptian restaurant': '', 'belly dancers': '', 'hookah': '', 'booths': '', 'rooms': '', 'bathroom': '', 'mens bathroom': '', 'seating': '', 'boths': '', 'looks': '', 'belly dancing show': '', 'scheme of mirrors': '', 'mirrors': '', 'DJ': '', 'environment': '', 'white organza tent': '', 'Restaurant': '', 'modern Japanese brasserie': '', 'unmarked wooden doors': '', 'décor': '', 'private booths': '', 'glass ceilings': '', 'Zenkichi': '', 'mirrored walls': '', 'sitting space': '', 'fit-out': '', 'furnishings': '', 'fire place': ''}, 'SERVICE#GENERAL': {'service': '', 'Service': '', 'people': '', 'cart attendant': '', 'NULL': '', 'staff': '', 'waiter': '', 'kitchen': '', 'waitstaff': '', 'hostess': '', 'wait': '', 'waitress': '', "maitre d'": '', 'server': '', 'Wait staff': '', 'Seating': '', 'waiters': '', 'takeout': '', 'Manager': '', 'wait staff': '', 'servers': '', 'Delivery': '', 'seating': '', 'waitstaffs': '', 'svc': '', 'Waitstaff': '', 'manager': '', 'customer service': '', 'gentleman': '', 'delivery': '', 'counter service': '', 'clerks': '', 'proprietor': '', 'Winnie': '', 'management': '', 'People': '', 'owner': '', 'Usha': '', 'Staff': '', 'wait-staff': '', 'delivery guys': '', 'Vittorio': '', 'crew': '', 'Delivery guy': '', 'bartender': '', 'waitresses': '', 'survice': '', 'Raymond': '', 'Paul': '', 'service button': '', 'Greg': '', 'runner': '', 'chef': '', 'SERVICE': '', 'STAFF': '', 'front of house staff': '', 'girl': '', 'Maitre-D': '', 'maitre-D': '', 'frontman': ''}, 'LOCATION#GENERAL': {'view': '', 'block': '', 'neighborhood': '', 'outdoor atmosphere': '', 'NULL': '', 'location': '', 'restaurant': '', 'place': '', 'Rice Avenue': '', 'view of the new york city skiline': '', 'views of the city': '', 'view of river and NYC': '', 'views': '', 'spot': ''}}
 
 
 stanza.download('en')
@@ -222,9 +209,9 @@ def parse_xml(xml_file, had_opinion_expected):
 '''   
 
 def predict_opinion(sentence_id, review_id, text, total_exp_opinions):
-    target_pred, final_cluster = extract_opinion_target(text, total_exp_opinions)
+    target_pred, ote_with_emotion_adj = extract_opinion_target(text, total_exp_opinions)
     category_pred = label_opinion_category(text, target_pred, total_exp_opinions)
-    polarity_pred = label_opinion_polarity(text, target_pred, category_pred, final_cluster, total_exp_opinions)
+    polarity_pred = label_opinion_polarity(text, target_pred, category_pred, ote_with_emotion_adj, total_exp_opinions)
     opinions = []
     for i in range(total_exp_opinions):
         opinion_pred = Opinion(sentence_id, review_id, target_pred[i][0], target_pred[i][1], target_pred[i][2], category_pred[i], polarity_pred[i])
@@ -287,14 +274,12 @@ def extract_opinion_target(text, total_exp_opinions):
             #print(int(dependency_node[i][1])-1)
             dependency_node[i][1] = dependency_node[(int(dependency_node[i][1])-1)][0]
     target_list = []
-    categories = []
     for part in updated_pos_tags_on_words_in_sentence:
         pos = part[1]
         word = part[0]
         if (pos == 'NN' or pos == 'JJ' or pos == 'JJR' or pos == 'NNS' or pos == 'RB'):
             target_list.append(list(part))
-            categories.append(word)
-    f_cluster = []
+    feature_cluster = []
     for target in target_list:
         f_target_list = []
         for j in dependency_node:
@@ -308,40 +293,40 @@ def extract_opinion_target(text, total_exp_opinions):
                     f_target_list.append(j[1])
                 else:
                     f_target_list.append(j[0])
-        f_cluster.append([target[0], f_target_list])
-    #print(f_cluster)
-    final_cluster = []
-    dic = {}
+        feature_cluster.append([target[0], f_target_list])
+    #print(feature_cluster)
+    ote_with_emotion_adj = []
+    vocab = {}
     for target in target_list:
         #print(target)
-        dic[target[0]] = target[1]
-    for target in f_cluster:
-        if dic[target[0]] == 'NN' or dic[target[0]] == 'NNS' or dic[target[0]] == 'NNP':
-            final_cluster.append(target)
-    for cluster in final_cluster:
+        vocab[target[0]] = target[1]
+    for target in feature_cluster:
+        if vocab[target[0]] == 'NN' or vocab[target[0]] == 'NNS' or vocab[target[0]] == 'NNP':
+            ote_with_emotion_adj.append(target)
+    for cluster in ote_with_emotion_adj:
         for pos_tag_word in pos_tags_on_words_in_sentence:
             pos_tag_word_list = pos_tag_word[0].split()
             one_word_combined = ''.join(pos_tag_word_list)
             if cluster[0] == one_word_combined and len(pos_tag_word_list) > 1:
                 cluster[0] = pos_tag_word[0]
-    #print(final_cluster)
+    #print(ote_with_emotion_adj)
     #TODO what about Nulls?
     targets_to_return = []
     for i in range(0, total_exp_opinions):
-        if len(final_cluster) == 0:
+        if len(ote_with_emotion_adj) == 0:
             targets_to_return.append(['NULL', "0", "0"])
-        elif i < len(final_cluster)-1:
+        elif i < len(ote_with_emotion_adj)-1:
             #TODO just 0s?
-            targets_to_return.append([final_cluster[i][0], "0", "0"])
-        elif i >= len(final_cluster)-1:
-            if i == total_exp_opinions - 1 and i == len(final_cluster)-1:
-                targets_to_return.append([final_cluster[i][0], "0", "0"])
+            targets_to_return.append([ote_with_emotion_adj[i][0], "0", "0"])
+        elif i >= len(ote_with_emotion_adj)-1:
+            if i == total_exp_opinions - 1 and i == len(ote_with_emotion_adj)-1:
+                targets_to_return.append([ote_with_emotion_adj[i][0], "0", "0"])
             elif i <= total_exp_opinions - 1:
                 target_compiled = ''
-                for c in final_cluster:
+                for c in ote_with_emotion_adj:
                     target_compiled = c[0] + ' '
                 targets_to_return.append([target_compiled, "0", "0"])
-    return targets_to_return, final_cluster
+    return targets_to_return, ote_with_emotion_adj
     #return "BASIC", "0", "0"
 
 def label_opinion_category(text, target_pred, total_exp_opinions):
@@ -357,14 +342,14 @@ def label_opinion_category(text, target_pred, total_exp_opinions):
     return categories
     #return "BASIC#BASIC"
 
-def label_opinion_polarity(text, target_pred, category_pred, final_cluster, total_exp_opinions):
+def label_opinion_polarity(text, target_pred, category_pred, ote_with_emotion_adj, total_exp_opinions):
     polarities = []
     for i in range(0, total_exp_opinions):
         polarity_scores = []
-        if len(final_cluster) == 0:
+        if len(ote_with_emotion_adj) == 0:
             polarities.append('neutral')
-        elif i < len(final_cluster) - 1:
-            feeling_words = final_cluster[i][1]
+        elif i < len(ote_with_emotion_adj) - 1:
+            feeling_words = ote_with_emotion_adj[i][1]
             feeling_adj = ' '.join(feeling_words)
             feeling_tokenized = nltk.sent_tokenize(feeling_adj)
             if len(feeling_tokenized) > 0:
@@ -392,9 +377,9 @@ def label_opinion_polarity(text, target_pred, category_pred, final_cluster, tota
             else: 
                 polarity_scores.append([])
             polarities.append(determine_polarity(polarity_scores))
-        elif i >= len(final_cluster)-1:
-            if i == total_exp_opinions - 1 and i == len(final_cluster)-1:
-                feeling_words = final_cluster[i][1]
+        elif i >= len(ote_with_emotion_adj)-1:
+            if i == total_exp_opinions - 1 and i == len(ote_with_emotion_adj)-1:
+                feeling_words = ote_with_emotion_adj[i][1]
                 feeling_adj = ' '.join(feeling_words)
                 feeling_tokenized = nltk.sent_tokenize(feeling_adj)
                 if len(feeling_tokenized) > 0:
@@ -424,7 +409,7 @@ def label_opinion_polarity(text, target_pred, category_pred, final_cluster, tota
                 polarities.append(determine_polarity(polarity_scores))
             else:
                 feeling_adj = ''
-                for f_c in final_cluster:
+                for f_c in ote_with_emotion_adj:
                     feeling_adj += ' '.join(f_c[1])
                 feeling_tokenized = nltk.sent_tokenize(feeling_adj)
                 if len(feeling_tokenized) > 0:
@@ -736,11 +721,13 @@ def calcuate_e_a_recall_precision(all_reviews):
     total_attr_labels = len(correct_amounts_of_attribute_type)
     for attr_type in attributes_possible:
         if attr_type in correct_amounts_of_attribute_type:
+            '''
             print(f'E#A TYPE: {attr_type}')
             print(f'CORRECT GUESSES: {correct_amounts_of_attribute_type}')
             print(f'EXPECTED: {expected_amounts_of_attribute_type}')
             print(f'PREDICTED: {algorithm_amounts_of_attribute_type}')
             print()
+            '''
             recall = correct_amounts_of_attribute_type[attr_type] / expected_amounts_of_attribute_type[attr_type]
             recalls_added_together += recall
             percision = correct_amounts_of_attribute_type[attr_type] / algorithm_amounts_of_attribute_type[attr_type]
