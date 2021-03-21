@@ -208,6 +208,17 @@ def parse_xml(xml_file, had_opinion_expected):
                 sentence.opinions_predicted.append(opinion_predicted)
     
     calculate_scores(all_reviews)
+    target_predicted_file_name = 'output_target_data/trialSVM.target.predicted'
+    target_expected_file_name = 'output_target_data/trialSVM.target.expected'
+    create_files(target_predicted_file_name, target_expected_file_name, all_reviews, 'TARGET')
+
+    polarity_predicted_file_name = 'output_polarity_data/trialSVM.target.predicted'
+    polarity_expected_file_name = 'output_polarity_data/trialSVM.target.expected'
+    create_files(polarity_predicted_file_name, polarity_expected_file_name, all_reviews, 'POLARITY')
+
+    category_predicted_file_name = 'output_category_data/trialSVM.target.predicted'
+    category_expected_file_name = 'output_category_data/trialSVM.target.expected'
+    create_files(category_predicted_file_name, category_expected_file_name, all_reviews, 'CATEGORY')
 
         
 
@@ -289,22 +300,25 @@ def create_files(predicted_file_name, expected_file_name, all_reviews, type_file
     for review in all_reviews:
         if type_file == 'TARGET':
             for sentence in review.sentences:
-                for opinion_pred in sentence.opinions_predicted:
-                    predicted_file.write(opinion_pred.string_target_attr())
-                for opinion_exp in sentence.opinions_expected:
-                    expected_file.write(opinion_exp.string_target_attr())
+                if len(sentence.opinions_predicted) > 0:
+                    for opinion_pred in sentence.opinions_predicted:
+                        predicted_file.write(opinion_pred.string_target_attr())
+                    for opinion_exp in sentence.opinions_expected:
+                        expected_file.write(opinion_exp.string_target_attr())
         elif type_file == 'POLARITY':
             for sentence in review.sentences:
-                for opinion_pred in sentence.opinions_predicted:
-                    predicted_file.write(opinion_pred.string_polarity_attr())
-                for opinion_exp in sentence.opinions_expected:
-                    expected_file.write(opinion_exp.string_polarity_attr())
+                if len(sentence.opinions_predicted) > 0:
+                    for opinion_pred in sentence.opinions_predicted:
+                        predicted_file.write(opinion_pred.string_polarity_attr())
+                    for opinion_exp in sentence.opinions_expected:
+                        expected_file.write(opinion_exp.string_polarity_attr())
         elif type_file == 'CATEGORY':
             for sentence in review.sentences:
-                for opinion_pred in sentence.opinions_predicted:
-                    predicted_file.write(opinion_pred.string_category_attr())
-                for opinion_exp in sentence.opinions_expected:
-                    expected_file.write(opinion_exp.string_category_attr())
+                if len(sentence.opinions_predicted) > 0:
+                    for opinion_pred in sentence.opinions_predicted:
+                        predicted_file.write(opinion_pred.string_category_attr())
+                    for opinion_exp in sentence.opinions_expected:
+                        expected_file.write(opinion_exp.string_category_attr())
     predicted_file.close()
     expected_file.close()
 
