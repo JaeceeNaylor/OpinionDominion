@@ -15,10 +15,12 @@ import numpy as np
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import confusion_matrix 
-from sklearn.model_selection import train_test_split 
+from sklearn.model_selection import train_test_split
+from sklearn_crfsuite import CRF
+import re
 
 
-
+nltk.download('stopwords')
 
 
 '''
@@ -40,17 +42,68 @@ class Review:
         print()
 
 class Sentence:
-    def __init__(self, sentence_id, review_id, text, opinions_predicted, opinions_expected):
+    def __init__(self, sentence_id, review_id, text, opinions_predicted, opinions_expected, stop_words):
         self.sentence_id = sentence_id
         self.review_id = review_id
         self.text = text
+        self.lowercase_text = text.lower()
+        self.words = text.split()
+        self.lowercase_words = self.lowercase_text.split()
+        '''
+        #not sure if following two lines are necessary because resaurant data 
+        #should have sentences separated already
+        self.sentence_tokens = nltk.sent_tokenize(text)
+        self.sentence_tokens_lowercase = nltk.sent_tokenize(self.lowercase_text)
+        if len(self.sentence_tokens) > 1:
+            print(f'ERROR: More than one sentence in sentence for SENTENCE_ID: {self.sentence_id}')
+        '''
+        self.tokenized_words_in_sentence = nltk.word_tokenize(self.text)
+        self.tokenized_words_in_sentence_lowercase = nltk.word_tokenize(self.lowercase_text)
+        self.pos_tags_on_words_in_sentence = nltk.pos_tag(self.tokenized_words_in_sentence)
+        self.pos_tags_on_words_in_sentence_lowercase = nltk.pos_tag(self.tokenized_words_in_sentence_lowercase)
         self.opinions_predicted = opinions_predicted
         self.opinions_expected = opinions_expected
+        self.word_shapes = []
+        self.words_are_stop_words = []
+        self.word_types = []
+        string_check = re.compile('[@_!#$%^&*()<>?/\|}{~:]')
+        for word in self.tokenized_words_in_sentence:
+            self.word_shapes.append(self.word_shape(word))
+            if word in stop_words:
+                self.words_are_stop_words.append(1)
+            else:
+                self.words_are_stop_words.append(0)
+            if string_check.search(word) != None:
+                self.word_types.append('S')
+            elif word[0].isupper():
+                self.word_types.append('U')
+            elif word.isdigit():
+                self.word_types.append('D')
+            elif word.isalnum() and word.isalpha() == False:
+                self.word_types.append('C')
+            else:
+                self.word_types.append('N')
+            
+        
+    
+    def word_shape(self, text):
+        t1 = re.sub('[A-Z]', 'X', text)
+        t2 = re.sub('[a-z]', 'x', t1)
+        t3 = re.sub('[.!?,;:]', 'p', t2)
+        return re.sub('[0-9]', 'd', t3)
     
     def print_attr(self):
         print(f'REVIEW_ID: {self.review_id}')
         print(f'SENTENCE_ID: {self.sentence_id}')
         print(f'TEXT: {self.text}')
+        print(f'TEXT_LOWER: {self.lowercase_text}')
+        print(f'WORDS: {self.words}')
+        print(f'WORDS_LOWER: {self.lowercase_words}')
+        print(f'TOKEN WORDS: {self.tokenized_words_in_sentence}')
+        print(f'POS WORDS: {self.pos_tags_on_words_in_sentence}')
+        print(f'WORD SHAPES: {self.word_shapes}')
+        print(f'WORD STOP: {self.words_are_stop_words}')
+        print(f'WORD TYPES: {self.word_types}')
         print('OPINIONS PREDICTED')
         for opinion_pred in self.opinions_predicted:
             opinion_pred.print_attr()
@@ -104,13 +157,11 @@ class Opinion:
 ===============================================================================================================
 '''   
 
-def parse_xml(xml_file, had_opinion_expected):
-    vocab = {}
-    stop_words = set(stopwords.words('english'))
+def parse_xml(xml_file, had_opinion_expected, stop_words):
+    #begin parsing XML
     tree = ET.parse(xml_file)
     reviews = tree.getroot()
     all_reviews = []
-    #had_opinion_expected = False
     for review in reviews:
         review_id = review.attrib['rid']
         sentences = review[0]
@@ -142,44 +193,78 @@ def parse_xml(xml_file, had_opinion_expected):
                     #opinion_predicted = predict_opinion(sentence_id, review_id, text)
                     #opinions_predicted.append(opinion_predicted)
                     print('PROBLEM')
-            #UNCOMMENT THIS LINE TO GET 1.0 for all scores
-            '''
-            opinions_predicted = opinions_expected
-            '''
-            sentence_gathered = Sentence(sentence_id, review_id, text, opinions_predicted, opinions_expected)
+            sentence_gathered = Sentence(sentence_id, review_id, text, opinions_predicted, opinions_expected, stop_words)
+            #sentence_gathered.print_attr()
             sentences_for_review_object.append(sentence_gathered)
         review_collected = Review(review_id, sentences_for_review_object)
         all_reviews.append(review_collected)
+    return all_reviews
     
+def process_reviews(all_reviews, stop_words):
     end_vocab = create_vocab(all_reviews, stop_words)
     '''
     print(f'VOCAB: {end_vocab}')
     print()
     '''
     X_Category, Y_Category, X_Polarity, Y_Polarity = create_feature_vectors_and_expected_values(all_reviews, end_vocab)
+    X_Target_BIO, Y_Target_BIO = create_feature_vectors_bio(all_reviews)
+    #print(len(X_Target_BIO))
+    #print(len(Y_Target_BIO))
     X_C_Train, X_C_Test, Y_C_Train, Y_C_Test = train_test_split(X_Category, Y_Category, random_state = 0, shuffle = False) #default 25% become test examples
     X_P_Train, X_P_Test, Y_P_train, Y_P_Test = train_test_split(X_Polarity, Y_Polarity, random_state = 0, shuffle = False)
+    X_T_Train, X_T_Test, Y_T_Train, Y_T_Test = train_test_split(X_Target_BIO, Y_Target_BIO, random_state = 0, shuffle = False)
+    #print(len(X_T_Train))
+    #print(len(Y_T_Train))
+    '''
+    print(X_T_Train)
+    print()
+    print(Y_T_Train)
+    print()
+    '''
     svm_model_category = SVC(kernel='linear', C=1).fit(X_C_Train, Y_C_Train)
     svm_category_predictions = svm_model_category.predict(X_C_Test)
     accuracy = svm_model_category.score(X_C_Test, Y_C_Test)
-    print(f'CATEGORY ACCURACY: {accuracy}')
+    print(f'CATEGORY ACCURACY SVM: {accuracy}')
     print()
     svm_model_polarty = SVC(kernel='linear', C=1).fit(X_P_Train, Y_P_train)
     svm_polarity_predications = svm_model_polarty.predict(X_P_Test)
     accuracy = svm_model_polarty.score(X_P_Test, Y_P_Test)
-    print(f'POLARITY ACCURACY: {accuracy}')
+    print(f'POLARITY ACCURACY SVM: {accuracy}')
     print()
     clf_category = OneVsRestClassifier(SVC(kernel='linear', C=1)).fit(X_C_Train, Y_C_Train)
     clf_category_predictions = clf_category.predict(X_C_Test)
     accuracy = clf_category.score(X_C_Test, Y_C_Test)
-    print(f'CATEGORY ACCURACY: {accuracy}')
+    print(f'CATEGORY ACCURACY 1vsRest SVM: {accuracy}')
     print()
     clf_polarity = OneVsRestClassifier(SVC(kernel='linear', C=1)).fit(X_P_Train, Y_P_train)
     clf_polarity_predictions = clf_polarity.predict(X_P_Test)
     accuracy = clf_polarity.score(X_P_Test, Y_P_Test)
-    print(f'POLARITY ACCURACY: {accuracy}')
+    print(f'POLARITY ACCURACY 1vsResr SVM: {accuracy}')
+    print()
+    crf_model_target = CRF(algorithm='lbfgs', c1=0.1, c2=0.1, max_iterations=100, all_possible_transitions=False).fit(X_T_Train, Y_T_Train)
+    crf_target_predictions = crf_model_target.predict(X_T_Test)
+    accuracy = crf_model_target.score(X_T_Test, Y_T_Test)
+    print(f'TARGET ACCURACY CRF: {accuracy}')
     print()
 
+    predict_opinions(all_reviews, X_C_Train, Y_Target_BIO, svm_category_predictions, svm_polarity_predications, clf_category_predictions, clf_polarity_predictions, crf_target_predictions)
+    
+    
+    calculate_scores(all_reviews)
+    target_predicted_file_name = 'output_target_data/trial_CRF.target.predicted'
+    target_expected_file_name = 'output_target_data/trial_CRF.target.expected'
+    create_files(target_predicted_file_name, target_expected_file_name, all_reviews, 'TARGET')
+
+    polarity_predicted_file_name = 'output_polarity_data/trial_CRF.target.predicted'
+    polarity_expected_file_name = 'output_polarity_data/trial_CRF.target.expected'
+    create_files(polarity_predicted_file_name, polarity_expected_file_name, all_reviews, 'POLARITY')
+
+    category_predicted_file_name = 'output_category_data/trial_CRF.target.predicted'
+    category_expected_file_name = 'output_category_data/trial_CRF.target.expected'
+    create_files(category_predicted_file_name, category_expected_file_name, all_reviews, 'CATEGORY')
+
+
+def predict_opinions(all_reviews, X_C_Train, Y_Target_BIO, svm_category_predictions, svm_polarity_predications, clf_category_predictions, clf_polarity_predictions, crf_target_predictions):    
     i = 0
     predict_index = 0
     category_to_ote = {}
@@ -194,34 +279,156 @@ def parse_xml(xml_file, had_opinion_expected):
                         category_to_ote[opinion.category] = {opinion.target: ''}
                     i += 1
                     continue
-                i += 1
                 category_pred = svm_category_predictions[predict_index]
-                target = 'NULL'
-                for word in sentence.text.split(' '):
-                    if word in category_to_ote[category_pred]:
-                        target = word
+                #category_pred = clf_category_predictions[predict_index]
+                target = ''
+                '''
+                print(crf_target_predictions[predict_index])
+                print(Y_Target_BIO[i])
+                '''
+                i += 1
+                t_f = False
+                for k in range(len(sentence.words)):
+                    word = sentence.words[k]
+                    if crf_target_predictions[predict_index][k] == 'B' and t_f == False and (k == 0 or crf_target_predictions[predict_index][k-1] == 'O'):
+                        t_f = True
+                        if k < len(sentence.words) - 1 and crf_target_predictions[predict_index][k+1] == 'I':
+                            word += ' ' + sentence.words[k+1]
+                            if k < len(sentence.words) - 2 and crf_target_predictions[predict_index][k+2] == 'I':
+                                word += ' ' + sentence.words[k+2]
+                                if k < len(sentence.words) - 3 and crf_target_predictions[predict_index][k+3] == 'I':
+                                    word += ' ' + sentence.words[k+3]
+                        target += word
+                if target == '':
+                    target = 'NULL'
                 #classifier for each performs worse
                 #opinion_predicted = Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', clf_category_predictions[predict_index], clf_polarity_predictions[predict_index])
                 opinion_predicted = Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', svm_category_predictions[predict_index], svm_polarity_predications[predict_index])
                 #opinion_predicted.print_attr()
                 predict_index += 1
                 sentence.opinions_predicted.append(opinion_predicted)
-    
-    calculate_scores(all_reviews)
-    target_predicted_file_name = 'output_target_data/trialSVM.target.predicted'
-    target_expected_file_name = 'output_target_data/trialSVM.target.expected'
-    create_files(target_predicted_file_name, target_expected_file_name, all_reviews, 'TARGET')
 
-    polarity_predicted_file_name = 'output_polarity_data/trialSVM.target.predicted'
-    polarity_expected_file_name = 'output_polarity_data/trialSVM.target.expected'
-    create_files(polarity_predicted_file_name, polarity_expected_file_name, all_reviews, 'POLARITY')
-
-    category_predicted_file_name = 'output_category_data/trialSVM.target.predicted'
-    category_expected_file_name = 'output_category_data/trialSVM.target.expected'
-    create_files(category_predicted_file_name, category_expected_file_name, all_reviews, 'CATEGORY')
-
-        
-
+#Could expand BIO to match on the specific categories as well
+def create_feature_vectors_bio(all_reviews):
+    X_BIO = []
+    Y_BIO = []
+    for review in all_reviews:
+        for sentence in review.sentences:
+            for opinion in sentence.opinions_expected:
+                answer = []
+                word_feature_vec = []
+                for i in range(len(sentence.words)):
+                    prev_word = ''
+                    prev_word_2 = ''
+                    prev_pos = ''
+                    prev_pos_2 = ''
+                    prev_shape = ''
+                    prev_shape_2 = ''
+                    prev_type = ''
+                    prev_type_2 = ''
+                    if i > 0:
+                        prev_word = sentence.words[i-1]
+                        prev_pos = sentence.pos_tags_on_words_in_sentence[i-1][1]
+                        prev_shape = sentence.word_shapes[i-1]
+                        prev_type = sentence.word_types[i-1]
+                    else:
+                        prev_word = "SIGMA"
+                        prev_pos = 'SIGMA_POS'
+                        prev_shape = 'SIGMA_SHAPE'
+                        prev_type = 'SIGMA_TYPE'
+                    if i > 1:
+                        prev_word_2 = sentence.words[i-2]
+                        prev_pos_2 = sentence.pos_tags_on_words_in_sentence[i-2][1]
+                        prev_shape_2 = sentence.word_shapes[i-2]
+                        prev_type_2 = sentence.word_types[i-2]
+                    else:
+                        prev_word_2 = 'SIGMA'
+                        prev_pos_2 = 'SIGMA_POS'
+                        prev_shape_2 = 'SIGMA_SHAPE'
+                        prev_type_2 = 'SIGMA_TYPE'
+                    next_word = ''
+                    next_word_2 = ''
+                    next_word_3 = ''
+                    next_pos = ''
+                    next_pos_2 = ''
+                    next_shape = ''
+                    next_shape_2 = ''
+                    next_type = ''
+                    next_type_2 = ''
+                    if i < len(sentence.words) - 1:
+                        next_word = sentence.words[i+1]
+                        next_pos = sentence.pos_tags_on_words_in_sentence[i+1][1]
+                        next_shape = sentence.word_shapes[i+1]
+                        next_type = sentence.word_types[i+1]
+                    else:
+                        next_word = "OMEGA"
+                        next_pos = 'OMEGA_POS'
+                        next_shape = 'OMEGA_SHAPE'
+                        next_type = 'OMEGA_TYPE'
+                    if i < len(sentence.words) - 2:
+                        next_word_2 = sentence.words[i+2]
+                        next_pos_2 = sentence.pos_tags_on_words_in_sentence[i+2][1]
+                        next_shape_2 = sentence.word_shapes[i+2]
+                        next_type_2 = sentence.word_types[i+2]
+                    else:
+                        next_word_2 = 'OMEGA'
+                        next_pos_2 = 'OMEGA_POS'
+                        next_shape_2 = 'OMEGA_SHAPE'
+                        next_type_2 = 'OMEGA_TYPE'
+                    if i < len(sentence.words) - 3:
+                        next_word_3 = sentence.words[i+3]
+                    else:
+                        next_word_3 = 'OMEGA'
+                    word = sentence.words[i]
+                    pos = sentence.pos_tags_on_words_in_sentence[i][1] #[i] is tuple ie ('Would', 'MD')
+                    word_shape = sentence.word_shapes[i]
+                    word_type = sentence.word_types[i]
+                    is_stop_word = sentence.words_are_stop_words[i]
+                    feature_vec = {
+                        'bias': 1.0,
+                        'word': word, 
+                        'pos': pos, 
+                        'word_shape': word_shape, 
+                        'word_type': word_type, 
+                        'is_stop_word': is_stop_word,
+                        #suffix
+                        # prefix 
+                        'prev_word': prev_word, 
+                        'prev_word_2': prev_word_2, 
+                        'next_word': next_word, 
+                        'next_word_2': next_word_2, 
+                        'next_word_3': next_word_3,
+                        'prev_pos': prev_pos,
+                        'prev_pos_2': prev_pos_2,
+                        'prev_shape': prev_shape,
+                        'prev_shape_2': prev_shape_2,
+                        'prev_type': prev_type,
+                        'prev_type_2': prev_type_2,
+                        'next_pos': next_pos,
+                        'next_pos_2': next_pos_2,
+                        'next_shape': next_shape,
+                        'next_shape_2': next_shape_2,
+                        'next_type': next_type,
+                        'next_type_2': next_type_2
+                    }
+                    target_words = opinion.target.split()
+                    target_found = False
+                    for j in range(len(target_words)):
+                        if target_words[j] == word and j == 0:
+                            target_found = True
+                            answer.append('B')
+                        elif target_words[j] == word and j >= 1 and target_found == False:
+                            target_found = True
+                            answer.append('I')
+                    if target_found == False:
+                        answer.append('O')
+                    word_feature_vec.append(feature_vec)
+                X_BIO.append(word_feature_vec)
+                Y_BIO.append(answer)
+    #X_BIO = np.array(X_BIO)
+    #Y_BIO = np.array(Y_BIO)
+    return X_BIO, Y_BIO
+                        
 
 def create_feature_vectors_and_expected_values(all_reviews, vocab):
     category_dict = {
@@ -608,8 +815,11 @@ def calcuate_polarity_recall_precision(all_reviews):
 '''   
 
 if __name__ == "__main__":
+    #stop words from nltk
+    stop_words = set(stopwords.words('english'))
     path_trial = 'trial_data/restaurants_trial_english_sl.xml'
     path_train = 'train_data/ABSA16_Restaurants_Train_SB1_v2.xml'
     path_test = 'test_gold_data/EN_REST_SB1_TEST.xml.gold'
     opinion_expected = True
-    parse_xml(path_train, opinion_expected)
+    all_reviews = parse_xml(path_train, opinion_expected, stop_words)
+    process_reviews(all_reviews, stop_words)
