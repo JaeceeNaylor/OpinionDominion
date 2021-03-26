@@ -37,7 +37,7 @@
     <Review rid="en_BlueRibbonSushi_478218345">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218345:0">
-                <text>No Comparison</text>
+                <text>No Comparison.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -72,7 +72,7 @@
     <Review rid="en_SchoonerOrLater_477965690">
         <sentences>
             <sentence id="en_SchoonerOrLater_477965690:0">
-                <text>Snotty Attitude</text>
+                <text>Snotty Attitude.</text>
                 <Opinions>
                     <Opinion target="NULL" category="SERVICE#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -138,7 +138,7 @@
     <Review rid="en_PagodaRestaurant_478006817">
         <sentences>
             <sentence id="en_PagodaRestaurant_478006817:0">
-                <text>Overrated</text>
+                <text>Overrated.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -179,7 +179,7 @@
     <Review rid="en_ParkChaletGardenRestaurant_477778282">
         <sentences>
             <sentence id="en_ParkChaletGardenRestaurant_477778282:0">
-                <text>Worst Service I Ever Had</text>
+                <text>Worst Service I Ever Had.</text>
                 <Opinions>
                     <Opinion target="Service" category="SERVICE#GENERAL" polarity="positive" from="6" to="13"/>
                 </Opinions>
@@ -246,7 +246,7 @@
     <Review rid="en_Murphy's_478075040">
         <sentences>
             <sentence id="en_Murphy's_478075040:0">
-                <text>I love this restaurant</text>
+                <text>I love this restaurant.</text>
                 <Opinions>
                     <Opinion target="restaurant" category="RESTAURANT#GENERAL" polarity="positive" from="12" to="22"/>
                 </Opinions>
@@ -329,7 +329,7 @@
                 </Opinions>
             </sentence>
             <sentence id="en_OpenSesame_477970939:6">
-                <text>We&apos;re going back. :D</text>
+                <text>We&apos;re going back. :d.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -377,13 +377,13 @@
     <Review rid="en_BlueRibbonSushi_478218900">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218900:0">
-                <text>Very Disappointing</text>
+                <text>Very Disappointing.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
             </sentence>
             <sentence id="en_BlueRibbonSushi_478218900:1">
-                <text>– I took my parents here for their anniversary-very very disappointed!!!</text>
+                <text>– I took my parents here for their anniversary-very very disappointed!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -528,7 +528,7 @@
     <Review rid="en_BlueRibbonSushi_478218901">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218901:0">
-                <text>Not recommanded!!!</text>
+                <text>Not recommanded!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -541,7 +541,7 @@
                 </Opinions>
             </sentence>
             <sentence id="en_BlueRibbonSushi_478218901:2">
-                <text>It is not worth going at all and spend your money there!!!</text>
+                <text>It is not worth going at all and spend your money there!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -551,7 +551,7 @@
     <Review rid="en_MercedesRestaurant_478010605">
         <sentences>
             <sentence id="en_MercedesRestaurant_478010605:0">
-                <text>great service</text>
+                <text>great service.</text>
                 <Opinions>
                     <Opinion target="service" category="SERVICE#GENERAL" polarity="positive" from="6" to="13"/>
                 </Opinions>
@@ -696,7 +696,7 @@
     <Review rid="en_ProfessorThom's_478606540">
         <sentences>
             <sentence id="en_ProfessorThom's_478606540:0">
-                <text>Endless fun, awesome music, great staff!!!</text>
+                <text>Endless fun, awesome music, great staff!</text>
                 <Opinions>
                     <Opinion target="music" category="AMBIENCE#GENERAL" polarity="positive" from="21" to="26"/>
                     <Opinion target="staff" category="SERVICE#GENERAL" polarity="positive" from="34" to="39"/>
@@ -745,7 +745,7 @@
     <Review rid="en_ProfessorThom's_478606538">
         <sentences>
             <sentence id="en_ProfessorThom's_478606538:0">
-                <text>I FOUND A NEW HOME ON SECOND AVENUE!!!!!!!!!!!!</text>
+                <text>I FOUND A NEW HOME ON SECOND AVENUE!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -755,7 +755,7 @@
                 <Opinions/>
             </sentence>
             <sentence id="en_ProfessorThom's_478606538:2">
-                <text>I can&apos;t!!!</text>
+                <text>I can&apos;t!</text>
                 <Opinions/>
             </sentence>
             <sentence id="en_ProfessorThom's_478606538:3">
@@ -809,7 +809,7 @@
                 </Opinions>
             </sentence>
             <sentence id="en_ProfessorThom's_478606538:11">
-                <text>Thank you</text>
+                <text>Thank you.</text>
                 <Opinions/>
             </sentence>
         </sentences>
@@ -817,7 +817,7 @@
     <Review rid="en_BlueRibbonSushi_478218520">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218520:0">
-                <text>Go Beyond the California Rolls... </text>
+                <text>Go Beyond the California Rolls....</text>
                 <Opinions/>
             </sentence>
             <sentence id="en_BlueRibbonSushi_478218520:1">
@@ -870,7 +870,7 @@
     <Review rid="en_CatalRestaurant__UvaBar_477861889">
         <sentences>
             <sentence id="en_CatalRestaurant__UvaBar_477861889:0">
-                <text>Mediocre food</text>
+                <text>Mediocre food.</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="neutral" from="9" to="13"/>
                 </Opinions>
@@ -933,7 +933,7 @@
     <Review rid="en_CatalRestaurant__UvaBar_477861893">
         <sentences>
             <sentence id="en_CatalRestaurant__UvaBar_477861893:0">
-                <text>Excellent food, nice ambience, fairly expensive</text>
+                <text>Excellent food, nice ambience, fairly expensive.</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="10" to="14"/>
                     <Opinion target="ambience" category="AMBIENCE#GENERAL" polarity="positive" from="21" to="29"/>
@@ -1015,7 +1015,7 @@
     <Review rid="en_India'sGrill_477960694">
         <sentences>
             <sentence id="en_India'sGrill_477960694:0">
-                <text>hidden little jem</text>
+                <text>hidden little jem.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -1132,7 +1132,7 @@
     <Review rid="en_MercedesRestaurant_478010599">
         <sentences>
             <sentence id="en_MercedesRestaurant_478010599:0">
-                <text>awesome find</text>
+                <text>awesome find.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -1164,7 +1164,7 @@
     <Review rid="en_OpenSesame_477970770">
         <sentences>
             <sentence id="en_OpenSesame_477970770:0">
-                <text>best restaurant in the world, great decor, great customer service, friendly manager</text>
+                <text>best restaurant in the world, great decor, great customer service, friendly manager.</text>
                 <Opinions>
                     <Opinion target="restaurant" category="RESTAURANT#GENERAL" polarity="positive" from="5" to="15"/>
                     <Opinion target="decor" category="AMBIENCE#GENERAL" polarity="positive" from="36" to="41"/>
@@ -1193,7 +1193,7 @@
                 </Opinions>
             </sentence>
             <sentence id="en_OpenSesame_477970770:5" OutOfScope="TRUE">
-                <text>and all you other people that have a problem get some help</text>
+                <text>and all you other people that have a problem get some help.</text>
                 <Opinions/>
             </sentence>
         </sentences>
@@ -1201,7 +1201,7 @@
     <Review rid="en_MercedesRestaurant_478010601">
         <sentences>
             <sentence id="en_MercedesRestaurant_478010601:0">
-                <text>great lunch spot</text>
+                <text>great lunch spot.</text>
                 <Opinions>
                     <Opinion target="lunch spot" category="RESTAURANT#GENERAL" polarity="positive" from="6" to="16"/>
                 </Opinions>
@@ -1252,7 +1252,7 @@
                 </Opinions>
             </sentence>
             <sentence id="en_OpenSesame_477970938:1">
-                <text>– I&apos;ve been to Open Sesame only once, but I&apos;m still reeling from the experience!!</text>
+                <text>– I&apos;ve been to Open Sesame only once, but I&apos;m still reeling from the experience!</text>
                 <Opinions>
                     <Opinion target="Open Sesame" category="RESTAURANT#GENERAL" polarity="positive" from="15" to="26"/>
                 </Opinions>
@@ -1298,7 +1298,7 @@
                 </Opinions>
             </sentence>
             <sentence id="en_OpenSesame_477970938:9">
-                <text>GO TO OPEN SESAME!!!</text>
+                <text>GO TO OPEN SESAME!</text>
                 <Opinions>
                     <Opinion target="OPEN SESAME" category="RESTAURANT#GENERAL" polarity="positive" from="6" to="17"/>
                 </Opinions>
@@ -1371,7 +1371,7 @@
     <Review rid="en_ParkChaletGardenRestaurant_477778171">
         <sentences>
             <sentence id="en_ParkChaletGardenRestaurant_477778171:0">
-                <text>great beer</text>
+                <text>great beer.</text>
                 <Opinions>
                     <Opinion target="beer" category="DRINKS#QUALITY" polarity="positive" from="6" to="10"/>
                 </Opinions>
@@ -1451,7 +1451,7 @@
     <Review rid="en_Ray'sBoathouse_477775917">
         <sentences>
             <sentence id="en_Ray'sBoathouse_477775917:0">
-                <text>Seattle&apos;s BEST Winelist</text>
+                <text>Seattle&apos;s BEST Winelist.</text>
                 <Opinions>
                     <Opinion target="Winelist" category="DRINKS#STYLE_OPTIONS" polarity="positive" from="15" to="23"/>
                 </Opinions>
@@ -1485,7 +1485,7 @@
     <Review rid="en_SchoonerOrLater_477965848">
         <sentences>
             <sentence id="en_SchoonerOrLater_477965848:0">
-                <text>NOT THE PLACE IT ONCE WAS</text>
+                <text>NOT THE PLACE IT ONCE WAs.</text>
                 <Opinions>
                     <Opinion target="PLACE" category="RESTAURANT#GENERAL" polarity="negative" from="8" to="13"/>
                 </Opinions>
@@ -1546,7 +1546,7 @@
     <Review rid="en_MiopostoCaffe_478542920">
         <sentences>
             <sentence id="en_MiopostoCaffe_478542920:0">
-                <text>Open &amp; Cool Place with the Best Pizza and Coffee</text>
+                <text>Open &amp; Cool Place with the Best Pizza and Coffee.</text>
                 <Opinions>
                     <Opinion target="Place" category="AMBIENCE#GENERAL" polarity="positive" from="12" to="17"/>
                     <Opinion target="Pizza" category="FOOD#QUALITY" polarity="positive" from="32" to="37"/>
@@ -1600,7 +1600,7 @@
     <Review rid="en_Ray'sBoathouse_477775916">
         <sentences>
             <sentence id="en_Ray'sBoathouse_477775916:0">
-                <text>Old Reliable</text>
+                <text>Old Reliable.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -1624,7 +1624,7 @@
     <Review rid="en_OpenSesame_477970937">
         <sentences>
             <sentence id="en_OpenSesame_477970937:0">
-                <text>Enjoyed the food</text>
+                <text>Enjoyed the food.</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="12" to="16"/>
                 </Opinions>
@@ -1699,19 +1699,19 @@
     <Review rid="en_PizzeriaBianco_477908895">
         <sentences>
             <sentence id="en_PizzeriaBianco_477908895:0">
-                <text>WOW!!!!!!!!</text>
+                <text>WOW!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
             </sentence>
             <sentence id="en_PizzeriaBianco_477908895:1">
-                <text>– IT CANT GET ANY BETTER!!!!!</text>
+                <text>– IT CANT GET ANY BETTER!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
             </sentence>
             <sentence id="en_PizzeriaBianco_477908895:2">
-                <text>WHAT ELSE CAN YOU SAY NICE PEOPLE AMAZING FOOD WOW</text>
+                <text>WHAT ELSE CAN YOU SAY NICE PEOPLE AMAZING FOOD WOw.</text>
                 <Opinions>
                     <Opinion target="FOOD" category="FOOD#QUALITY" polarity="positive" from="42" to="46"/>
                     <Opinion target="PEOPLE" category="SERVICE#GENERAL" polarity="positive" from="27" to="33"/>
@@ -1751,7 +1751,7 @@
     <Review rid="en_BlueRibbonSushi_478218333">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218333:0">
-                <text>great meal – the fish on the omikase platter was absolutely decadent -- there was none of the stringiness that sometimes accompanies fair sushi -- this fish was perfect!!!!</text>
+                <text>great meal – the fish on the omikase platter was absolutely decadent -- there was none of the stringiness that sometimes accompanies fair sushi -- this fish was perfect!</text>
                 <Opinions>
                     <Opinion target="meal" category="FOOD#QUALITY" polarity="positive" from="6" to="10"/>
                     <Opinion target="fish on the omikase platter" category="FOOD#QUALITY" polarity="positive" from="17" to="44"/>
@@ -1764,14 +1764,14 @@
                 </Opinions>
             </sentence>
             <sentence id="en_BlueRibbonSushi_478218333:2">
-                <text>and the waiter suggested a perfect sake!!</text>
+                <text>and the waiter suggested a perfect sake!</text>
                 <Opinions>
                     <Opinion target="waiter" category="SERVICE#GENERAL" polarity="positive" from="8" to="14"/>
                     <Opinion target="sake" category="DRINKS#QUALITY" polarity="positive" from="35" to="39"/>
                 </Opinions>
             </sentence>
             <sentence id="en_BlueRibbonSushi_478218333:3">
-                <text>absolutely fabulous!!!</text>
+                <text>absolutely fabulous!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -1821,7 +1821,7 @@
     <Review rid="en_BlueRibbonSushi_478218715">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218715:0">
-                <text>splendid</text>
+                <text>splendid.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -1867,7 +1867,7 @@
     <Review rid="en_BlueRibbonSushi_478218518">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218518:0">
-                <text>Good Sushi, High Price </text>
+                <text>Good Sushi, High Price.</text>
                 <Opinions>
                     <Opinion target="Sushi" category="FOOD#QUALITY" polarity="positive" from="5" to="10"/>
                     <Opinion target="Sushi" category="FOOD#PRICES" polarity="negative" from="5" to="10"/>
@@ -2126,7 +2126,7 @@
                 </Opinions>
             </sentence>
             <sentence id="en_MercedesRestaurant_478010602:1">
-                <text>– This is one of my top lunch spots, huge portions, fast service and amazing margaritas!!</text>
+                <text>– This is one of my top lunch spots, huge portions, fast service and amazing margaritas!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="89"/>
                     <Opinion target="portions" category="FOOD#STYLE_OPTIONS" polarity="positive" from="42" to="50"/>
@@ -2198,7 +2198,7 @@
     <Review rid="en_BlueRibbonSushi_478218517">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218517:0">
-                <text>Best food, phenominal service </text>
+                <text>Best food, phenominal service.</text>
                 <Opinions>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="5" to="9"/>
                     <Opinion target="service" category="SERVICE#GENERAL" polarity="positive" from="22" to="29"/>
@@ -2229,7 +2229,7 @@
     <Review rid="en_Murphy's_478075037">
         <sentences>
             <sentence id="en_Murphy's_478075037:0">
-                <text>WAY OVER-RATED!!!!</text>
+                <text>WAY OVER-RATED!</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -2367,7 +2367,7 @@
     <Review rid="en_BlueRibbonSushi_478218512">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218512:0">
-                <text>Well worth it </text>
+                <text>Well worth it.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -2440,7 +2440,7 @@
     <Review rid="en_BlueRibbonSushi_478218339">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218339:0">
-                <text>Love it every time </text>
+                <text>Love it every time.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -2479,7 +2479,7 @@
     <Review rid="en_StackRestaurant__Bar_478538242">
         <sentences>
             <sentence id="en_StackRestaurant__Bar_478538242:0">
-                <text>Seafood Plus</text>
+                <text>Seafood Plus.</text>
                 <Opinions>
                     <Opinion target="Seafood" category="FOOD#QUALITY" polarity="positive" from="0" to="7"/>
                 </Opinions>
@@ -2590,7 +2590,7 @@
     <Review rid="en_ParkChaletGardenRestaurant_477778210">
         <sentences>
             <sentence id="en_ParkChaletGardenRestaurant_477778210:0">
-                <text>AVOID THE PLACE</text>
+                <text>AVOID THE PLACe.</text>
                 <Opinions>
                     <Opinion target="PLACE" category="RESTAURANT#GENERAL" polarity="negative" from="10" to="15"/>
                 </Opinions>
@@ -2667,7 +2667,7 @@
     <Review rid="en_Ray'sBoathouse_477775920">
         <sentences>
             <sentence id="en_Ray'sBoathouse_477775920:0">
-                <text>Best Crab Cakes in Town</text>
+                <text>Best Crab Cakes in Town.</text>
                 <Opinions>
                     <Opinion target="Crab Cakes" category="FOOD#QUALITY" polarity="positive" from="5" to="15"/>
                 </Opinions>
@@ -2703,7 +2703,7 @@
     <Review rid="en_MiopostoCaffe_478542922">
         <sentences>
             <sentence id="en_MiopostoCaffe_478542922:0">
-                <text>Great Pizza, Poor Service</text>
+                <text>Great Pizza, Poor Service.</text>
                 <Opinions>
                     <Opinion target="Pizza" category="FOOD#QUALITY" polarity="positive" from="6" to="11"/>
                     <Opinion target="Service" category="SERVICE#GENERAL" polarity="negative" from="18" to="25"/>
@@ -2767,7 +2767,7 @@
     <Review rid="en_SchoonerOrLater_479615721">
         <sentences>
             <sentence id="en_SchoonerOrLater_479615721:0">
-                <text>Great Breakfast</text>
+                <text>Great Breakfast.</text>
                 <Opinions>
                     <Opinion target="Breakfast" category="FOOD#QUALITY" polarity="positive" from="6" to="15"/>
                 </Opinions>
@@ -2825,7 +2825,7 @@
     <Review rid="en_PagodaRestaurant_479983203">
         <sentences>
             <sentence id="en_PagodaRestaurant_479983203:0">
-                <text>best chinese food i have tasted in a long time</text>
+                <text>best chinese food i have tasted in a long time.</text>
                 <Opinions>
                     <Opinion target="chinese food" category="FOOD#QUALITY" polarity="positive" from="5" to="17"/>
                 </Opinions>
@@ -2917,7 +2917,7 @@
                 </Opinions>
             </sentence>
             <sentence id="en_PagodaRestaurant_479983203:16">
-                <text>for desert we had the mango ginger creme brulee... oh la la yummy!!!</text>
+                <text>for desert we had the mango ginger creme brulee... oh la la yummy!</text>
                 <Opinions>
                     <Opinion target="mango ginger creme brulee" category="FOOD#QUALITY" polarity="positive" from="22" to="47"/>
                 </Opinions>
@@ -2949,7 +2949,7 @@
     <Review rid="en_BlueRibbonSushi_478219459">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478219459:0">
-                <text>Chintzy portions</text>
+                <text>Chintzy portions.</text>
                 <Opinions>
                     <Opinion target="portions" category="FOOD#STYLE_OPTIONS" polarity="negative" from="8" to="16"/>
                 </Opinions>
@@ -2981,7 +2981,7 @@
     <Review rid="en_ParkChaletGardenRestaurant_477778211">
         <sentences>
             <sentence id="en_ParkChaletGardenRestaurant_477778211:0">
-                <text>Terrible service, food ok, pricey</text>
+                <text>Terrible service, food ok, pricey.</text>
                 <Opinions>
                     <Opinion target="service" category="SERVICE#GENERAL" polarity="negative" from="9" to="16"/>
                     <Opinion target="food" category="FOOD#QUALITY" polarity="neutral" from="18" to="22"/>
@@ -3015,7 +3015,7 @@
                 <Opinions/>
             </sentence>
             <sentence id="en_ParkChaletGardenRestaurant_477778211:7">
-                <text>We went back to the restaurant and low and behold, we were seated at one of the tables that was available 30 minutes ago!!</text>
+                <text>We went back to the restaurant and low and behold, we were seated at one of the tables that was available 30 minutes ago!</text>
                 <Opinions>
                     <Opinion target="NULL" category="SERVICE#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -3037,7 +3037,7 @@
                 </Opinions>
             </sentence>
             <sentence id="en_ParkChaletGardenRestaurant_477778211:11">
-                <text>Um so now what are appetizers for???</text>
+                <text>Um so now what are appetizers for?</text>
                 <Opinions>
                     <Opinion target="NULL" category="SERVICE#GENERAL" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -3333,7 +3333,7 @@
     <Review rid="en_SnoozeanAMEatery_479991844">
         <sentences>
             <sentence id="en_SnoozeanAMEatery_479991844:0">
-                <text>Great Breakfast</text>
+                <text>Great Breakfast.</text>
                 <Opinions>
                     <Opinion target="Breakfast" category="FOOD#QUALITY" polarity="positive" from="6" to="15"/>
                 </Opinions>
@@ -3587,7 +3587,7 @@
     <Review rid="en_SnoozeanAMEatery_480412257">
         <sentences>
             <sentence id="en_SnoozeanAMEatery_480412257:0">
-                <text>Overpriced</text>
+                <text>Overpriced.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#PRICES" polarity="negative" from="0" to="0"/>
                 </Opinions>
@@ -3646,7 +3646,7 @@
     <Review rid="en_MiopostoCaffe_478543072">
         <sentences>
             <sentence id="en_MiopostoCaffe_478543072:0">
-                <text>My favortie pizza joint in Seattle</text>
+                <text>My favortie pizza joint in Seattle.</text>
                 <Opinions>
                     <Opinion target="pizza joint" category="RESTAURANT#GENERAL" polarity="positive" from="12" to="23"/>
                 </Opinions>
@@ -3701,7 +3701,7 @@
     <Review rid="en_MiopostoCaffe_479702043">
         <sentences>
             <sentence id="en_MiopostoCaffe_479702043:0">
-                <text>Excellent</text>
+                <text>Excellent.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -3771,7 +3771,7 @@
     <Review rid="en_SnoozeanAMEatery_480032670">
         <sentences>
             <sentence id="en_SnoozeanAMEatery_480032670:0">
-                <text>Worth the wait</text>
+                <text>Worth the wait.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#GENERAL" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -3882,7 +3882,7 @@
     <Review rid="en_PagodaRestaurant_478006816">
         <sentences>
             <sentence id="en_PagodaRestaurant_478006816:0">
-                <text>Delicious</text>
+                <text>Delicious.</text>
                 <Opinions>
                     <Opinion target="NULL" category="FOOD#QUALITY" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -3910,7 +3910,7 @@
     <Review rid="en_SnoozeanAMEatery_480133929">
         <sentences>
             <sentence id="en_SnoozeanAMEatery_480133929:0">
-                <text>4 Locations</text>
+                <text>4 Locations.</text>
                 <Opinions/>
             </sentence>
             <sentence id="en_SnoozeanAMEatery_480133929:1">
@@ -4012,7 +4012,7 @@
     <Review rid="en_BlueRibbonSushi_478218341">
         <sentences>
             <sentence id="en_BlueRibbonSushi_478218341:0">
-                <text>Delectable </text>
+                <text>Delectable.</text>
                 <Opinions>
                     <Opinion target="NULL" category="FOOD#QUALITY" polarity="positive" from="0" to="0"/>
                 </Opinions>
@@ -4060,7 +4060,7 @@
     <Review rid="en_Patsy'sPizzeria_478232062">
         <sentences>
             <sentence id="en_Patsy'sPizzeria_478232062:0">
-                <text>big thick pepperoni</text>
+                <text>big thick pepperoni.</text>
                 <Opinions>
                     <Opinion target="pepperoni" category="FOOD#STYLE_OPTIONS" polarity="positive" from="10" to="19"/>
                 </Opinions>
@@ -4094,7 +4094,7 @@
     <Review rid="en_CatalRestaurant__UvaBar_477862052">
         <sentences>
             <sentence id="en_CatalRestaurant__UvaBar_477862052:0">
-                <text>Sit in the Balcony</text>
+                <text>Sit in the Balcony.</text>
                 <Opinions>
                     <Opinion target="Balcony" category="AMBIENCE#GENERAL" polarity="positive" from="11" to="18"/>
                 </Opinions>
@@ -4252,7 +4252,7 @@
     <Review rid="en_MercedesRestaurant_478010600">
         <sentences>
             <sentence id="en_MercedesRestaurant_478010600:0">
-                <text>This place rocks!!</text>
+                <text>This place rocks!</text>
                 <Opinions>
                     <Opinion target="place" category="RESTAURANT#GENERAL" polarity="positive" from="5" to="10"/>
                 </Opinions>
@@ -4279,7 +4279,7 @@
                 </Opinions>
             </sentence>
             <sentence id="en_MercedesRestaurant_478010600:4">
-                <text>The catering is out of this world, and Raouls chicken vegetable soup rocks my world!!!</text>
+                <text>The catering is out of this world, and Raouls chicken vegetable soup rocks my world!</text>
                 <Opinions>
                     <Opinion target="Raouls chicken vegetable soup" category="FOOD#QUALITY" polarity="positive" from="39" to="68"/>
                     <Opinion target="catering" category="FOOD#QUALITY" polarity="positive" from="4" to="12"/>
@@ -4297,13 +4297,13 @@
     <Review rid="en_SnoozeanAMEatery_480171723">
         <sentences>
             <sentence id="en_SnoozeanAMEatery_480171723:0">
-                <text>Insultingly Overpriced</text>
+                <text>Insultingly Overpriced.</text>
                 <Opinions>
                     <Opinion target="NULL" category="RESTAURANT#PRICES" polarity="negative" from="0" to="0"/>
                 </Opinions>
             </sentence>
             <sentence id="en_SnoozeanAMEatery_480171723:1">
-                <text>- Mediocre Service/Quality</text>
+                <text>- Mediocre Service/Quality.</text>
                 <Opinions>
                     <Opinion target="Service" category="SERVICE#GENERAL" polarity="neutral" from="11" to="18"/>
                 </Opinions>

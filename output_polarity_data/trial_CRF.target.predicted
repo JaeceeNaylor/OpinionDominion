@@ -1,381 +1,3 @@
-SentenceID: Z#11:5
-Polarity: positive
-
-SentenceID: Z#11:6
-Polarity: positive
-
-SentenceID: Z#11:6
-Polarity: positive
-
-SentenceID: Z#11:7
-Polarity: positive
-
-SentenceID: Z#11:8
-Polarity: positive
-
-SentenceID: WE#4:0
-Polarity: positive
-
-SentenceID: WE#4:1
-Polarity: positive
-
-SentenceID: WE#4:2
-Polarity: positive
-
-SentenceID: WE#4:2
-Polarity: positive
-
-SentenceID: WE#4:2
-Polarity: positive
-
-SentenceID: WE#4:2
-Polarity: positive
-
-SentenceID: WE#4:3
-Polarity: positive
-
-SentenceID: WE#4:4
-Polarity: positive
-
-SentenceID: WE#4:5
-Polarity: positive
-
-SentenceID: WE#4:6
-Polarity: positive
-
-SentenceID: TR#2:0
-Polarity: negative
-
-SentenceID: TR#2:1
-Polarity: positive
-
-SentenceID: TR#2:1
-Polarity: positive
-
-SentenceID: TR#2:2
-Polarity: positive
-
-SentenceID: TR#2:2
-Polarity: positive
-
-SentenceID: TR#2:2
-Polarity: positive
-
-SentenceID: TR#2:3
-Polarity: negative
-
-SentenceID: TR#2:4
-Polarity: negative
-
-SentenceID: TR#2:5
-Polarity: negative
-
-SentenceID: TR#2:6
-Polarity: positive
-
-SentenceID: TR#2:6
-Polarity: positive
-
-SentenceID: TR#2:7
-Polarity: negative
-
-SentenceID: TR#2:8
-Polarity: positive
-
-SentenceID: TFS#10:0
-Polarity: positive
-
-SentenceID: TFS#10:2
-Polarity: positive
-
-SentenceID: TFS#10:2
-Polarity: positive
-
-SentenceID: TFS#10:3
-Polarity: negative
-
-SentenceID: TFS#10:3
-Polarity: negative
-
-SentenceID: TFS#10:4
-Polarity: positive
-
-SentenceID: TFS#10:5
-Polarity: negative
-
-SentenceID: TFS#10:5
-Polarity: negative
-
-SentenceID: TFS#10:6
-Polarity: positive
-
-SentenceID: TFS#10:6
-Polarity: positive
-
-SentenceID: TFS#10:7
-Polarity: positive
-
-SentenceID: TFS#10:8
-Polarity: negative
-
-SentenceID: TFS#10:8
-Polarity: negative
-
-SentenceID: TFS#10:8
-Polarity: negative
-
-SentenceID: TFS#10:9
-Polarity: positive
-
-SentenceID: TFS#10:9
-Polarity: positive
-
-SentenceID: TFS#10:9
-Polarity: positive
-
-SentenceID: Z#9:0
-Polarity: positive
-
-SentenceID: Z#9:1
-Polarity: negative
-
-SentenceID: Z#9:2
-Polarity: positive
-
-SentenceID: Z#9:2
-Polarity: positive
-
-SentenceID: Z#9:2
-Polarity: positive
-
-SentenceID: Z#9:3
-Polarity: neutral
-
-SentenceID: Z#9:5
-Polarity: negative
-
-SentenceID: Z#9:5
-Polarity: negative
-
-SentenceID: Z#9:6
-Polarity: negative
-
-SentenceID: Z#9:6
-Polarity: negative
-
-SentenceID: Z#9:6
-Polarity: negative
-
-SentenceID: Z#9:7
-Polarity: positive
-
-SentenceID: Z#9:7
-Polarity: positive
-
-SentenceID: NP#3:0
-Polarity: positive
-
-SentenceID: NP#3:1
-Polarity: positive
-
-SentenceID: NP#3:1
-Polarity: positive
-
-SentenceID: NP#3:2
-Polarity: positive
-
-SentenceID: NP#3:2
-Polarity: positive
-
-SentenceID: NP#3:3
-Polarity: positive
-
-SentenceID: NP#3:4
-Polarity: negative
-
-SentenceID: NP#3:5
-Polarity: positive
-
-SentenceID: NP#3:6
-Polarity: positive
-
-SentenceID: NP#3:6
-Polarity: positive
-
-SentenceID: NP#3:7
-Polarity: negative
-
-SentenceID: BHD#7:0
-Polarity: positive
-
-SentenceID: BHD#7:0
-Polarity: positive
-
-SentenceID: BHD#7:1
-Polarity: positive
-
-SentenceID: BHD#7:2
-Polarity: positive
-
-SentenceID: BHD#7:3
-Polarity: positive
-
-SentenceID: BHD#7:3
-Polarity: positive
-
-SentenceID: CLF#5:0
-Polarity: positive
-
-SentenceID: CLF#5:1
-Polarity: positive
-
-SentenceID: CLF#5:2
-Polarity: positive
-
-SentenceID: CLF#5:2
-Polarity: positive
-
-SentenceID: CLF#5:2
-Polarity: positive
-
-SentenceID: CLF#5:2
-Polarity: positive
-
-SentenceID: CLF#5:3
-Polarity: positive
-
-SentenceID: CLF#5:4
-Polarity: negative
-
-SentenceID: CLF#5:4
-Polarity: negative
-
-SentenceID: CLF#5:5
-Polarity: positive
-
-SentenceID: CLF#5:6
-Polarity: positive
-
-SentenceID: CLF#5:7
-Polarity: positive
-
-SentenceID: NP#4:0
-Polarity: positive
-
-SentenceID: NP#4:2
-Polarity: negative
-
-SentenceID: NP#4:2
-Polarity: negative
-
-SentenceID: NP#4:2
-Polarity: negative
-
-SentenceID: NP#4:3
-Polarity: negative
-
-SentenceID: NP#4:4
-Polarity: negative
-
-SentenceID: NP#4:4
-Polarity: negative
-
-SentenceID: NP#4:5
-Polarity: neutral
-
-SentenceID: NP#4:7
-Polarity: negative
-
-SentenceID: NP#4:8
-Polarity: positive
-
-SentenceID: NP#4:9
-Polarity: positive
-
-SentenceID: NP#4:10
-Polarity: positive
-
-SentenceID: NP#4:10
-Polarity: positive
-
-SentenceID: P#6:0
-Polarity: positive
-
-SentenceID: P#6:1
-Polarity: positive
-
-SentenceID: P#6:3
-Polarity: positive
-
-SentenceID: BzG#2:0
-Polarity: positive
-
-SentenceID: BzG#2:0
-Polarity: positive
-
-SentenceID: BzG#2:1
-Polarity: positive
-
-SentenceID: BzG#2:1
-Polarity: positive
-
-SentenceID: BzG#2:1
-Polarity: positive
-
-SentenceID: BzG#2:2
-Polarity: positive
-
-SentenceID: BzG#2:3
-Polarity: positive
-
-SentenceID: TVU#4:0
-Polarity: positive
-
-SentenceID: TVU#4:1
-Polarity: positive
-
-SentenceID: TVU#4:1
-Polarity: positive
-
-SentenceID: Z#2:0
-Polarity: positive
-
-SentenceID: Z#2:1
-Polarity: positive
-
-SentenceID: Z#2:2
-Polarity: positive
-
-SentenceID: Y#9:0
-Polarity: positive
-
-SentenceID: Y#9:0
-Polarity: positive
-
-SentenceID: Y#9:1
-Polarity: negative
-
-SentenceID: Y#9:2
-Polarity: positive
-
-SentenceID: Y#9:2
-Polarity: positive
-
-SentenceID: Y#9:2
-Polarity: positive
-
-SentenceID: Y#9:3
-Polarity: positive
-
-SentenceID: Y#9:3
-Polarity: positive
-
-SentenceID: Y#9:3
-Polarity: positive
-
-SentenceID: Y#9:4
-Polarity: positive
-
 SentenceID: Y#9:4
 Polarity: positive
 
@@ -629,7 +251,7 @@ SentenceID: TFS#5:5
 Polarity: positive
 
 SentenceID: TFS#5:6
-Polarity: negative
+Polarity: positive
 
 SentenceID: TFS#5:7
 Polarity: positive
@@ -656,7 +278,7 @@ SentenceID: TFS#5:16
 Polarity: positive
 
 SentenceID: TFS#5:17
-Polarity: negative
+Polarity: positive
 
 SentenceID: TFS#5:18
 Polarity: positive
@@ -677,10 +299,10 @@ SentenceID: TFS#5:21
 Polarity: negative
 
 SentenceID: TFS#5:23
-Polarity: negative
+Polarity: positive
 
 SentenceID: TFS#5:23
-Polarity: negative
+Polarity: positive
 
 SentenceID: TFS#5:24
 Polarity: negative
@@ -695,10 +317,10 @@ SentenceID: TFS#5:25
 Polarity: positive
 
 SentenceID: TFS#5:26
-Polarity: positive
+Polarity: negative
 
 SentenceID: TFS#5:26
-Polarity: positive
+Polarity: negative
 
 SentenceID: TFS#5:27
 Polarity: positive
@@ -734,10 +356,10 @@ SentenceID: CLF#3:4
 Polarity: positive
 
 SentenceID: CLF#3:6
-Polarity: positive
+Polarity: negative
 
 SentenceID: CLF#3:6
-Polarity: positive
+Polarity: negative
 
 SentenceID: CLF#3:7
 Polarity: negative
@@ -800,7 +422,7 @@ SentenceID: CLF#3:24
 Polarity: negative
 
 SentenceID: CLF#3:25
-Polarity: neutral
+Polarity: positive
 
 SentenceID: CLF#3:26
 Polarity: positive
@@ -869,10 +491,10 @@ SentenceID: BFC#9:8
 Polarity: positive
 
 SentenceID: BFC#9:9
-Polarity: neutral
+Polarity: negative
 
 SentenceID: BFC#9:9
-Polarity: neutral
+Polarity: negative
 
 SentenceID: BFC#9:10
 Polarity: positive
@@ -959,10 +581,10 @@ SentenceID: BG#8:1
 Polarity: positive
 
 SentenceID: BG#8:3
-Polarity: negative
+Polarity: positive
 
 SentenceID: BG#8:3
-Polarity: negative
+Polarity: positive
 
 SentenceID: BG#8:5
 Polarity: positive
@@ -986,10 +608,10 @@ SentenceID: DBG#2:4
 Polarity: negative
 
 SentenceID: DBG#2:6
-Polarity: neutral
+Polarity: negative
 
 SentenceID: DBG#2:6
-Polarity: neutral
+Polarity: negative
 
 SentenceID: DBG#2:8
 Polarity: negative
@@ -998,7 +620,7 @@ SentenceID: DBG#2:8
 Polarity: negative
 
 SentenceID: DBG#2:9
-Polarity: negative
+Polarity: positive
 
 SentenceID: DBG#2:10
 Polarity: positive
@@ -1040,7 +662,7 @@ SentenceID: DBG#7:0
 Polarity: positive
 
 SentenceID: DBG#7:3
-Polarity: positive
+Polarity: negative
 
 SentenceID: DBG#7:4
 Polarity: negative
@@ -1058,7 +680,7 @@ SentenceID: DBG#7:7
 Polarity: negative
 
 SentenceID: DBG#7:8
-Polarity: positive
+Polarity: negative
 
 SentenceID: DBG#7:9
 Polarity: positive
@@ -1079,7 +701,7 @@ SentenceID: DBG#7:15
 Polarity: negative
 
 SentenceID: DBG#7:16
-Polarity: positive
+Polarity: negative
 
 SentenceID: ADLT#9:0
 Polarity: positive
@@ -1181,10 +803,10 @@ SentenceID: Z#6:11
 Polarity: positive
 
 SentenceID: Z#6:12
-Polarity: negative
+Polarity: positive
 
 SentenceID: Z#6:12
-Polarity: negative
+Polarity: positive
 
 SentenceID: Z#6:13
 Polarity: positive
@@ -1205,7 +827,7 @@ SentenceID: CLF#6:1
 Polarity: negative
 
 SentenceID: CLF#6:3
-Polarity: positive
+Polarity: negative
 
 SentenceID: CLF#6:4
 Polarity: positive
@@ -1232,7 +854,7 @@ SentenceID: DBG#6:2
 Polarity: positive
 
 SentenceID: DBG#6:4
-Polarity: positive
+Polarity: negative
 
 SentenceID: DBG#6:5
 Polarity: positive
@@ -1256,13 +878,13 @@ SentenceID: DBG#6:7
 Polarity: positive
 
 SentenceID: DBG#1:0
-Polarity: positive
+Polarity: negative
 
 SentenceID: DBG#1:0
-Polarity: positive
+Polarity: negative
 
 SentenceID: DBG#1:0
-Polarity: positive
+Polarity: negative
 
 SentenceID: BHD#1:0
 Polarity: positive
@@ -1316,7 +938,7 @@ SentenceID: Z#7:4
 Polarity: positive
 
 SentenceID: Z#7:5
-Polarity: positive
+Polarity: negative
 
 SentenceID: Z#10:0
 Polarity: positive
@@ -1433,7 +1055,7 @@ SentenceID: FF#3:5
 Polarity: positive
 
 SentenceID: FF#3:6
-Polarity: negative
+Polarity: positive
 
 SentenceID: FF#3:7
 Polarity: positive
@@ -1478,13 +1100,13 @@ SentenceID: FF#3:22
 Polarity: negative
 
 SentenceID: FF#3:23
-Polarity: positive
+Polarity: negative
 
 SentenceID: FF#3:23
-Polarity: positive
+Polarity: negative
 
 SentenceID: FF#3:23
-Polarity: positive
+Polarity: negative
 
 SentenceID: FF#3:24
 Polarity: positive
@@ -1751,7 +1373,7 @@ SentenceID: CLF#8:6
 Polarity: negative
 
 SentenceID: CLF#8:7
-Polarity: positive
+Polarity: negative
 
 SentenceID: CLF#8:8
 Polarity: positive
@@ -1781,7 +1403,7 @@ SentenceID: ADLT#11:3
 Polarity: negative
 
 SentenceID: ADLT#11:4
-Polarity: negative
+Polarity: positive
 
 SentenceID: WE#1:0
 Polarity: positive
@@ -1820,10 +1442,10 @@ SentenceID: FF#6:6
 Polarity: positive
 
 SentenceID: FF#6:7
-Polarity: negative
+Polarity: positive
 
 SentenceID: FF#6:8
-Polarity: neutral
+Polarity: positive
 
 SentenceID: FF#6:10
 Polarity: positive

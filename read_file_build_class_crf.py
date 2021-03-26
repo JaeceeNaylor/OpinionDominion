@@ -16,11 +16,13 @@ from sklearn.svm import SVC
 from sklearn.metrics import confusion_matrix 
 from sklearn.model_selection import train_test_split
 from sklearn_crfsuite import CRF
+from sklearn.model_selection import KFold
 import re
 import scoring
 import output_file_creation
 import parsing
 import review_opinion_sent
+import sys
 
 
 nltk.download('stopwords')
@@ -51,22 +53,18 @@ def process_reviews(all_reviews, stop_words):
     svm_category_predictions = svm_model_category.predict(X_C_Test)
     accuracy = svm_model_category.score(X_C_Test, Y_C_Test)
     print(f'CATEGORY ACCURACY SVM: {accuracy}')
-    print()
     svm_model_polarty = SVC(kernel='linear', C=1).fit(X_P_Train, Y_P_train)
     svm_polarity_predications = svm_model_polarty.predict(X_P_Test)
     accuracy = svm_model_polarty.score(X_P_Test, Y_P_Test)
     print(f'POLARITY ACCURACY SVM: {accuracy}')
-    print()
     clf_category = OneVsRestClassifier(SVC(kernel='linear', C=1)).fit(X_C_Train, Y_C_Train)
     clf_category_predictions = clf_category.predict(X_C_Test)
     accuracy = clf_category.score(X_C_Test, Y_C_Test)
     print(f'CATEGORY ACCURACY 1vsRest SVM: {accuracy}')
-    print()
     clf_polarity = OneVsRestClassifier(SVC(kernel='linear', C=1)).fit(X_P_Train, Y_P_train)
     clf_polarity_predictions = clf_polarity.predict(X_P_Test)
     accuracy = clf_polarity.score(X_P_Test, Y_P_Test)
     print(f'POLARITY ACCURACY 1vsResr SVM: {accuracy}')
-    print()
     crf_model_target = CRF(algorithm='lbfgs', c1=0.1, c2=0.1, max_iterations=100, all_possible_transitions=False).fit(X_T_Train, Y_T_Train)
     crf_target_predictions = crf_model_target.predict(X_T_Test)
     accuracy = crf_model_target.score(X_T_Test, Y_T_Test)
@@ -74,9 +72,69 @@ def process_reviews(all_reviews, stop_words):
     print()
 
     predict_opinions(all_reviews, X_C_Train, Y_Target_BIO, svm_category_predictions, svm_polarity_predications, clf_category_predictions, clf_polarity_predictions, crf_target_predictions)
-    
-    
     scoring.calculate_scores(all_reviews)
+
+    #cross validation
+    kf = KFold(n_splits = 5)
+    kf.get_n_splits(X_Category)
+    kf.get_n_splits(X_Polarity)
+    kf.get_n_splits(X_Target_BIO)
+    fold = 1
+    for train_index, test_index in kf.split(X_Category):
+        print()
+        print(f'FOLD: {fold}')
+        fold += 1
+        '''
+        print(train_index)
+        for t_i, te_i in kf.split(X_Target_BIO):
+            print(t_i)
+            print(X_Target_BIO[0])
+            print(X_Category[0])
+            X_T_Train, X_T_Test = X_Target_BIO[t_i], X_Target_BIO[te_i]
+            Y_T_Train, Y_T_Test = Y_Target_BIO[t_i], Y_Target_BIO[te_i]
+        '''
+        X_C_Train, X_C_Test = X_Category[train_index], X_Category[test_index]
+        Y_C_Train, Y_C_Test = Y_Category[train_index], Y_Category[test_index]
+
+        X_P_Train, X_P_Test = X_Polarity[train_index], X_Polarity[test_index]
+        Y_P_train, Y_P_Test = Y_Polarity[train_index], Y_Polarity[test_index]
+
+        X_T_Train = []
+        X_T_Test = []
+        Y_T_Train = []
+        Y_T_Test = []
+        for t_i in train_index:
+            X_T_Train.append(X_Target_BIO[t_i])
+            Y_T_Train.append(Y_Target_BIO[t_i])
+        for t_i in test_index:
+            X_T_Test.append(X_Target_BIO[t_i])
+            Y_T_Test.append(Y_Target_BIO[t_i])
+
+        svm_model_category = SVC(kernel='linear', C=1).fit(X_C_Train, Y_C_Train)
+        svm_category_predictions = svm_model_category.predict(X_C_Test)
+        accuracy = svm_model_category.score(X_C_Test, Y_C_Test)
+        print(f'CATEGORY ACCURACY SVM: {accuracy}')
+        svm_model_polarty = SVC(kernel='linear', C=1).fit(X_P_Train, Y_P_train)
+        svm_polarity_predications = svm_model_polarty.predict(X_P_Test)
+        accuracy = svm_model_polarty.score(X_P_Test, Y_P_Test)
+        print(f'POLARITY ACCURACY SVM: {accuracy}')
+        clf_category = OneVsRestClassifier(SVC(kernel='linear', C=1)).fit(X_C_Train, Y_C_Train)
+        clf_category_predictions = clf_category.predict(X_C_Test)
+        accuracy = clf_category.score(X_C_Test, Y_C_Test)
+        print(f'CATEGORY ACCURACY 1vsRest SVM: {accuracy}')
+        clf_polarity = OneVsRestClassifier(SVC(kernel='linear', C=1)).fit(X_P_Train, Y_P_train)
+        clf_polarity_predictions = clf_polarity.predict(X_P_Test)
+        accuracy = clf_polarity.score(X_P_Test, Y_P_Test)
+        print(f'POLARITY ACCURACY 1vsResr SVM: {accuracy}')
+        crf_model_target = CRF(algorithm='lbfgs', c1=0.1, c2=0.1, max_iterations=100, all_possible_transitions=False).fit(X_T_Train, Y_T_Train)
+        crf_target_predictions = crf_model_target.predict(X_T_Test)
+        accuracy = crf_model_target.score(X_T_Test, Y_T_Test)
+        print(f'TARGET ACCURACY CRF: {accuracy}')
+        print()
+
+        predict_opinions_cv(all_reviews, train_index, test_index, svm_category_predictions, svm_polarity_predications, clf_category_predictions, clf_polarity_predictions, crf_target_predictions)
+        scoring.calculate_scores(all_reviews)
+    
     target_predicted_file_name = 'output_target_data/trial_CRF.target.predicted'
     target_expected_file_name = 'output_target_data/trial_CRF.target.expected'
     output_file_creation.create_files(target_predicted_file_name, target_expected_file_name, all_reviews, 'TARGET')
@@ -89,7 +147,120 @@ def process_reviews(all_reviews, stop_words):
     category_expected_file_name = 'output_category_data/trial_CRF.target.expected'
     output_file_creation.create_files(category_predicted_file_name, category_expected_file_name, all_reviews, 'CATEGORY')
 
+def process_reviews_all(all_reviews, all_test_reviews, stop_words):
+    end_vocab = create_vocab(all_reviews, stop_words)
+    X_C_Train, Y_C_Train, X_P_Train, Y_P_train = create_feature_vectors_and_expected_values(all_reviews, end_vocab)
+    X_T_Train, Y_T_Train = create_feature_vectors_bio(all_reviews)
+    X_C_Test, Y_C_Test, X_P_Test, Y_P_Test = create_feature_vectors_and_expected_values(all_test_reviews, end_vocab)
+    X_T_Test, Y_T_Test = create_feature_vectors_bio(all_test_reviews)
 
+    svm_model_category = SVC(kernel='linear', C=1).fit(X_C_Train, Y_C_Train)
+    svm_category_predictions = svm_model_category.predict(X_C_Test)
+    accuracy = svm_model_category.score(X_C_Test, Y_C_Test)
+    print(f'CATEGORY ACCURACY SVM: {accuracy}')
+    svm_model_polarty = SVC(kernel='linear', C=1).fit(X_P_Train, Y_P_train)
+    svm_polarity_predications = svm_model_polarty.predict(X_P_Test)
+    accuracy = svm_model_polarty.score(X_P_Test, Y_P_Test)
+    print(f'POLARITY ACCURACY SVM: {accuracy}')
+    clf_category = OneVsRestClassifier(SVC(kernel='linear', C=1)).fit(X_C_Train, Y_C_Train)
+    clf_category_predictions = clf_category.predict(X_C_Test)
+    accuracy = clf_category.score(X_C_Test, Y_C_Test)
+    print(f'CATEGORY ACCURACY 1vsRest SVM: {accuracy}')
+    clf_polarity = OneVsRestClassifier(SVC(kernel='linear', C=1)).fit(X_P_Train, Y_P_train)
+    clf_polarity_predictions = clf_polarity.predict(X_P_Test)
+    accuracy = clf_polarity.score(X_P_Test, Y_P_Test)
+    print(f'POLARITY ACCURACY 1vsResr SVM: {accuracy}')
+    crf_model_target = CRF(algorithm='lbfgs', c1=0.1, c2=0.1, max_iterations=100, all_possible_transitions=False).fit(X_T_Train, Y_T_Train)
+    crf_target_predictions = crf_model_target.predict(X_T_Test)
+    accuracy = crf_model_target.score(X_T_Test, Y_T_Test)
+    print(f'TARGET ACCURACY CRF: {accuracy}')
+    print()
+
+    predict_opinions_all(all_test_reviews, svm_category_predictions, svm_polarity_predications, clf_category_predictions, clf_polarity_predictions, crf_target_predictions)
+    scoring.calculate_scores(all_test_reviews)
+
+
+
+def predict_opinions_cv(all_reviews, train_index, test_index, svm_category_predictions, svm_polarity_predications, clf_category_predictions, clf_polarity_predictions, crf_target_predictions):
+    train_i_d = {}
+    test_i_d = {}
+    for t_index in train_index:
+        train_i_d[t_index] = ''
+    for t_index in test_index:
+        test_i_d[t_index] = ''
+    i = 0
+    predict_index = 0
+    category_to_ote = {}
+    for review in all_reviews:
+        for sentence in review.sentences:
+            sentence.opinions_predicted = []
+            for opinion in sentence.opinions_expected:
+                if i in train_i_d:
+                    if opinion.category in category_to_ote:
+                        category_to_ote[opinion.category][opinion.target] = ''
+                    elif opinion.category not in category_to_ote:
+                        category_to_ote[opinion.category] = {opinion.target: ''}
+                    i += 1
+                    continue
+                category_pred = svm_category_predictions[predict_index]
+                #category_pred = clf_category_predictions[predict_index]
+                target = ''
+                i += 1
+                t_f = False
+                for k in range(len(sentence.words)):
+                    word = sentence.words[k]
+                    if crf_target_predictions[predict_index][k] == 'B' and t_f == False and (k == 0 or crf_target_predictions[predict_index][k-1] == 'O'):
+                        t_f = True
+                        if k < len(sentence.words) - 1 and crf_target_predictions[predict_index][k+1] == 'I':
+                            word += ' ' + sentence.words[k+1]
+                            if k < len(sentence.words) - 2 and crf_target_predictions[predict_index][k+2] == 'I':
+                                word += ' ' + sentence.words[k+2]
+                                if k < len(sentence.words) - 3 and crf_target_predictions[predict_index][k+3] == 'I':
+                                    word += ' ' + sentence.words[k+3]
+                        target += word
+                if target == '':
+                    target = 'NULL'
+                #classifier for each performs worse -- one vs rest is below this comment
+                #opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', clf_category_predictions[predict_index], clf_polarity_predictions[predict_index])
+                opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', svm_category_predictions[predict_index], svm_polarity_predications[predict_index])
+                #opinion_predicted.print_attr()
+                predict_index += 1
+                sentence.opinions_predicted.append(opinion_predicted)
+
+def predict_opinions_all(all_reviews, svm_category_predictions, svm_polarity_predications, clf_category_predictions, clf_polarity_predictions, crf_target_predictions):
+    i = 0
+    predict_index = 0
+    category_to_ote = {}
+    for review in all_reviews:
+        for sentence in review.sentences:
+            sentence.opinions_predicted = []
+            for opinion in sentence.opinions_expected:
+                target = ''
+                '''
+                print(crf_target_predictions[predict_index])
+                print(Y_Target_BIO[i])
+                '''
+                i += 1
+                t_f = False
+                for k in range(len(sentence.words)):
+                    word = sentence.words[k]
+                    if crf_target_predictions[predict_index][k] == 'B' and t_f == False and (k == 0 or crf_target_predictions[predict_index][k-1] == 'O'):
+                        t_f = True
+                        if k < len(sentence.words) - 1 and crf_target_predictions[predict_index][k+1] == 'I':
+                            word += ' ' + sentence.words[k+1]
+                            if k < len(sentence.words) - 2 and crf_target_predictions[predict_index][k+2] == 'I':
+                                word += ' ' + sentence.words[k+2]
+                                if k < len(sentence.words) - 3 and crf_target_predictions[predict_index][k+3] == 'I':
+                                    word += ' ' + sentence.words[k+3]
+                        target += word
+                if target == '':
+                    target = 'NULL'
+                #classifier for each performs worse -- one vs rest is below this comment
+                #opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', clf_category_predictions[predict_index], clf_polarity_predictions[predict_index])
+                opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', svm_category_predictions[predict_index], svm_polarity_predications[predict_index])
+                #opinion_predicted.print_attr()
+                predict_index += 1
+                sentence.opinions_predicted.append(opinion_predicted)
 def predict_opinions(all_reviews, X_C_Train, Y_Target_BIO, svm_category_predictions, svm_polarity_predications, clf_category_predictions, clf_polarity_predictions, crf_target_predictions):    
     i = 0
     predict_index = 0
@@ -127,7 +298,7 @@ def predict_opinions(all_reviews, X_C_Train, Y_Target_BIO, svm_category_predicti
                         target += word
                 if target == '':
                     target = 'NULL'
-                #classifier for each performs worse
+                #classifier for each performs worse -- one vs rest is below this comment
                 #opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', clf_category_predictions[predict_index], clf_polarity_predictions[predict_index])
                 opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', svm_category_predictions[predict_index], svm_polarity_predications[predict_index])
                 #opinion_predicted.print_attr()
@@ -333,4 +504,6 @@ if __name__ == "__main__":
     path_test = 'test_gold_data/EN_REST_SB1_TEST.xml.gold'
     opinion_expected = True
     all_reviews = parsing.parse_xml(path_train, opinion_expected, stop_words)
-    process_reviews(all_reviews, stop_words)
+    #process_reviews(all_reviews, stop_words)
+    all_test_reviews = parsing.parse_xml(path_test, opinion_expected, stop_words)
+    process_reviews_all(all_reviews, all_test_reviews, stop_words)

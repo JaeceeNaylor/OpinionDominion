@@ -51,8 +51,14 @@ def calcuate_target_recall_precision(all_reviews):
                 total_words_opinion_target_pred += opinion_pred.total_target_words
                 total_words_opinion_target_exp += opinion_exp.total_target_words
                 total_correctly_labeled += find_correctly_labeled_words_target(opinion_pred.target, opinion_exp.target)
-    recall = total_correctly_labeled / total_words_opinion_target_exp
-    percision = total_correctly_labeled / total_words_opinion_target_pred
+    if total_words_opinion_target_exp > 0:
+        recall = total_correctly_labeled / total_words_opinion_target_exp
+    else:
+        recall = 0.0
+    if total_words_opinion_target_pred > 0:
+        percision = total_correctly_labeled / total_words_opinion_target_pred
+    else: 
+        percision = 0.0
     return recall, percision
 
 def find_correctly_labeled_words_target(target_pred, target_exp):

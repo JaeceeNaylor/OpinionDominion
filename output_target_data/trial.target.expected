@@ -1,330 +1,4295 @@
-SentenceID: 1090587:1
-Target: view
-TargetStartIndex: 80
-TargetEndIndex: 84
-
-SentenceID: 1090587:2
-Target: service
-TargetStartIndex: 18
-TargetEndIndex: 25
-
-SentenceID: 1090587:2
-Target: food
-TargetStartIndex: 36
-TargetEndIndex: 40
-
-SentenceID: 1090587:2
-Target: food
-TargetStartIndex: 36
-TargetEndIndex: 40
-
-SentenceID: 1090587:3
-Target: lava cake dessert
-TargetStartIndex: 4
-TargetEndIndex: 21
-
-SentenceID: 1661043:0
-Target: Pizza
-TargetStartIndex: 0
-TargetEndIndex: 5
-
-SentenceID: 1661043:1
-Target: Salads
-TargetStartIndex: 0
-TargetEndIndex: 6
-
-SentenceID: 1661043:2
-Target: calamari
-TargetStartIndex: 23
-TargetEndIndex: 31
-
-SentenceID: 1661043:3
+SentenceID: en_BlueRibbonSushi_478218171:0
 Target: NULL
 TargetStartIndex: 0
 TargetEndIndex: 0
 
-SentenceID: 1661043:4
-Target: Decor
-TargetStartIndex: 0
-TargetEndIndex: 5
-
-SentenceID: 1661043:5
-Target: Service
-TargetStartIndex: 0
-TargetEndIndex: 7
-
-SentenceID: 1349391:0
-Target: food
-TargetStartIndex: 21
-TargetEndIndex: 25
-
-SentenceID: 1349391:0
-Target: service
-TargetStartIndex: 33
-TargetEndIndex: 40
-
-SentenceID: 1349391:1
-Target: food
-TargetStartIndex: 20
+SentenceID: en_BlueRibbonSushi_478218171:1
+Target: sushi
+TargetStartIndex: 19
 TargetEndIndex: 24
 
-SentenceID: 1349391:1
-Target: service
-TargetStartIndex: 33
-TargetEndIndex: 40
+SentenceID: en_BlueRibbonSushi_478218171:2
+Target: portions
+TargetStartIndex: 16
+TargetEndIndex: 24
 
-SentenceID: 1349391:1
-Target: service
-TargetStartIndex: 76
-TargetEndIndex: 83
+SentenceID: en_BlueRibbonSushi_478218171:3
+Target: Green Tea creme brulee
+TargetStartIndex: 0
+TargetEndIndex: 22
 
-SentenceID: 1349391:1
-Target: good
-TargetStartIndex: 63
-TargetEndIndex: 67
-
-SentenceID: 1349391:2
+SentenceID: en_BlueRibbonSushi_478218171:4
 Target: NULL
 TargetStartIndex: 0
 TargetEndIndex: 0
 
-SentenceID: 1357554:0
-Target: Bombay beer
-TargetStartIndex: 21
-TargetEndIndex: 32
-
-SentenceID: 1357554:2
+SentenceID: en_BlueRibbonSushi_478218345:0
 Target: NULL
 TargetStartIndex: 0
 TargetEndIndex: 0
 
-SentenceID: 1357554:3
-Target: Service
-TargetStartIndex: 0
-TargetEndIndex: 7
-
-SentenceID: 1357554:3
-Target: people
-TargetStartIndex: 26
-TargetEndIndex: 32
-
-SentenceID: 1357554:4
-Target: place
-TargetStartIndex: 12
-TargetEndIndex: 17
-
-SentenceID: 1357554:5
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
-
-SentenceID: 1730014:1
-Target: Service
-TargetStartIndex: 0
-TargetEndIndex: 7
-
-SentenceID: 1730014:1
-Target: food
-TargetStartIndex: 24
-TargetEndIndex: 28
-
-SentenceID: 1730014:2
-Target: Guacamole+shrimp appetizer
-TargetStartIndex: 0
-TargetEndIndex: 26
-
-SentenceID: 1730014:2
-Target: filet
-TargetStartIndex: 61
-TargetEndIndex: 66
-
-SentenceID: 1730014:2
-Target: frites
-TargetStartIndex: 100
-TargetEndIndex: 106
-
-SentenceID: 1730014:3
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
-
-SentenceID: 1500453:1
-Target: trattoria
-TargetStartIndex: 25
-TargetEndIndex: 34
-
-SentenceID: 1500453:1
-Target: trattoria
-TargetStartIndex: 25
-TargetEndIndex: 34
-
-SentenceID: 1500453:2
-Target: food
-TargetStartIndex: 4
-TargetEndIndex: 8
-
-SentenceID: 1500453:2
-Target: dishes
-TargetStartIndex: 72
-TargetEndIndex: 78
-
-SentenceID: 1500453:2
-Target: specials
-TargetStartIndex: 33
-TargetEndIndex: 41
-
-SentenceID: 1500453:2
-Target: regular menu-fare
-TargetStartIndex: 49
-TargetEndIndex: 66
-
-SentenceID: 1500453:3
-Target: parmesean porcini souffle
-TargetStartIndex: 17
-TargetEndIndex: 42
-
-SentenceID: 1500453:3
-Target: lamb glazed with balsamic vinegar
-TargetStartIndex: 50
-TargetEndIndex: 83
-
-SentenceID: 1500453:4
-Target: candle-light
-TargetStartIndex: 49
-TargetEndIndex: 61
-
-SentenceID: 1500453:4
-Target: food
-TargetStartIndex: 63
-TargetEndIndex: 67
-
-SentenceID: 1500453:4
-Target: service
-TargetStartIndex: 80
-TargetEndIndex: 87
-
-SentenceID: 1500453:4
-Target: tables
-TargetStartIndex: 13
-TargetEndIndex: 19
-
-SentenceID: 1500453:5
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
-
-SentenceID: 505535:0
-Target: interior decor
-TargetStartIndex: 29
-TargetEndIndex: 43
-
-SentenceID: 505535:0
-Target: place
-TargetStartIndex: 12
-TargetEndIndex: 17
-
-SentenceID: 505535:1
-Target: pad se ew chicken
-TargetStartIndex: 4
-TargetEndIndex: 21
-
-SentenceID: 505535:1
-Target: pad thai
-TargetStartIndex: 49
-TargetEndIndex: 57
-
-SentenceID: 1016296:0
-Target: restaurant
-TargetStartIndex: 34
-TargetEndIndex: 44
-
-SentenceID: 1016296:1
-Target: cart attendant
-TargetStartIndex: 12
-TargetEndIndex: 26
-
-SentenceID: 1016296:2
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
-
-SentenceID: 1016296:3
-Target: Food
-TargetStartIndex: 0
-TargetEndIndex: 4
-
-SentenceID: 1016296:4
-Target: Chow fun
-TargetStartIndex: 0
-TargetEndIndex: 8
-
-SentenceID: 1016296:4
-Target: pork shu mai
-TargetStartIndex: 18
-TargetEndIndex: 30
-
-SentenceID: 1016296:4
-Target: NULL
-TargetStartIndex: 0
-TargetEndIndex: 0
-
-SentenceID: 1016296:5
+SentenceID: en_BlueRibbonSushi_478218345:1
 Target: place
 TargetStartIndex: 32
 TargetEndIndex: 37
 
-SentenceID: Z#3:0
+SentenceID: en_BlueRibbonSushi_478218345:2
+Target: sushi
+TargetStartIndex: 13
+TargetEndIndex: 18
+
+SentenceID: en_BlueRibbonSushi_478218345:2
+Target: service
+TargetStartIndex: 35
+TargetEndIndex: 42
+
+SentenceID: en_BlueRibbonSushi_478218345:3
+Target: staff
+TargetStartIndex: 11
+TargetEndIndex: 16
+
+SentenceID: en_BlueRibbonSushi_478218345:4
+Target: restaurant
+TargetStartIndex: 18
+TargetEndIndex: 28
+
+SentenceID: en_SchoonerOrLater_477965690:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_477965690:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_477965690:2
+Target: owner
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_SchoonerOrLater_477965849:0
+Target: food
+TargetStartIndex: 5
+TargetEndIndex: 9
+
+SentenceID: en_SchoonerOrLater_477965849:2
+Target: meal
+TargetStartIndex: 41
+TargetEndIndex: 45
+
+SentenceID: en_SchoonerOrLater_477965849:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_477965849:4
+Target: staff
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_SchoonerOrLater_477965849:5
+Target: onion rings
+TargetStartIndex: 4
+TargetEndIndex: 15
+
+SentenceID: en_SchoonerOrLater_477965849:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_478006817:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_478006817:1
+Target: food
+TargetStartIndex: 35
+TargetEndIndex: 39
+
+SentenceID: en_PagodaRestaurant_478006817:2
+Target: lemon chicken
+TargetStartIndex: 4
+TargetEndIndex: 17
+
+SentenceID: en_PagodaRestaurant_478006817:2
+Target: honey walnut prawns
+TargetStartIndex: 58
+TargetEndIndex: 77
+
+SentenceID: en_PagodaRestaurant_478006817:2
+Target: honey walnut prawns
+TargetStartIndex: 58
+TargetEndIndex: 77
+
+SentenceID: en_PagodaRestaurant_478006817:4
+Target: ambience
+TargetStartIndex: 5
+TargetEndIndex: 13
+
+SentenceID: en_PagodaRestaurant_478006817:4
+Target: place
+TargetStartIndex: 36
+TargetEndIndex: 41
+
+SentenceID: en_PagodaRestaurant_478006817:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778282:0
+Target: Service
+TargetStartIndex: 6
+TargetEndIndex: 13
+
+SentenceID: en_ParkChaletGardenRestaurant_477778282:2
+Target: service
+TargetStartIndex: 67
+TargetEndIndex: 74
+
+SentenceID: en_ParkChaletGardenRestaurant_477778282:3
+Target: waiter
+TargetStartIndex: 4
+TargetEndIndex: 10
+
+SentenceID: en_ParkChaletGardenRestaurant_477778282:4
+Target: manager
+TargetStartIndex: 20
+TargetEndIndex: 27
+
+SentenceID: en_ParkChaletGardenRestaurant_477778282:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478543071:0
+Target: Italian Food
+TargetStartIndex: 9
+TargetEndIndex: 21
+
+SentenceID: en_MiopostoCaffe_478543071:1
+Target: Mioposto
+TargetStartIndex: 21
+TargetEndIndex: 29
+
+SentenceID: en_MiopostoCaffe_478543071:2
+Target: Italian restaurant
+TargetStartIndex: 34
+TargetEndIndex: 52
+
+SentenceID: en_MiopostoCaffe_478543071:3
+Target: wine list
+TargetStartIndex: 4
+TargetEndIndex: 13
+
+SentenceID: en_MiopostoCaffe_478543071:3
+Target: food
+TargetStartIndex: 35
+TargetEndIndex: 39
+
+SentenceID: en_Murphy's_478075040:0
+Target: restaurant
+TargetStartIndex: 12
+TargetEndIndex: 22
+
+SentenceID: en_Murphy's_478075040:1
+Target: meal
+TargetStartIndex: 34
+TargetEndIndex: 38
+
+SentenceID: en_Murphy's_478075040:1
+Target: service
+TargetStartIndex: 40
+TargetEndIndex: 47
+
+SentenceID: en_Murphy's_478075040:1
+Target: ambiance
+TargetStartIndex: 53
+TargetEndIndex: 61
+
+SentenceID: en_Murphy's_478075040:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Murphy's_478075040:3
+Target: wine list
+TargetStartIndex: 4
+TargetEndIndex: 13
+
+SentenceID: en_Murphy's_478075040:3
+Target: food
+TargetStartIndex: 59
+TargetEndIndex: 63
+
+SentenceID: en_Murphy's_478075040:3
+Target: staff
+TargetStartIndex: 90
+TargetEndIndex: 95
+
+SentenceID: en_Murphy's_478075040:4
+Target: place
+TargetStartIndex: 41
+TargetEndIndex: 46
+
+SentenceID: en_Murphy's_478075040:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Murphy's_478075040:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_OpenSesame_477970939:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_OpenSesame_477970939:3
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_OpenSesame_477970939:4
+Target: food
+TargetStartIndex: 58
+TargetEndIndex: 62
+
+SentenceID: en_OpenSesame_477970939:4
+Target: food
+TargetStartIndex: 58
+TargetEndIndex: 62
+
+SentenceID: en_OpenSesame_477970939:5
+Target: Kafta plate
+TargetStartIndex: 10
+TargetEndIndex: 21
+
+SentenceID: en_OpenSesame_477970939:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Sage_480875505:0
+Target: meal
+TargetStartIndex: 10
+TargetEndIndex: 14
+
+SentenceID: en_Sage_480875505:1
+Target: food
+TargetStartIndex: 139
+TargetEndIndex: 143
+
+SentenceID: en_Sage_480875505:1
+Target: service
+TargetStartIndex: 153
+TargetEndIndex: 160
+
+SentenceID: en_Sage_480875505:2
+Target: place
+TargetStartIndex: 12
+TargetEndIndex: 17
+
+SentenceID: en_Sage_480875505:2
+Target: food
+TargetStartIndex: 56
+TargetEndIndex: 60
+
+SentenceID: en_Sage_480875505:3
+Target: food
+TargetStartIndex: 19
+TargetEndIndex: 23
+
+SentenceID: en_BlueRibbonSushi_478218900:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218900:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218900:2
+Target: atmosphere
+TargetStartIndex: 12
+TargetEndIndex: 22
+
+SentenceID: en_BlueRibbonSushi_478218900:2
+Target: food
+TargetStartIndex: 41
+TargetEndIndex: 45
+
+SentenceID: en_BlueRibbonSushi_478218900:2
+Target: food
+TargetStartIndex: 41
+TargetEndIndex: 45
+
+SentenceID: en_BlueRibbonSushi_478218900:3
+Target: food
+TargetStartIndex: 54
+TargetEndIndex: 58
+
+SentenceID: en_BlueRibbonSushi_478218900:4
+Target: Rice
+TargetStartIndex: 0
+TargetEndIndex: 4
+
+SentenceID: en_BlueRibbonSushi_478218900:4
+Target: tuna
+TargetStartIndex: 17
+TargetEndIndex: 21
+
+SentenceID: en_BlueRibbonSushi_478218900:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218900:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478219453:0
+Target: fish
+TargetStartIndex: 76
+TargetEndIndex: 80
+
+SentenceID: en_BlueRibbonSushi_478219453:0
+Target: fish
+TargetStartIndex: 76
+TargetEndIndex: 80
+
+SentenceID: en_BlueRibbonSushi_478219453:1
+Target: service
+TargetStartIndex: 23
+TargetEndIndex: 30
+
+SentenceID: en_BlueRibbonSushi_478219453:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478219453:3
+Target: fish
+TargetStartIndex: 23
+TargetEndIndex: 27
+
+SentenceID: en_BlueRibbonSushi_478219453:3
+Target: rolls
+TargetStartIndex: 53
+TargetEndIndex: 58
+
+SentenceID: en_BlueRibbonSushi_478219453:4
+Target: service
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_BlueRibbonSushi_478219453:5
+Target: waiter
+TargetStartIndex: 22
+TargetEndIndex: 28
+
+SentenceID: en_BlueRibbonSushi_478219453:5
+Target: staff members
+TargetStartIndex: 80
+TargetEndIndex: 93
+
+SentenceID: en_BlueRibbonSushi_478219453:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_479929856:0
+Target: sushi
+TargetStartIndex: 9
+TargetEndIndex: 14
+
+SentenceID: en_BlueRibbonSushi_479929856:0
+Target: restaurant
+TargetStartIndex: 30
+TargetEndIndex: 40
+
+SentenceID: en_BlueRibbonSushi_479929856:1
+Target: miso soup
+TargetStartIndex: 40
+TargetEndIndex: 49
+
+SentenceID: en_BlueRibbonSushi_479929856:1
+Target: rolls
+TargetStartIndex: 61
+TargetEndIndex: 66
+
+SentenceID: en_BlueRibbonSushi_479929856:2
+Target: sashimi
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_BlueRibbonSushi_479929856:3
+Target: apps
+TargetStartIndex: 6
+TargetEndIndex: 10
+
+SentenceID: en_BlueRibbonSushi_479929856:4
+Target: place
+TargetStartIndex: 31
+TargetEndIndex: 36
+
+SentenceID: en_BlueRibbonSushi_479929856:4
+Target: portions
+TargetStartIndex: 65
+TargetEndIndex: 73
+
+SentenceID: en_BlueRibbonSushi_479929856:5
+Target: space
+TargetStartIndex: 8
+TargetEndIndex: 13
+
+SentenceID: en_BlueRibbonSushi_479929856:5
+Target: service
+TargetStartIndex: 43
+TargetEndIndex: 50
+
+SentenceID: en_BlueRibbonSushi_479929856:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218901:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218901:1
+Target: food
+TargetStartIndex: 6
+TargetEndIndex: 10
+
+SentenceID: en_BlueRibbonSushi_478218901:1
+Target: waiters
+TargetStartIndex: 31
+TargetEndIndex: 38
+
+SentenceID: en_BlueRibbonSushi_478218901:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010605:0
+Target: service
+TargetStartIndex: 6
+TargetEndIndex: 13
+
+SentenceID: en_MercedesRestaurant_478010605:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010605:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010605:2
+Target: service
+TargetStartIndex: 3
+TargetEndIndex: 10
+
+SentenceID: en_MercedesRestaurant_478010605:3
+Target: bus boy
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_MercedesRestaurant_478010605:4
+Target: food
+TargetStartIndex: 0
+TargetEndIndex: 4
+
+SentenceID: en_MercedesRestaurant_478010605:4
+Target: salsa
+TargetStartIndex: 54
+TargetEndIndex: 59
+
+SentenceID: en_MercedesRestaurant_478010605:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_480852899:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_480852899:1
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_MercedesRestaurant_480852899:1
+Target: margaritas
+TargetStartIndex: 24
+TargetEndIndex: 34
+
+SentenceID: en_MercedesRestaurant_480852899:1
+Target: waitress
+TargetStartIndex: 47
+TargetEndIndex: 55
+
+SentenceID: en_MercedesRestaurant_480852899:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_480852899:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Patsy'sPizzeria_478231878:0
+Target: pizza place
+TargetStartIndex: 77
+TargetEndIndex: 88
+
+SentenceID: en_Patsy'sPizzeria_478231878:1
+Target: pizza
+TargetStartIndex: 51
+TargetEndIndex: 56
+
+SentenceID: en_Patsy'sPizzeria_478231878:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 80
+
+SentenceID: en_BlueRibbonSushi_478218519:0
+Target: Sushi
+TargetStartIndex: 5
+TargetEndIndex: 10
+
+SentenceID: en_BlueRibbonSushi_478218519:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218519:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218519:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218519:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Ray'sBoathouse_477775919:0
+Target: calamari
+TargetStartIndex: 9
+TargetEndIndex: 17
+
+SentenceID: en_Ray'sBoathouse_477775919:1
+Target: deck
+TargetStartIndex: 29
+TargetEndIndex: 33
+
+SentenceID: en_Ray'sBoathouse_477775919:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Ray'sBoathouse_477775919:2
+Target: place
+TargetStartIndex: 10
+TargetEndIndex: 15
+
+SentenceID: en_ProfessorThom's_478606540:0
+Target: music
+TargetStartIndex: 21
+TargetEndIndex: 26
+
+SentenceID: en_ProfessorThom's_478606540:0
+Target: staff
+TargetStartIndex: 34
+TargetEndIndex: 39
+
+SentenceID: en_ProfessorThom's_478606540:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ProfessorThom's_478606540:1
+Target: bar
+TargetStartIndex: 18
+TargetEndIndex: 21
+
+SentenceID: en_ProfessorThom's_478606540:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ProfessorThom's_478606540:3
+Target: bartender
+TargetStartIndex: 39
+TargetEndIndex: 48
+
+SentenceID: en_ProfessorThom's_478606540:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ProfessorThom's_478606540:5
+Target: pizza
+TargetStartIndex: 41
+TargetEndIndex: 46
+
+SentenceID: en_ProfessorThom's_478606540:5
+Target: draft and bottle selection
+TargetStartIndex: 6
+TargetEndIndex: 32
+
+SentenceID: en_ProfessorThom's_478606540:6
+Target: jukebox's
+TargetStartIndex: 31
+TargetEndIndex: 40
+
+SentenceID: en_ProfessorThom's_478606538:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ProfessorThom's_478606538:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ProfessorThom's_478606538:4
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_ProfessorThom's_478606538:4
+Target: bartenders
+TargetStartIndex: 23
+TargetEndIndex: 33
+
+SentenceID: en_ProfessorThom's_478606538:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ProfessorThom's_478606538:6
+Target: owners
+TargetStartIndex: 4
+TargetEndIndex: 10
+
+SentenceID: en_ProfessorThom's_478606538:6
+Target: beer selection
+TargetStartIndex: 33
+TargetEndIndex: 47
+
+SentenceID: en_ProfessorThom's_478606538:7
+Target: upstairs
+TargetStartIndex: 8
+TargetEndIndex: 16
+
+SentenceID: en_ProfessorThom's_478606538:8
+Target: balconey
+TargetStartIndex: 82
+TargetEndIndex: 90
+
+SentenceID: en_ProfessorThom's_478606538:9
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ProfessorThom's_478606538:10
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218520:1
+Target: sushi
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_BlueRibbonSushi_478218520:2
+Target: fish
+TargetStartIndex: 28
+TargetEndIndex: 32
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Target: Jellyfish
+TargetStartIndex: 13
+TargetEndIndex: 22
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Target: Horse Mackerel
+TargetStartIndex: 24
+TargetEndIndex: 38
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Target: Blue Fin Tuna
+TargetStartIndex: 40
+TargetEndIndex: 53
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Target: Sake Ikura roll
+TargetStartIndex: 62
+TargetEndIndex: 77
+
+SentenceID: en_BlueRibbonSushi_478218520:4
+Target: pieces
+TargetStartIndex: 44
+TargetEndIndex: 50
+
+SentenceID: en_BlueRibbonSushi_478218520:5
+Target: decor
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_BlueRibbonSushi_478218520:6
+Target: crowd
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_BlueRibbonSushi_478218520:7
+Target: service
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:0
+Target: food
+TargetStartIndex: 9
+TargetEndIndex: 13
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:2
+Target: menu
+TargetStartIndex: 42
+TargetEndIndex: 46
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:4
+Target: food
+TargetStartIndex: 29
+TargetEndIndex: 33
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:4
+Target: food
+TargetStartIndex: 29
+TargetEndIndex: 33
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:5
+Target: food
+TargetStartIndex: 86
+TargetEndIndex: 90
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:5
+Target: place
+TargetStartIndex: 53
+TargetEndIndex: 58
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:6
+Target: Service
+TargetStartIndex: 0
+TargetEndIndex: 7
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:7
+Target: Drinks
+TargetStartIndex: 0
+TargetEndIndex: 6
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:8
+Target: drinks
+TargetStartIndex: 42
+TargetEndIndex: 48
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:8
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:9
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:0
 Target: food
 TargetStartIndex: 10
 TargetEndIndex: 14
 
-SentenceID: Z#3:0
-Target: interior
-TargetStartIndex: 29
-TargetEndIndex: 37
+SentenceID: en_CatalRestaurant__UvaBar_477861893:0
+Target: ambience
+TargetStartIndex: 21
+TargetEndIndex: 29
 
-SentenceID: Z#3:1
-Target: space
+SentenceID: en_CatalRestaurant__UvaBar_477861893:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Target: pumpkin ravioli
+TargetStartIndex: 14
+TargetEndIndex: 29
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Target: goat cheese gnocchi
+TargetStartIndex: 38
+TargetEndIndex: 57
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Target: goat cheese gnocchi
+TargetStartIndex: 38
+TargetEndIndex: 57
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Target: filet mignon on top of spinach and mashed potatoes
+TargetStartIndex: 142
+TargetEndIndex: 192
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:2
+Target: ambiance
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:3
+Target: artwork
+TargetStartIndex: 83
+TargetEndIndex: 90
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:3
+Target: music
+TargetStartIndex: 95
+TargetEndIndex: 100
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_India'sGrill_477960693:0
+Target: Indian food
+TargetStartIndex: 5
+TargetEndIndex: 16
+
+SentenceID: en_India'sGrill_477960693:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_India'sGrill_477960693:3
+Target: chicken curry
+TargetStartIndex: 4
+TargetEndIndex: 17
+
+SentenceID: en_India'sGrill_477960693:3
+Target: chicken tikka masala
+TargetStartIndex: 22
+TargetEndIndex: 42
+
+SentenceID: en_India'sGrill_477960693:4
+Target: chana masala (garbanzo beans)
+TargetStartIndex: 4
+TargetEndIndex: 33
+
+SentenceID: en_India'sGrill_477960693:5
+Target: location
+TargetStartIndex: 71
+TargetEndIndex: 79
+
+SentenceID: en_India'sGrill_477960693:5
+Target: food
+TargetStartIndex: 89
+TargetEndIndex: 93
+
+SentenceID: en_India'sGrill_477960694:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_India'sGrill_477960694:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_India'sGrill_477960694:2
+Target: service
+TargetStartIndex: 35
+TargetEndIndex: 42
+
+SentenceID: en_India'sGrill_477960694:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_India'sGrill_477960694:3
+Target: menu
+TargetStartIndex: 49
+TargetEndIndex: 53
+
+SentenceID: en_India'sGrill_477960694:4
+Target: saag
+TargetStartIndex: 37
+TargetEndIndex: 41
+
+SentenceID: en_India'sGrill_477960694:4
+Target: paneer
+TargetStartIndex: 46
+TargetEndIndex: 52
+
+SentenceID: en_India'sGrill_477960694:4
+Target: korma
+TargetStartIndex: 57
+TargetEndIndex: 62
+
+SentenceID: en_India'sGrill_477960694:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_India'sGrill_477960694:6
+Target: delivery
+TargetStartIndex: 19
+TargetEndIndex: 27
+
+SentenceID: en_India'sGrill_477960698:0
+Target: food
+TargetStartIndex: 5
+TargetEndIndex: 9
+
+SentenceID: en_India'sGrill_477960698:0
+Target: food
+TargetStartIndex: 5
+TargetEndIndex: 9
+
+SentenceID: en_India'sGrill_477960698:1
+Target: meal
+TargetStartIndex: 22
+TargetEndIndex: 26
+
+SentenceID: en_India'sGrill_477960698:2
+Target: lamb korma
+TargetStartIndex: 12
+TargetEndIndex: 22
+
+SentenceID: en_India'sGrill_477960698:2
+Target: saag paneer
+TargetStartIndex: 24
+TargetEndIndex: 35
+
+SentenceID: en_India'sGrill_477960698:2
+Target: samosas
+TargetStartIndex: 37
+TargetEndIndex: 44
+
+SentenceID: en_India'sGrill_477960698:2
+Target: naan
+TargetStartIndex: 46
+TargetEndIndex: 50
+
+SentenceID: en_India'sGrill_477960698:3
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_India'sGrill_477960698:3
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_India'sGrill_477960698:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_India'sGrill_477960698:5
+Target: food
+TargetStartIndex: 60
+TargetEndIndex: 64
+
+SentenceID: en_India'sGrill_477960698:7
+Target: naan
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_India'sGrill_477960698:7
+Target: bhartha
+TargetStartIndex: 64
+TargetEndIndex: 71
+
+SentenceID: en_India'sGrill_477960698:8
+Target: chickpeas
+TargetStartIndex: 9
+TargetEndIndex: 18
+
+SentenceID: en_India'sGrill_477960698:9
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010599:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Target: fajita salad
+TargetStartIndex: 75
+TargetEndIndex: 87
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Target: colorado
+TargetStartIndex: 93
+TargetEndIndex: 101
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Target: fajitas
+TargetStartIndex: 107
+TargetEndIndex: 114
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Target: place
+TargetStartIndex: 50
+TargetEndIndex: 55
+
+SentenceID: en_MercedesRestaurant_478010599:2
+Target: environment
+TargetStartIndex: 23
+TargetEndIndex: 34
+
+SentenceID: en_MercedesRestaurant_478010599:3
+Target: place
+TargetStartIndex: 39
+TargetEndIndex: 44
+
+SentenceID: en_OpenSesame_477970770:0
+Target: restaurant
+TargetStartIndex: 5
+TargetEndIndex: 15
+
+SentenceID: en_OpenSesame_477970770:0
+Target: decor
+TargetStartIndex: 36
+TargetEndIndex: 41
+
+SentenceID: en_OpenSesame_477970770:0
+Target: customer service
+TargetStartIndex: 49
+TargetEndIndex: 65
+
+SentenceID: en_OpenSesame_477970770:0
+Target: manager
+TargetStartIndex: 76
+TargetEndIndex: 83
+
+SentenceID: en_OpenSesame_477970770:3
+Target: food
+TargetStartIndex: 35
+TargetEndIndex: 39
+
+SentenceID: en_OpenSesame_477970770:4
+Target: atmosphere
+TargetStartIndex: 4
+TargetEndIndex: 14
+
+SentenceID: en_MercedesRestaurant_478010601:0
+Target: lunch spot
+TargetStartIndex: 6
+TargetEndIndex: 16
+
+SentenceID: en_MercedesRestaurant_478010601:1
+Target: mexican spot
+TargetStartIndex: 27
+TargetEndIndex: 39
+
+SentenceID: en_MercedesRestaurant_478010601:2
+Target: service
+TargetStartIndex: 70
+TargetEndIndex: 77
+
+SentenceID: en_MercedesRestaurant_478010601:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Target: taco salads
+TargetStartIndex: 34
+TargetEndIndex: 45
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Target: burritos
+TargetStartIndex: 47
+TargetEndIndex: 55
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Target: enchiladas
+TargetStartIndex: 57
+TargetEndIndex: 67
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Target: place
+TargetStartIndex: 80
+TargetEndIndex: 85
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010601:4
+Target: margaritas
+TargetStartIndex: 16
+TargetEndIndex: 26
+
+SentenceID: en_MercedesRestaurant_478010601:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_OpenSesame_477970938:0
+Target: Lebanese Food
+TargetStartIndex: 0
+TargetEndIndex: 13
+
+SentenceID: en_OpenSesame_477970938:1
+Target: Open Sesame
+TargetStartIndex: 15
+TargetEndIndex: 26
+
+SentenceID: en_OpenSesame_477970938:2
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_OpenSesame_477970938:4
+Target: food
+TargetStartIndex: 24
+TargetEndIndex: 28
+
+SentenceID: en_OpenSesame_477970938:4
+Target: food
+TargetStartIndex: 24
+TargetEndIndex: 28
+
+SentenceID: en_OpenSesame_477970938:5
+Target: chicken shawarma
+TargetStartIndex: 23
+TargetEndIndex: 39
+
+SentenceID: en_OpenSesame_477970938:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_OpenSesame_477970938:8
+Target: staff
 TargetStartIndex: 4
 TargetEndIndex: 9
 
-SentenceID: Z#3:2
-Target: meal
-TargetStartIndex: 33
-TargetEndIndex: 37
+SentenceID: en_OpenSesame_477970938:8
+Target: decor
+TargetStartIndex: 31
+TargetEndIndex: 36
 
-SentenceID: Z#3:2
-Target: meal
-TargetStartIndex: 33
-TargetEndIndex: 37
+SentenceID: en_OpenSesame_477970938:9
+Target: OPEN SESAME
+TargetStartIndex: 6
+TargetEndIndex: 17
 
-SentenceID: Z#3:3
-Target: sake
+SentenceID: en_OpenSesame_477970940:0
+Target: Hummus
+TargetStartIndex: 5
+TargetEndIndex: 11
+
+SentenceID: en_OpenSesame_477970940:1
+Target: food
 TargetStartIndex: 6
 TargetEndIndex: 10
 
-SentenceID: PP#9:0
+SentenceID: en_OpenSesame_477970940:1
+Target: lunch
+TargetStartIndex: 76
+TargetEndIndex: 81
+
+SentenceID: en_OpenSesame_477970940:2
+Target: Dinners
+TargetStartIndex: 0
+TargetEndIndex: 7
+
+SentenceID: en_OpenSesame_477970940:3
+Target: open sesame combo plate
+TargetStartIndex: 4
+TargetEndIndex: 27
+
+SentenceID: en_OpenSesame_477970940:3
+Target: open sesame combo plate
+TargetStartIndex: 4
+TargetEndIndex: 27
+
+SentenceID: en_OpenSesame_477970940:4
+Target: side of potatoes
+TargetStartIndex: 4
+TargetEndIndex: 20
+
+SentenceID: en_OpenSesame_477970940:4
+Target: labne (yogurt dip)
+TargetStartIndex: 46
+TargetEndIndex: 64
+
+SentenceID: en_OpenSesame_477970940:5
+Target: hummus
+TargetStartIndex: 26
+TargetEndIndex: 32
+
+SentenceID: en_OpenSesame_477970940:5
+Target: hummus
+TargetStartIndex: 26
+TargetEndIndex: 32
+
+SentenceID: en_OpenSesame_477970940:6
+Target: seating
+TargetStartIndex: 33
+TargetEndIndex: 40
+
+SentenceID: en_OpenSesame_477970940:6
+Target: service
+TargetStartIndex: 54
+TargetEndIndex: 61
+
+SentenceID: en_OpenSesame_477970940:7
 Target: NULL
 TargetStartIndex: 0
 TargetEndIndex: 0
 
-SentenceID: PP#9:1
-Target: pizza
+SentenceID: en_OpenSesame_477970940:8
+Target: place
+TargetStartIndex: 14
+TargetEndIndex: 19
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:0
+Target: beer
+TargetStartIndex: 6
+TargetEndIndex: 10
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:1
+Target: restaurant
+TargetStartIndex: 32
+TargetEndIndex: 42
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:3
+Target: beer
+TargetStartIndex: 35
+TargetEndIndex: 39
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:3
+Target: meal
+TargetStartIndex: 53
+TargetEndIndex: 57
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:5
+Target: band
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:5
+Target: service
+TargetStartIndex: 31
+TargetEndIndex: 38
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Target: shoe string onions
+TargetStartIndex: 52
+TargetEndIndex: 70
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Target: goat cheese pizza
+TargetStartIndex: 72
+TargetEndIndex: 89
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Target: grilled asparagus
+TargetStartIndex: 91
+TargetEndIndex: 108
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Target: fried brie with fruit
+TargetStartIndex: 113
+TargetEndIndex: 134
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:8
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:9
+Target: beer
+TargetStartIndex: 104
+TargetEndIndex: 108
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:9
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:10
+Target: waiter
+TargetStartIndex: 21
+TargetEndIndex: 27
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:11
+Target: band
+TargetStartIndex: 29
+TargetEndIndex: 33
+
+SentenceID: en_Ray'sBoathouse_477775917:0
+Target: Winelist
+TargetStartIndex: 15
+TargetEndIndex: 23
+
+SentenceID: en_Ray'sBoathouse_477775917:1
+Target: wine list
+TargetStartIndex: 57
+TargetEndIndex: 66
+
+SentenceID: en_Ray'sBoathouse_477775917:2
+Target: sommelier
+TargetStartIndex: 4
+TargetEndIndex: 13
+
+SentenceID: en_Ray'sBoathouse_477775917:3
+Target: wine
+TargetStartIndex: 24
+TargetEndIndex: 28
+
+SentenceID: en_Ray'sBoathouse_477775917:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_477965848:0
+Target: PLACE
+TargetStartIndex: 8
+TargetEndIndex: 13
+
+SentenceID: en_SchoonerOrLater_477965848:1
+Target: place
+TargetStartIndex: 100
+TargetEndIndex: 105
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Target: potions
+TargetStartIndex: 34
+TargetEndIndex: 41
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Target: service
+TargetStartIndex: 103
+TargetEndIndex: 110
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_SchoonerOrLater_477965848:3
+Target: owners
+TargetStartIndex: 76
+TargetEndIndex: 82
+
+SentenceID: en_SchoonerOrLater_477965848:4
+Target: establishment
+TargetStartIndex: 5
+TargetEndIndex: 18
+
+SentenceID: en_SchoonerOrLater_477965848:5
+Target: Scooner or Later
+TargetStartIndex: 13
+TargetEndIndex: 29
+
+SentenceID: en_SchoonerOrLater_477965848:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_477965848:7
+Target: Scooner or Later
+TargetStartIndex: 15
+TargetEndIndex: 31
+
+SentenceID: en_SchoonerOrLater_477965848:8
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478542920:0
+Target: Place
 TargetStartIndex: 12
 TargetEndIndex: 17
 
-SentenceID: PP#9:2
+SentenceID: en_MiopostoCaffe_478542920:0
+Target: Pizza
+TargetStartIndex: 32
+TargetEndIndex: 37
+
+SentenceID: en_MiopostoCaffe_478542920:0
+Target: Coffee
+TargetStartIndex: 42
+TargetEndIndex: 48
+
+SentenceID: en_MiopostoCaffe_478542920:1
+Target: pizza menu
+TargetStartIndex: 43
+TargetEndIndex: 53
+
+SentenceID: en_MiopostoCaffe_478542920:1
+Target: pizza menu
+TargetStartIndex: 43
+TargetEndIndex: 53
+
+SentenceID: en_MiopostoCaffe_478542920:2
+Target: coffe
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_MiopostoCaffe_478542920:3
+Target: ambience
+TargetStartIndex: 24
+TargetEndIndex: 32
+
+SentenceID: en_MiopostoCaffe_478542920:4
+Target: place
+TargetStartIndex: 5
+TargetEndIndex: 10
+
+SentenceID: en_MiopostoCaffe_478542920:5
+Target: servers behind the counter
+TargetStartIndex: 4
+TargetEndIndex: 30
+
+SentenceID: en_MiopostoCaffe_478542920:7
+Target: food
+TargetStartIndex: 28
+TargetEndIndex: 32
+
+SentenceID: en_MiopostoCaffe_478542920:7
+Target: place
+TargetStartIndex: 13
+TargetEndIndex: 18
+
+SentenceID: en_Ray'sBoathouse_477775916:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Ray'sBoathouse_477775916:1
+Target: Ray's
+TargetStartIndex: 28
+TargetEndIndex: 33
+
+SentenceID: en_Ray'sBoathouse_477775916:2
+Target: food
+TargetStartIndex: 6
+TargetEndIndex: 10
+
+SentenceID: en_Ray'sBoathouse_477775916:2
+Target: location
+TargetStartIndex: 24
+TargetEndIndex: 32
+
+SentenceID: en_Ray'sBoathouse_477775916:2
+Target: service
+TargetStartIndex: 47
+TargetEndIndex: 54
+
+SentenceID: en_OpenSesame_477970937:0
+Target: food
+TargetStartIndex: 12
+TargetEndIndex: 16
+
+SentenceID: en_OpenSesame_477970937:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_OpenSesame_477970937:5
+Target: Food
+TargetStartIndex: 0
+TargetEndIndex: 4
+
+SentenceID: en_OpenSesame_477970937:5
+Target: Food
+TargetStartIndex: 0
+TargetEndIndex: 4
+
+SentenceID: en_OpenSesame_477970937:6
+Target: kafta plate
+TargetStartIndex: 10
+TargetEndIndex: 21
+
+SentenceID: en_OpenSesame_477970937:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_OpenSesame_477970937:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_OpenSesame_477970937:8
+Target: Atmosphere
+TargetStartIndex: 0
+TargetEndIndex: 10
+
+SentenceID: en_OpenSesame_477970937:9
+Target: Service
+TargetStartIndex: 0
+TargetEndIndex: 7
+
+SentenceID: en_OpenSesame_477970937:9
+Target: waitress
+TargetStartIndex: 30
+TargetEndIndex: 38
+
+SentenceID: en_OpenSesame_477970937:10
+Target: place
+TargetStartIndex: 29
+TargetEndIndex: 34
+
+SentenceID: en_PizzeriaBianco_477908895:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PizzeriaBianco_477908895:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PizzeriaBianco_477908895:2
+Target: FOOD
+TargetStartIndex: 42
+TargetEndIndex: 46
+
+SentenceID: en_PizzeriaBianco_477908895:2
+Target: PEOPLE
+TargetStartIndex: 27
+TargetEndIndex: 33
+
+SentenceID: en_PizzeriaBianco_477908895:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_477965689:0
+Target: food
+TargetStartIndex: 6
+TargetEndIndex: 10
+
+SentenceID: en_SchoonerOrLater_477965689:0
+Target: atmosphere
+TargetStartIndex: 27
+TargetEndIndex: 37
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Target: Eggs
+TargetStartIndex: 2
+TargetEndIndex: 6
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Target: pancakes
+TargetStartIndex: 8
+TargetEndIndex: 16
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Target: potatoes
+TargetStartIndex: 18
+TargetEndIndex: 26
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Target: fresh fruit
+TargetStartIndex: 28
+TargetEndIndex: 39
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Target: yogurt
+TargetStartIndex: 44
+TargetEndIndex: 50
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_477965689:2
+Target: place
+TargetStartIndex: 9
+TargetEndIndex: 14
+
+SentenceID: en_BlueRibbonSushi_478218333:0
+Target: meal
+TargetStartIndex: 6
+TargetEndIndex: 10
+
+SentenceID: en_BlueRibbonSushi_478218333:0
+Target: fish on the omikase platter
+TargetStartIndex: 17
+TargetEndIndex: 44
+
+SentenceID: en_BlueRibbonSushi_478218333:1
+Target: waitstaff
+TargetStartIndex: 37
+TargetEndIndex: 46
+
+SentenceID: en_BlueRibbonSushi_478218333:2
+Target: waiter
+TargetStartIndex: 8
+TargetEndIndex: 14
+
+SentenceID: en_BlueRibbonSushi_478218333:2
+Target: sake
+TargetStartIndex: 35
+TargetEndIndex: 39
+
+SentenceID: en_BlueRibbonSushi_478218333:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218340:0
+Target: sushi
+TargetStartIndex: 11
+TargetEndIndex: 16
+
+SentenceID: en_BlueRibbonSushi_478218340:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218340:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218340:4
+Target: nigiri
+TargetStartIndex: 19
+TargetEndIndex: 25
+
+SentenceID: en_BlueRibbonSushi_478218340:4
+Target: sashmi
+TargetStartIndex: 30
+TargetEndIndex: 36
+
+SentenceID: en_BlueRibbonSushi_478218340:4
+Target: rolls
+TargetStartIndex: 53
+TargetEndIndex: 58
+
+SentenceID: en_BlueRibbonSushi_478218340:5
+Target: oyster roll
+TargetStartIndex: 19
+TargetEndIndex: 30
+
+SentenceID: en_BlueRibbonSushi_478218715:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218715:1
+Target: sushi
+TargetStartIndex: 27
+TargetEndIndex: 32
+
+SentenceID: en_BlueRibbonSushi_478218715:2
+Target: restaurant
+TargetStartIndex: 42
+TargetEndIndex: 52
+
+SentenceID: en_BlueRibbonSushi_478218715:3
+Target: Chuwam Mushi
+TargetStartIndex: 9
+TargetEndIndex: 21
+
+SentenceID: en_BlueRibbonSushi_478218715:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218715:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218715:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218518:0
+Target: Sushi
+TargetStartIndex: 5
+TargetEndIndex: 10
+
+SentenceID: en_BlueRibbonSushi_478218518:0
+Target: Sushi
+TargetStartIndex: 5
+TargetEndIndex: 10
+
+SentenceID: en_BlueRibbonSushi_478218518:1
+Target: Sushi place
+TargetStartIndex: 16
+TargetEndIndex: 27
+
+SentenceID: en_BlueRibbonSushi_478218518:2
+Target: house special roll
+TargetStartIndex: 4
+TargetEndIndex: 22
+
+SentenceID: en_BlueRibbonSushi_478218518:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218518:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Murphy's_478075041:0
+Target: spot
+TargetStartIndex: 7
+TargetEndIndex: 11
+
+SentenceID: en_Murphy's_478075041:1
+Target: Murphy's
+TargetStartIndex: 18
+TargetEndIndex: 26
+
+SentenceID: en_Murphy's_478075041:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Murphy's_478075041:3
+Target: Brunch
+TargetStartIndex: 0
+TargetEndIndex: 6
+
+SentenceID: en_Murphy's_478075041:3
+Target: food
+TargetStartIndex: 72
+TargetEndIndex: 76
+
+SentenceID: en_Murphy's_478075041:3
+Target: egg white omelet
+TargetStartIndex: 50
+TargetEndIndex: 66
+
+SentenceID: en_Murphy's_478075041:4
+Target: spot
+TargetStartIndex: 17
+TargetEndIndex: 21
+
+SentenceID: en_Murphy's_478075041:4
+Target: spot
+TargetStartIndex: 17
+TargetEndIndex: 21
+
+SentenceID: en_Murphy's_478075041:5
+Target: desserts
+TargetStartIndex: 27
+TargetEndIndex: 35
+
+SentenceID: en_Murphy's_478075041:6
+Target: wine list
+TargetStartIndex: 35
+TargetEndIndex: 44
+
+SentenceID: en_Murphy's_478075041:6
+Target: ambiance
+TargetStartIndex: 52
+TargetEndIndex: 60
+
+SentenceID: en_Murphy's_478075041:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Murphy's_478075041:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010603:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010603:1
+Target: Mexican place
+TargetStartIndex: 7
+TargetEndIndex: 20
+
+SentenceID: en_MercedesRestaurant_478010603:2
+Target: enchiladas
+TargetStartIndex: 9
+TargetEndIndex: 19
+
+SentenceID: en_MercedesRestaurant_478010603:2
+Target: chicken soup
+TargetStartIndex: 24
+TargetEndIndex: 36
+
+SentenceID: en_MercedesRestaurant_478010603:2
+Target: specials
+TargetStartIndex: 70
+TargetEndIndex: 78
+
+SentenceID: en_MercedesRestaurant_478010603:3
+Target: cooks
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_MercedesRestaurant_478010603:4
+Target: service
+TargetStartIndex: 57
+TargetEndIndex: 64
+
+SentenceID: en_BlueRibbonSushi_478218513:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218513:2
+Target: sushi
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_BlueRibbonSushi_478218513:2
+Target: wait staff
+TargetStartIndex: 32
+TargetEndIndex: 42
+
+SentenceID: en_BlueRibbonSushi_478218513:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218513:4
+Target: atmosphere
+TargetStartIndex: 4
+TargetEndIndex: 14
+
+SentenceID: en_BlueRibbonSushi_478218513:5
+Target: Space
+TargetStartIndex: 0
+TargetEndIndex: 5
+
+SentenceID: en_BlueRibbonSushi_478218513:5
+Target: food
+TargetStartIndex: 27
+TargetEndIndex: 31
+
+SentenceID: en_BlueRibbonSushi_478218513:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478542919:3
 Target: staff
+TargetStartIndex: 65
+TargetEndIndex: 70
+
+SentenceID: en_MiopostoCaffe_478542919:4
+Target: employees
+TargetStartIndex: 36
+TargetEndIndex: 45
+
+SentenceID: en_MiopostoCaffe_478542919:5
+Target: staff
+TargetStartIndex: 59
+TargetEndIndex: 64
+
+SentenceID: en_MiopostoCaffe_478542919:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478542919:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478542919:8
+Target: Caesar salad
+TargetStartIndex: 4
+TargetEndIndex: 16
+
+SentenceID: en_MiopostoCaffe_478542919:10
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010602:0
+Target: food
+TargetStartIndex: 6
+TargetEndIndex: 10
+
+SentenceID: en_MercedesRestaurant_478010602:0
+Target: Margaritas
+TargetStartIndex: 19
+TargetEndIndex: 29
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 89
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Target: portions
+TargetStartIndex: 42
+TargetEndIndex: 50
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Target: service
+TargetStartIndex: 57
+TargetEndIndex: 64
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Target: margaritas
+TargetStartIndex: 77
+TargetEndIndex: 87
+
+SentenceID: en_MercedesRestaurant_478010602:2
+Target: service
+TargetStartIndex: 124
+TargetEndIndex: 131
+
+SentenceID: en_MercedesRestaurant_478010602:3
+Target: art on the walls
+TargetStartIndex: 14
+TargetEndIndex: 30
+
+SentenceID: en_India'sGrill_477960696:0
+Target: place
+TargetStartIndex: 12
+TargetEndIndex: 17
+
+SentenceID: en_India'sGrill_477960696:1
+Target: meal
+TargetStartIndex: 85
+TargetEndIndex: 89
+
+SentenceID: en_India'sGrill_477960696:2
+Target: indain food
+TargetStartIndex: 54
+TargetEndIndex: 65
+
+SentenceID: en_India'sGrill_477960696:3
+Target: lunch menu
+TargetStartIndex: 4
+TargetEndIndex: 14
+
+SentenceID: en_India'sGrill_477960696:4
+Target: food
+TargetStartIndex: 10
+TargetEndIndex: 14
+
+SentenceID: en_India'sGrill_477960696:5
+Target: ingrediants
+TargetStartIndex: 6
+TargetEndIndex: 17
+
+SentenceID: en_India'sGrill_477960696:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_India'sGrill_477960696:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218517:0
+Target: food
+TargetStartIndex: 5
+TargetEndIndex: 9
+
+SentenceID: en_BlueRibbonSushi_478218517:0
+Target: service
+TargetStartIndex: 22
+TargetEndIndex: 29
+
+SentenceID: en_BlueRibbonSushi_478218517:1
+Target: fish
+TargetStartIndex: 86
+TargetEndIndex: 90
+
+SentenceID: en_BlueRibbonSushi_478218517:1
+Target: service
+TargetStartIndex: 115
+TargetEndIndex: 122
+
+SentenceID: en_BlueRibbonSushi_478218517:2
+Target: selection
+TargetStartIndex: 17
+TargetEndIndex: 26
+
+SentenceID: en_BlueRibbonSushi_478218517:2
+Target: sushi
+TargetStartIndex: 84
+TargetEndIndex: 89
+
+SentenceID: en_BlueRibbonSushi_478218517:3
+Target: waiters
+TargetStartIndex: 11
+TargetEndIndex: 18
+
+SentenceID: en_Murphy's_478075037:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Murphy's_478075037:1
+Target: place
+TargetStartIndex: 7
+TargetEndIndex: 12
+
+SentenceID: en_Murphy's_478075037:2
+Target: brunch food
+TargetStartIndex: 64
+TargetEndIndex: 75
+
+SentenceID: en_Murphy's_478075037:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Murphy's_478075037:3
+Target: regular menu
+TargetStartIndex: 4
+TargetEndIndex: 16
+
+SentenceID: en_Murphy's_478075037:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218509:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: sushi
+TargetStartIndex: 7
+TargetEndIndex: 12
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: fish
+TargetStartIndex: 40
+TargetEndIndex: 44
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: sake
+TargetStartIndex: 52
+TargetEndIndex: 56
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: SOHO location
+TargetStartIndex: 67
+TargetEndIndex: 80
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Salmon
+TargetStartIndex: 97
+TargetEndIndex: 103
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Tuna
+TargetStartIndex: 105
+TargetEndIndex: 109
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Fluke
+TargetStartIndex: 111
+TargetEndIndex: 116
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Yellow Tail
+TargetStartIndex: 118
+TargetEndIndex: 129
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Cod
+TargetStartIndex: 131
+TargetEndIndex: 134
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Mackeral
+TargetStartIndex: 136
+TargetEndIndex: 144
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Jellyfish
+TargetStartIndex: 146
+TargetEndIndex: 155
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Sea Urchin
+TargetStartIndex: 157
+TargetEndIndex: 167
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Shrimp
+TargetStartIndex: 169
+TargetEndIndex: 175
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Lobster
+TargetStartIndex: 177
+TargetEndIndex: 184
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Sea Bream
+TargetStartIndex: 186
+TargetEndIndex: 195
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Trout
+TargetStartIndex: 197
+TargetEndIndex: 202
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Milk Fish
+TargetStartIndex: 204
+TargetEndIndex: 213
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Blue Fin Tuna
+TargetStartIndex: 215
+TargetEndIndex: 228
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Eel
+TargetStartIndex: 230
+TargetEndIndex: 233
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Crab
+TargetStartIndex: 235
+TargetEndIndex: 239
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Sardine
+TargetStartIndex: 241
+TargetEndIndex: 248
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Monk Fish
+TargetStartIndex: 250
+TargetEndIndex: 259
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Roe
+TargetStartIndex: 261
+TargetEndIndex: 264
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Scallop
+TargetStartIndex: 266
+TargetEndIndex: 273
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Oysters
+TargetStartIndex: 275
+TargetEndIndex: 282
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Target: Toro
+TargetStartIndex: 300
+TargetEndIndex: 304
+
+SentenceID: en_BlueRibbonSushi_478218509:2
+Target: place
+TargetStartIndex: 18
+TargetEndIndex: 23
+
+SentenceID: en_BlueRibbonSushi_478218509:4
+Target: BLUE RIBBON SUSHI
+TargetStartIndex: 101
+TargetEndIndex: 118
+
+SentenceID: en_BlueRibbonSushi_478218342:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218342:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218342:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218342:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218342:3
+Target: tuna
+TargetStartIndex: 21
+TargetEndIndex: 25
+
+SentenceID: en_BlueRibbonSushi_478218342:4
+Target: Blue Ribbon
+TargetStartIndex: 0
+TargetEndIndex: 11
+
+SentenceID: en_BlueRibbonSushi_478218342:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218342:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218512:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218512:1
+Target: sushi
+TargetStartIndex: 12
+TargetEndIndex: 17
+
+SentenceID: en_BlueRibbonSushi_478218512:1
+Target: sushi
+TargetStartIndex: 12
+TargetEndIndex: 17
+
+SentenceID: en_BlueRibbonSushi_478218512:1
+Target: setting
+TargetStartIndex: 43
+TargetEndIndex: 50
+
+SentenceID: en_BlueRibbonSushi_478218512:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218512:3
+Target: rolls
+TargetStartIndex: 80
+TargetEndIndex: 85
+
+SentenceID: en_BlueRibbonSushi_478218512:3
+Target: smoked yellowtail
+TargetStartIndex: 39
+TargetEndIndex: 56
+
+SentenceID: en_BlueRibbonSushi_478218512:3
+Target: Chef's Choice for sushi
+TargetStartIndex: 8
+TargetEndIndex: 31
+
+SentenceID: en_MiopostoCaffe_478542921:0
+Target: customer service
+TargetStartIndex: 5
+TargetEndIndex: 21
+
+SentenceID: en_MiopostoCaffe_478542921:0
+Target: pizza
+TargetStartIndex: 27
+TargetEndIndex: 32
+
+SentenceID: en_MiopostoCaffe_478542921:1
+Target: service
+TargetStartIndex: 50
+TargetEndIndex: 57
+
+SentenceID: en_MiopostoCaffe_478542921:1
+Target: food
+TargetStartIndex: 74
+TargetEndIndex: 78
+
+SentenceID: en_MiopostoCaffe_478542921:2
+Target: pizza
+TargetStartIndex: 87
+TargetEndIndex: 92
+
+SentenceID: en_MiopostoCaffe_478542921:3
+Target: pizza
+TargetStartIndex: 37
+TargetEndIndex: 42
+
+SentenceID: en_MiopostoCaffe_478542921:5
+Target: location
+TargetStartIndex: 51
+TargetEndIndex: 59
+
+SentenceID: en_MiopostoCaffe_478542921:5
+Target: Mioposto
+TargetStartIndex: 30
+TargetEndIndex: 38
+
+SentenceID: en_BlueRibbonSushi_478218339:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218339:1
+Target: place
+TargetStartIndex: 57
+TargetEndIndex: 62
+
+SentenceID: en_BlueRibbonSushi_478218339:3
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_BlueRibbonSushi_478218339:3
+Target: waiting staff
+TargetStartIndex: 31
+TargetEndIndex: 44
+
+SentenceID: en_BlueRibbonSushi_478218339:4
+Target: wait
+TargetStartIndex: 30
+TargetEndIndex: 34
+
+SentenceID: en_BlueRibbonSushi_478218339:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538242:0
+Target: Seafood
+TargetStartIndex: 0
+TargetEndIndex: 7
+
+SentenceID: en_StackRestaurant__Bar_478538242:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538242:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538242:3
+Target: appetizer of oysters, lobster, crab (small size)
+TargetStartIndex: 4
+TargetEndIndex: 52
+
+SentenceID: en_StackRestaurant__Bar_478538242:4
+Target: Seabass on lobster risotto
+TargetStartIndex: 0
+TargetEndIndex: 26
+
+SentenceID: en_StackRestaurant__Bar_478538242:5
+Target: Caesar salad
+TargetStartIndex: 0
+TargetEndIndex: 12
+
+SentenceID: en_StackRestaurant__Bar_478538242:6
+Target: bottle of wine
+TargetStartIndex: 6
+TargetEndIndex: 20
+
+SentenceID: en_StackRestaurant__Bar_478538242:7
+Target: dessert
+TargetStartIndex: 15
+TargetEndIndex: 22
+
+SentenceID: en_SchoonerOrLater_479842021:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_479842021:3
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_SchoonerOrLater_479842021:3
+Target: service
+TargetStartIndex: 25
+TargetEndIndex: 32
+
+SentenceID: en_SchoonerOrLater_479842021:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_479842021:5
+Target: waitress
+TargetStartIndex: 36
+TargetEndIndex: 44
+
+SentenceID: en_SchoonerOrLater_479842021:6
+Target: owner
+TargetStartIndex: 20
+TargetEndIndex: 25
+
+SentenceID: en_SchoonerOrLater_479842021:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_479842021:8
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:0
+Target: PLACE
+TargetStartIndex: 10
+TargetEndIndex: 15
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:3
+Target: atmosphere
+TargetStartIndex: 43
+TargetEndIndex: 53
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:3
+Target: service
+TargetStartIndex: 69
+TargetEndIndex: 76
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:4
+Target: service
+TargetStartIndex: 31
+TargetEndIndex: 38
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:6
+Target: restaurant
+TargetStartIndex: 126
+TargetEndIndex: 136
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:9
+Target: bar keep
+TargetStartIndex: 49
+TargetEndIndex: 57
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:10
+Target: service
+TargetStartIndex: 29
+TargetEndIndex: 36
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:11
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Ray'sBoathouse_477775920:0
+Target: Crab Cakes
+TargetStartIndex: 5
+TargetEndIndex: 15
+
+SentenceID: en_Ray'sBoathouse_477775920:1
+Target: cakes
+TargetStartIndex: 80
+TargetEndIndex: 85
+
+SentenceID: en_Ray'sBoathouse_477775920:2
+Target: place
+TargetStartIndex: 25
+TargetEndIndex: 30
+
+SentenceID: en_Ray'sBoathouse_477775920:3
+Target: seasonal fish
+TargetStartIndex: 6
+TargetEndIndex: 19
+
+SentenceID: en_Ray'sBoathouse_477775920:3
+Target: seafood
+TargetStartIndex: 24
+TargetEndIndex: 31
+
+SentenceID: en_Ray'sBoathouse_477775920:3
+Target: waterfront setting
+TargetStartIndex: 47
+TargetEndIndex: 65
+
+SentenceID: en_Ray'sBoathouse_477775920:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478542922:0
+Target: Pizza
+TargetStartIndex: 6
+TargetEndIndex: 11
+
+SentenceID: en_MiopostoCaffe_478542922:0
+Target: Service
+TargetStartIndex: 18
+TargetEndIndex: 25
+
+SentenceID: en_MiopostoCaffe_478542922:1
+Target: pizza
+TargetStartIndex: 13
+TargetEndIndex: 18
+
+SentenceID: en_MiopostoCaffe_478542922:1
+Target: mushroom pizza
+TargetStartIndex: 35
+TargetEndIndex: 49
+
+SentenceID: en_MiopostoCaffe_478542922:2
+Target: caeser salad
+TargetStartIndex: 16
+TargetEndIndex: 28
+
+SentenceID: en_MiopostoCaffe_478542922:3
+Target: servers
+TargetStartIndex: 66
+TargetEndIndex: 73
+
+SentenceID: en_MiopostoCaffe_478542922:3
+Target: young woman
+TargetStartIndex: 79
+TargetEndIndex: 90
+
+SentenceID: en_MiopostoCaffe_478542922:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478542922:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478542922:6
+Target: waitstaff
+TargetStartIndex: 53
+TargetEndIndex: 62
+
+SentenceID: en_MiopostoCaffe_478542922:6
+Target: Management
+TargetStartIndex: 0
+TargetEndIndex: 10
+
+SentenceID: en_MiopostoCaffe_478542922:7
+Target: pizza
+TargetStartIndex: 33
+TargetEndIndex: 38
+
+SentenceID: en_MiopostoCaffe_478542922:7
+Target: service
+TargetStartIndex: 48
+TargetEndIndex: 55
+
+SentenceID: en_MiopostoCaffe_478542922:8
+Target: place
+TargetStartIndex: 20
+TargetEndIndex: 25
+
+SentenceID: en_MiopostoCaffe_478542922:8
+Target: service
+TargetStartIndex: 83
+TargetEndIndex: 90
+
+SentenceID: en_SchoonerOrLater_479615721:0
+Target: Breakfast
+TargetStartIndex: 6
+TargetEndIndex: 15
+
+SentenceID: en_SchoonerOrLater_479615721:1
+Target: breakfast
+TargetStartIndex: 33
+TargetEndIndex: 42
+
+SentenceID: en_SchoonerOrLater_479615721:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_479615721:3
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_SchoonerOrLater_479615721:3
+Target: bloody mary
+TargetStartIndex: 39
+TargetEndIndex: 50
+
+SentenceID: en_SchoonerOrLater_481226185:0
+Target: breakfast
+TargetStartIndex: 7
+TargetEndIndex: 16
+
+SentenceID: en_SchoonerOrLater_481226185:1
+Target: crab eggs benedict
+TargetStartIndex: 6
+TargetEndIndex: 24
+
+SentenceID: en_SchoonerOrLater_481226185:2
+Target: menu items
+TargetStartIndex: 10
+TargetEndIndex: 20
+
+SentenceID: en_SchoonerOrLater_481226185:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_481226185:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_479983203:0
+Target: chinese food
+TargetStartIndex: 5
+TargetEndIndex: 17
+
+SentenceID: en_PagodaRestaurant_479983203:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_479983203:4
+Target: ambiance
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_PagodaRestaurant_479983203:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_479983203:6
+Target: staff
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_PagodaRestaurant_479983203:8
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_479983203:9
+Target: prawns
+TargetStartIndex: 13
+TargetEndIndex: 19
+
+SentenceID: en_PagodaRestaurant_479983203:9
+Target: batter
+TargetStartIndex: 75
+TargetEndIndex: 81
+
+SentenceID: en_PagodaRestaurant_479983203:9
+Target: walnuts
+TargetStartIndex: 103
+TargetEndIndex: 110
+
+SentenceID: en_PagodaRestaurant_479983203:10
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_479983203:11
+Target: honey walnyt prawns
+TargetStartIndex: 5
+TargetEndIndex: 24
+
+SentenceID: en_PagodaRestaurant_479983203:13
+Target: brocollis
+TargetStartIndex: 4
+TargetEndIndex: 13
+
+SentenceID: en_PagodaRestaurant_479983203:14
+Target: scallops
+TargetStartIndex: 150
+TargetEndIndex: 158
+
+SentenceID: en_PagodaRestaurant_479983203:14
+Target: prawns
+TargetStartIndex: 163
+TargetEndIndex: 169
+
+SentenceID: en_PagodaRestaurant_479983203:14
+Target: brocolli
+TargetStartIndex: 32
+TargetEndIndex: 40
+
+SentenceID: en_PagodaRestaurant_479983203:15
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_479983203:16
+Target: mango ginger creme brulee
+TargetStartIndex: 22
+TargetEndIndex: 47
+
+SentenceID: en_PagodaRestaurant_479983203:17
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_479983203:18
+Target: restaurant
+TargetStartIndex: 36
+TargetEndIndex: 46
+
+SentenceID: en_PagodaRestaurant_479983203:20
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478219459:0
+Target: portions
+TargetStartIndex: 8
+TargetEndIndex: 16
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Target: sushi
+TargetStartIndex: 6
+TargetEndIndex: 11
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Target: restaurant
+TargetStartIndex: 164
+TargetEndIndex: 174
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Target: sushi
+TargetStartIndex: 6
+TargetEndIndex: 11
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Target: sushi
+TargetStartIndex: 6
+TargetEndIndex: 11
+
+SentenceID: en_BlueRibbonSushi_478219459:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478219459:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478219459:3
+Target: restaurant
+TargetStartIndex: 25
+TargetEndIndex: 35
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:0
+Target: service
+TargetStartIndex: 9
+TargetEndIndex: 16
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:0
+Target: food
+TargetStartIndex: 18
+TargetEndIndex: 22
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:9
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:10
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:11
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:12
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:14
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:15
+Target: service
+TargetStartIndex: 87
+TargetEndIndex: 94
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:16
+Target: Food
+TargetStartIndex: 0
+TargetEndIndex: 4
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:16
+Target: restaurant
+TargetStartIndex: 68
+TargetEndIndex: 78
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:16
+Target: restaurant
+TargetStartIndex: 68
+TargetEndIndex: 78
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:18
+Target: location
+TargetStartIndex: 48
+TargetEndIndex: 56
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:19
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:20
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:21
+Target: feel
+TargetStartIndex: 25
+TargetEndIndex: 29
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:21
+Target: glass walls
+TargetStartIndex: 53
+TargetEndIndex: 64
+
+SentenceID: en_BlueRibbonSushi_478218524:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218524:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218524:3
+Target: Spanish Mackeral special appetizer
+TargetStartIndex: 8
+TargetEndIndex: 42
+
+SentenceID: en_BlueRibbonSushi_478218524:3
+Target: box sushi
+TargetStartIndex: 55
+TargetEndIndex: 64
+
+SentenceID: en_BlueRibbonSushi_478218524:3
+Target: eel with avodcao
+TargetStartIndex: 71
+TargetEndIndex: 87
+
+SentenceID: en_BlueRibbonSushi_478218524:4
+Target: omikase
+TargetStartIndex: 13
+TargetEndIndex: 20
+
+SentenceID: en_BlueRibbonSushi_478218524:4
+Target: omikase
+TargetStartIndex: 13
+TargetEndIndex: 20
+
+SentenceID: en_BlueRibbonSushi_478218524:5
+Target: specialty rolls
+TargetStartIndex: 6
+TargetEndIndex: 21
+
+SentenceID: en_BlueRibbonSushi_478218524:6
+Target: selection of sakes
+TargetStartIndex: 6
+TargetEndIndex: 24
+
+SentenceID: en_BlueRibbonSushi_478218524:7
+Target: Green tea creme brulee
+TargetStartIndex: 0
+TargetEndIndex: 22
+
+SentenceID: en_BlueRibbonSushi_478218524:8
+Target: sushi
 TargetStartIndex: 22
 TargetEndIndex: 27
 
-SentenceID: PP#9:2
+SentenceID: en_BlueRibbonSushi_478218524:8
+Target: sushi
+TargetStartIndex: 22
+TargetEndIndex: 27
+
+SentenceID: en_SchoonerOrLater_477965850:0
+Target: customer service
+TargetStartIndex: 10
+TargetEndIndex: 26
+
+SentenceID: en_SchoonerOrLater_477965850:1
+Target: location along the marina in Long Beach
+TargetStartIndex: 31
+TargetEndIndex: 70
+
+SentenceID: en_SchoonerOrLater_477965850:1
+Target: food
+TargetStartIndex: 83
+TargetEndIndex: 87
+
+SentenceID: en_SchoonerOrLater_477965850:1
+Target: customer service
+TargetStartIndex: 142
+TargetEndIndex: 158
+
+SentenceID: en_SchoonerOrLater_477965850:2
+Target: food
+TargetStartIndex: 37
+TargetEndIndex: 41
+
+SentenceID: en_SchoonerOrLater_477965850:2
+Target: restaurant staff
+TargetStartIndex: 47
+TargetEndIndex: 63
+
+SentenceID: en_SchoonerOrLater_477965850:3
 Target: NULL
 TargetStartIndex: 0
 TargetEndIndex: 0
 
-SentenceID: PP#9:3
+SentenceID: en_SchoonerOrLater_477965850:4
 Target: NULL
 TargetStartIndex: 0
 TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_477965850:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_477965850:6
+Target: waitress
+TargetStartIndex: 62
+TargetEndIndex: 70
+
+SentenceID: en_SchoonerOrLater_477965850:7
+Target: manager
+TargetStartIndex: 30
+TargetEndIndex: 37
+
+SentenceID: en_SchoonerOrLater_477965850:8
+Target: manager
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_SchoonerOrLater_477965850:9
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SchoonerOrLater_477965850:10
+Target: NULL
+TargetStartIndex: 10
+TargetEndIndex: 27
+
+SentenceID: en_BlueRibbonSushi_478219447:1
+Target: sushi
+TargetStartIndex: 51
+TargetEndIndex: 56
+
+SentenceID: en_BlueRibbonSushi_478219447:2
+Target: fish
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_BlueRibbonSushi_478219447:2
+Target: fish
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_BlueRibbonSushi_478219447:3
+Target: service
+TargetStartIndex: 6
+TargetEndIndex: 13
+
+SentenceID: en_BlueRibbonSushi_478219447:4
+Target: sake selection
+TargetStartIndex: 5
+TargetEndIndex: 19
+
+SentenceID: en_Ray'sBoathouse_477775915:0
+Target: Dungeness crabs
+TargetStartIndex: 0
+TargetEndIndex: 15
+
+SentenceID: en_Ray'sBoathouse_477775915:1
+Target: seafood dinners
+TargetStartIndex: 44
+TargetEndIndex: 59
+
+SentenceID: en_Ray'sBoathouse_477775915:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Ray'sBoathouse_477775915:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Ray'sBoathouse_477775915:3
+Target: Rays
+TargetStartIndex: 64
+TargetEndIndex: 68
+
+SentenceID: en_Ray'sBoathouse_477775915:4
+Target: Dungeness crabs
+TargetStartIndex: 7
+TargetEndIndex: 22
+
+SentenceID: en_Ray'sBoathouse_477775915:5
+Target: black cod in sake kasu
+TargetStartIndex: 58
+TargetEndIndex: 80
+
+SentenceID: en_Ray'sBoathouse_477775915:6
+Target: dessert of a port and chocolate tasting
+TargetStartIndex: 34
+TargetEndIndex: 73
+
+SentenceID: en_Ray'sBoathouse_477775915:7
+Target: service
+TargetStartIndex: 8
+TargetEndIndex: 15
+
+SentenceID: en_SnoozeanAMEatery_479991844:0
+Target: Breakfast
+TargetStartIndex: 6
+TargetEndIndex: 15
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Target: drinks
+TargetStartIndex: 8
+TargetEndIndex: 14
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Target: corn beef hash
+TargetStartIndex: 17
+TargetEndIndex: 31
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Target: coffee
+TargetStartIndex: 33
+TargetEndIndex: 39
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Target: B Fast burritos
+TargetStartIndex: 41
+TargetEndIndex: 56
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Target: menu
+TargetStartIndex: 70
+TargetEndIndex: 74
+
+SentenceID: en_SnoozeanAMEatery_479991844:2
+Target: service
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_SnoozeanAMEatery_479991844:2
+Target: place
+TargetStartIndex: 37
+TargetEndIndex: 42
+
+SentenceID: en_SnoozeanAMEatery_479991844:3
+Target: place
+TargetStartIndex: 62
+TargetEndIndex: 67
+
+SentenceID: en_SnoozeanAMEatery_479991844:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ProfessorThom's_478606543:0
+Target: Standby
+TargetStartIndex: 18
+TargetEndIndex: 25
+
+SentenceID: en_ProfessorThom's_478606543:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ProfessorThom's_478606543:3
+Target: spot
+TargetStartIndex: 76
+TargetEndIndex: 80
+
+SentenceID: en_ProfessorThom's_478606543:4
+Target: music
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_ProfessorThom's_478606543:4
+Target: bar tenders
+TargetStartIndex: 50
+TargetEndIndex: 61
+
+SentenceID: en_ProfessorThom's_478606543:4
+Target: atmosphere
+TargetStartIndex: 114
+TargetEndIndex: 124
+
+SentenceID: en_ProfessorThom's_478606543:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_ProfessorThom's_478606543:6
+Target: cheese fries
+TargetStartIndex: 12
+TargetEndIndex: 24
+
+SentenceID: en_StackRestaurant__Bar_478538239:0
+Target: Food
+TargetStartIndex: 5
+TargetEndIndex: 9
+
+SentenceID: en_StackRestaurant__Bar_478538239:0
+Target: Service
+TargetStartIndex: 17
+TargetEndIndex: 24
+
+SentenceID: en_StackRestaurant__Bar_478538239:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538239:1
+Target: price fixed pre-show dinner
+TargetStartIndex: 45
+TargetEndIndex: 72
+
+SentenceID: en_StackRestaurant__Bar_478538239:2
+Target: wood decor
+TargetStartIndex: 56
+TargetEndIndex: 66
+
+SentenceID: en_StackRestaurant__Bar_478538239:3
+Target: music
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_StackRestaurant__Bar_478538239:3
+Target: subwoofer to the sound system
+TargetStartIndex: 67
+TargetEndIndex: 96
+
+SentenceID: en_StackRestaurant__Bar_478538239:5
+Target: shellfish and shrimp appetizer
+TargetStartIndex: 10
+TargetEndIndex: 40
+
+SentenceID: en_StackRestaurant__Bar_478538239:6
+Target: seafood
+TargetStartIndex: 23
+TargetEndIndex: 30
+
+SentenceID: en_StackRestaurant__Bar_478538239:6
+Target: seafood
+TargetStartIndex: 23
+TargetEndIndex: 30
+
+SentenceID: en_StackRestaurant__Bar_478538239:8
+Target: asparagus
+TargetStartIndex: 13
+TargetEndIndex: 22
+
+SentenceID: en_StackRestaurant__Bar_478538239:10
+Target: 9 oz steak
+TargetStartIndex: 4
+TargetEndIndex: 14
+
+SentenceID: en_StackRestaurant__Bar_478538239:11
+Target: steak
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_StackRestaurant__Bar_478538239:12
+Target: peppercorn sauce
+TargetStartIndex: 26
+TargetEndIndex: 42
+
+SentenceID: en_StackRestaurant__Bar_478538239:12
+Target: red wine reduction
+TargetStartIndex: 46
+TargetEndIndex: 64
+
+SentenceID: en_StackRestaurant__Bar_478538239:13
+Target: steak
+TargetStartIndex: 106
+TargetEndIndex: 111
+
+SentenceID: en_StackRestaurant__Bar_478538239:14
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538239:16
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538239:17
+Target: desert
+TargetStartIndex: 4
+TargetEndIndex: 10
+
+SentenceID: en_StackRestaurant__Bar_478538239:17
+Target: dinner
+TargetStartIndex: 55
+TargetEndIndex: 61
+
+SentenceID: en_StackRestaurant__Bar_478538239:18
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538239:18
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538239:19
+Target: servers
+TargetStartIndex: 8
+TargetEndIndex: 15
+
+SentenceID: en_StackRestaurant__Bar_478538239:20
+Target: restaurant
+TargetStartIndex: 40
+TargetEndIndex: 50
+
+SentenceID: en_StackRestaurant__Bar_478538239:21
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218337:0
+Target: sake
+TargetStartIndex: 5
+TargetEndIndex: 9
+
+SentenceID: en_BlueRibbonSushi_478218337:0
+Target: food
+TargetStartIndex: 16
+TargetEndIndex: 20
+
+SentenceID: en_BlueRibbonSushi_478218337:2
+Target: sake
+TargetStartIndex: 20
+TargetEndIndex: 24
+
+SentenceID: en_BlueRibbonSushi_478218337:2
+Target: Server
+TargetStartIndex: 0
+TargetEndIndex: 6
+
+SentenceID: en_BlueRibbonSushi_478218337:3
+Target: lobster 3 ways
+TargetStartIndex: 37
+TargetEndIndex: 51
+
+SentenceID: en_BlueRibbonSushi_478218337:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480412257:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480412257:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480412257:3
+Target: waiter
+TargetStartIndex: 4
+TargetEndIndex: 10
+
+SentenceID: en_SnoozeanAMEatery_480412257:3
+Target: feel
+TargetStartIndex: 40
+TargetEndIndex: 44
+
+SentenceID: en_SnoozeanAMEatery_480412257:4
+Target: bathroom stall
+TargetStartIndex: 25
+TargetEndIndex: 39
+
+SentenceID: en_SnoozeanAMEatery_480412257:5
+Target: menu
+TargetStartIndex: 83
+TargetEndIndex: 87
+
+SentenceID: en_SnoozeanAMEatery_480412257:6
+Target: food
+TargetStartIndex: 13
+TargetEndIndex: 17
+
+SentenceID: en_SnoozeanAMEatery_480412257:6
+Target: food
+TargetStartIndex: 13
+TargetEndIndex: 17
+
+SentenceID: en_SnoozeanAMEatery_480412257:7
+Target: food
+TargetStartIndex: 18
+TargetEndIndex: 22
+
+SentenceID: en_SnoozeanAMEatery_480412257:7
+Target: food
+TargetStartIndex: 18
+TargetEndIndex: 22
+
+SentenceID: en_SnoozeanAMEatery_480412257:8
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478543072:0
+Target: pizza joint
+TargetStartIndex: 12
+TargetEndIndex: 23
+
+SentenceID: en_MiopostoCaffe_478543072:1
+Target: restaurant
+TargetStartIndex: 48
+TargetEndIndex: 58
+
+SentenceID: en_MiopostoCaffe_478543072:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478543072:3
+Target: pizza
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_MiopostoCaffe_478543072:3
+Target: salads
+TargetStartIndex: 31
+TargetEndIndex: 37
+
+SentenceID: en_MiopostoCaffe_478543072:4
+Target: wait staff
+TargetStartIndex: 22
+TargetEndIndex: 32
+
+SentenceID: en_MiopostoCaffe_478543072:4
+Target: cooks
+TargetStartIndex: 65
+TargetEndIndex: 70
+
+SentenceID: en_MiopostoCaffe_478543072:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_478543072:6
+Target: decor
+TargetStartIndex: 42
+TargetEndIndex: 47
+
+SentenceID: en_MiopostoCaffe_478543072:6
+Target: feeling
+TargetStartIndex: 61
+TargetEndIndex: 68
+
+SentenceID: en_MiopostoCaffe_478543072:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_479702043:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_479702043:1
+Target: Mioposto Café
+TargetStartIndex: 34
+TargetEndIndex: 47
+
+SentenceID: en_MiopostoCaffe_479702043:2
+Target: pizza’s
+TargetStartIndex: 53
+TargetEndIndex: 60
+
+SentenceID: en_MiopostoCaffe_479702043:3
+Target: menu
+TargetStartIndex: 35
+TargetEndIndex: 39
+
+SentenceID: en_MiopostoCaffe_479702043:4
+Target: menu
+TargetStartIndex: 35
+TargetEndIndex: 39
+
+SentenceID: en_MiopostoCaffe_479702043:4
+Target: pizza’s
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_MiopostoCaffe_479702043:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MiopostoCaffe_479702043:6
+Target: pizza’s
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_MiopostoCaffe_479702043:7
+Target: Pizza Ensalata
+TargetStartIndex: 8
+TargetEndIndex: 22
+
+SentenceID: en_MiopostoCaffe_479702043:9
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 21
+
+SentenceID: en_MiopostoCaffe_479702043:10
+Target: pizza’s
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_MiopostoCaffe_479702043:10
+Target: crust
+TargetStartIndex: 33
+TargetEndIndex: 38
+
+SentenceID: en_SnoozeanAMEatery_480032670:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480032670:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480032670:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480032670:2
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_SnoozeanAMEatery_480032670:3
+Target: staff
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_SnoozeanAMEatery_480032670:4
+Target: atmosphere
+TargetStartIndex: 4
+TargetEndIndex: 14
+
+SentenceID: en_SnoozeanAMEatery_480032670:5
+Target: pancakes
+TargetStartIndex: 31
+TargetEndIndex: 39
+
+SentenceID: en_SnoozeanAMEatery_480032670:6
+Target: menu
+TargetStartIndex: 15
+TargetEndIndex: 19
+
+SentenceID: en_SnoozeanAMEatery_480032670:7
+Target: breakfast
+TargetStartIndex: 99
+TargetEndIndex: 108
+
+SentenceID: en_SnoozeanAMEatery_480032670:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480032670:8
+Target: eats
+TargetStartIndex: 5
+TargetEndIndex: 9
+
+SentenceID: en_BlueRibbonSushi_478218334:2
+Target: place
+TargetStartIndex: 70
+TargetEndIndex: 75
+
+SentenceID: en_BlueRibbonSushi_478218334:3
+Target: place
+TargetStartIndex: 20
+TargetEndIndex: 25
+
+SentenceID: en_BlueRibbonSushi_478218334:4
+Target: fish
+TargetStartIndex: 85
+TargetEndIndex: 89
+
+SentenceID: en_BlueRibbonSushi_478218334:5
+Target: chef special dinner
+TargetStartIndex: 43
+TargetEndIndex: 62
+
+SentenceID: en_BlueRibbonSushi_478218334:5
+Target: chef special dinner
+TargetStartIndex: 43
+TargetEndIndex: 62
+
+SentenceID: en_BlueRibbonSushi_478218334:6
+Target: plate
+TargetStartIndex: 45
+TargetEndIndex: 50
+
+SentenceID: en_BlueRibbonSushi_478218334:6
+Target: exotic fish
+TargetStartIndex: 16
+TargetEndIndex: 27
+
+SentenceID: en_BlueRibbonSushi_478218334:6
+Target: exotic fish
+TargetStartIndex: 16
+TargetEndIndex: 27
+
+SentenceID: en_BlueRibbonSushi_478218334:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_478006816:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_PagodaRestaurant_478006816:1
+Target: atmosphere
+TargetStartIndex: 6
+TargetEndIndex: 16
+
+SentenceID: en_PagodaRestaurant_478006816:2
+Target: honwy walnut prawns
+TargetStartIndex: 22
+TargetEndIndex: 41
+
+SentenceID: en_PagodaRestaurant_478006816:3
+Target: service
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_SnoozeanAMEatery_480133929:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480133929:4
+Target: service
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_SnoozeanAMEatery_480133929:4
+Target: coffee
+TargetStartIndex: 31
+TargetEndIndex: 37
+
+SentenceID: en_SnoozeanAMEatery_480133929:4
+Target: food
+TargetStartIndex: 83
+TargetEndIndex: 87
+
+SentenceID: en_SnoozeanAMEatery_480133929:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480133929:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480133929:7
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_OpenSesame_477970936:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_OpenSesame_477970936:1
+Target: restaurant
+TargetStartIndex: 59
+TargetEndIndex: 69
+
+SentenceID: en_OpenSesame_477970936:2
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_OpenSesame_477970936:2
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_OpenSesame_477970936:3
+Target: decor
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_OpenSesame_477970936:4
+Target: music
+TargetStartIndex: 52
+TargetEndIndex: 57
+
+SentenceID: en_OpenSesame_477970936:4
+Target: atmosphere
+TargetStartIndex: 59
+TargetEndIndex: 69
+
+SentenceID: en_OpenSesame_477970936:4
+Target: vibe
+TargetStartIndex: 24
+TargetEndIndex: 28
+
+SentenceID: en_OpenSesame_477970936:4
+Target: people
+TargetStartIndex: 88
+TargetEndIndex: 94
+
+SentenceID: en_OpenSesame_477970936:5
+Target: server
+TargetStartIndex: 4
+TargetEndIndex: 10
+
+SentenceID: en_OpenSesame_477970936:6
+Target: Open Sesame
+TargetStartIndex: 17
+TargetEndIndex: 28
+
+SentenceID: en_BlueRibbonSushi_478218341:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218341:1
+Target: place
+TargetStartIndex: 12
+TargetEndIndex: 17
+
+SentenceID: en_BlueRibbonSushi_478218341:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218341:3
+Target: menu
+TargetStartIndex: 41
+TargetEndIndex: 45
+
+SentenceID: en_BlueRibbonSushi_478218341:4
+Target: waiters
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_BlueRibbonSushi_478218341:5
+Target: sushi
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_BlueRibbonSushi_478218341:6
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_BlueRibbonSushi_478218341:6
+Target: portions
+TargetStartIndex: 78
+TargetEndIndex: 86
+
+SentenceID: en_BlueRibbonSushi_478218341:6
+Target: sushi dishes
+TargetStartIndex: 100
+TargetEndIndex: 112
+
+SentenceID: en_Patsy'sPizzeria_478232062:0
+Target: pepperoni
+TargetStartIndex: 10
+TargetEndIndex: 19
+
+SentenceID: en_Patsy'sPizzeria_478232062:1
+Target: pepperoni's
+TargetStartIndex: 6
+TargetEndIndex: 17
+
+SentenceID: en_Patsy'sPizzeria_478232062:2
+Target: pizza
+TargetStartIndex: 4
+TargetEndIndex: 9
+
+SentenceID: en_Patsy'sPizzeria_478232062:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Patsy'sPizzeria_478232062:4
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:0
+Target: Balcony
+TargetStartIndex: 11
+TargetEndIndex: 18
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:1
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:2
+Target: Food
+TargetStartIndex: 0
+TargetEndIndex: 4
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:3
+Target: Portions
+TargetStartIndex: 0
+TargetEndIndex: 8
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:4
+Target: menu selection
+TargetStartIndex: 5
+TargetEndIndex: 19
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:5
+Target: appetizer
+TargetStartIndex: 4
+TargetEndIndex: 13
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:5
+Target: Creme Brulee
+TargetStartIndex: 39
+TargetEndIndex: 51
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:6
+Target: Indoor ambience
+TargetStartIndex: 0
+TargetEndIndex: 15
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:7
+Target: balcony
+TargetStartIndex: 49
+TargetEndIndex: 56
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:8
+Target: place
+TargetStartIndex: 13
+TargetEndIndex: 18
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:9
+Target: service
+TargetStartIndex: 13
+TargetEndIndex: 20
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:9
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:10
+Target: server
+TargetStartIndex: 31
+TargetEndIndex: 37
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:10
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:11
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538111:0
+Target: food
+TargetStartIndex: 35
+TargetEndIndex: 39
+
+SentenceID: en_StackRestaurant__Bar_478538111:3
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538111:3
+Target: table
+TargetStartIndex: 31
+TargetEndIndex: 36
+
+SentenceID: en_StackRestaurant__Bar_478538111:4
+Target: service
+TargetStartIndex: 4
+TargetEndIndex: 11
+
+SentenceID: en_StackRestaurant__Bar_478538111:4
+Target: waiters
+TargetStartIndex: 103
+TargetEndIndex: 110
+
+SentenceID: en_StackRestaurant__Bar_478538111:5
+Target: food
+TargetStartIndex: 4
+TargetEndIndex: 8
+
+SentenceID: en_StackRestaurant__Bar_478538111:5
+Target: filet mignon
+TargetStartIndex: 24
+TargetEndIndex: 36
+
+SentenceID: en_StackRestaurant__Bar_478538111:6
+Target: portions
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_StackRestaurant__Bar_478538111:7
+Target: music
+TargetStartIndex: 7
+TargetEndIndex: 12
+
+SentenceID: en_StackRestaurant__Bar_478538111:8
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_StackRestaurant__Bar_478538111:9
+Target: restroom
+TargetStartIndex: 58
+TargetEndIndex: 66
+
+SentenceID: en_StackRestaurant__Bar_478538111:10
+Target: bathroom
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_StackRestaurant__Bar_478538111:12
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010600:0
+Target: place
+TargetStartIndex: 5
+TargetEndIndex: 10
+
+SentenceID: en_MercedesRestaurant_478010600:1
+Target: service
+TargetStartIndex: 39
+TargetEndIndex: 46
+
+SentenceID: en_MercedesRestaurant_478010600:1
+Target: NULL
+TargetStartIndex: 2
+TargetEndIndex: 21
+
+SentenceID: en_MercedesRestaurant_478010600:2
+Target: chips  and salsa
+TargetStartIndex: 4
+TargetEndIndex: 20
+
+SentenceID: en_MercedesRestaurant_478010600:2
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_MercedesRestaurant_478010600:3
+Target: atmosphere
+TargetStartIndex: 4
+TargetEndIndex: 14
+
+SentenceID: en_MercedesRestaurant_478010600:3
+Target: decor
+TargetStartIndex: 37
+TargetEndIndex: 42
+
+SentenceID: en_MercedesRestaurant_478010600:4
+Target: Raouls chicken vegetable soup
+TargetStartIndex: 39
+TargetEndIndex: 68
+
+SentenceID: en_MercedesRestaurant_478010600:4
+Target: catering
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_MercedesRestaurant_478010600:5
+Target: Drinks
+TargetStartIndex: 0
+TargetEndIndex: 6
+
+SentenceID: en_MercedesRestaurant_478010600:5
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480171723:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480171723:1
+Target: Service
+TargetStartIndex: 11
+TargetEndIndex: 18
+
+SentenceID: en_SnoozeanAMEatery_480171723:3
+Target: Snooze
+TargetStartIndex: 20
+TargetEndIndex: 26
+
+SentenceID: en_SnoozeanAMEatery_480171723:3
+Target: menu
+TargetStartIndex: 199
+TargetEndIndex: 203
+
+SentenceID: en_SnoozeanAMEatery_480171723:3
+Target: Snooze
+TargetStartIndex: 20
+TargetEndIndex: 26
+
+SentenceID: en_SnoozeanAMEatery_480171723:4
+Target: orange juice
+TargetStartIndex: 39
+TargetEndIndex: 51
+
+SentenceID: en_SnoozeanAMEatery_480171723:5
+Target: juice
+TargetStartIndex: 104
+TargetEndIndex: 109
+
+SentenceID: en_SnoozeanAMEatery_480171723:5
+Target: juice
+TargetStartIndex: 104
+TargetEndIndex: 109
+
+SentenceID: en_SnoozeanAMEatery_480171723:6
+Target: menu
+TargetStartIndex: 66
+TargetEndIndex: 70
+
+SentenceID: en_SnoozeanAMEatery_480171723:7
+Target: pancakes
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_SnoozeanAMEatery_480171723:7
+Target: pancakes
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_SnoozeanAMEatery_480171723:7
+Target: pancakes
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_SnoozeanAMEatery_480171723:8
+Target: pancakes
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_SnoozeanAMEatery_480171723:8
+Target: pancakes
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_SnoozeanAMEatery_480171723:10
+Target: eggs
+TargetStartIndex: 33
+TargetEndIndex: 37
+
+SentenceID: en_SnoozeanAMEatery_480171723:10
+Target: meal
+TargetStartIndex: 6
+TargetEndIndex: 10
+
+SentenceID: en_SnoozeanAMEatery_480171723:11
+Target: dish
+TargetStartIndex: 100
+TargetEndIndex: 104
+
+SentenceID: en_SnoozeanAMEatery_480171723:12
+Target: manager
+TargetStartIndex: 61
+TargetEndIndex: 68
+
+SentenceID: en_SnoozeanAMEatery_480171723:12
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Target: pancakes
+TargetStartIndex: 45
+TargetEndIndex: 53
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Target: pancakes
+TargetStartIndex: 45
+TargetEndIndex: 53
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Target: breakfast burrito
+TargetStartIndex: 57
+TargetEndIndex: 74
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Target: orange juice
+TargetStartIndex: 79
+TargetEndIndex: 91
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Target: iced tea
+TargetStartIndex: 99
+TargetEndIndex: 107
+
+SentenceID: en_Ray'sBoathouse_477775918:0
+Target: view
+TargetStartIndex: 28
+TargetEndIndex: 32
+
+SentenceID: en_Ray'sBoathouse_477775918:0
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Ray'sBoathouse_477775918:1
+Target: Ray's Boathouse
+TargetStartIndex: 55
+TargetEndIndex: 70
+
+SentenceID: en_Ray'sBoathouse_477775918:2
+Target: Sound views
+TargetStartIndex: 68
+TargetEndIndex: 79
+
+SentenceID: en_Ray'sBoathouse_477775918:3
+Target: views
+TargetStartIndex: 48
+TargetEndIndex: 53
+
+SentenceID: en_Ray'sBoathouse_477775918:3
+Target: Ray's
+TargetStartIndex: 90
+TargetEndIndex: 95
+
+SentenceID: en_Ray'sBoathouse_477775918:4
+Target: Brooke
+TargetStartIndex: 39
+TargetEndIndex: 45
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Target: white gulf prawns
+TargetStartIndex: 130
+TargetEndIndex: 147
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Target: manila clams
+TargetStartIndex: 187
+TargetEndIndex: 199
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Target: soy dressing
+TargetStartIndex: 240
+TargetEndIndex: 252
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Target: butter sauce
+TargetStartIndex: 303
+TargetEndIndex: 315
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Target: Shilshole Sampler
+TargetStartIndex: 75
+TargetEndIndex: 92
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Target: Shilshole Sampler
+TargetStartIndex: 75
+TargetEndIndex: 92
+
+SentenceID: en_Ray'sBoathouse_477775918:6
+Target: seared Alaskan sea scallops
+TargetStartIndex: 47
+TargetEndIndex: 74
+
+SentenceID: en_Ray'sBoathouse_477775918:6
+Target: seared Alaskan sea scallops
+TargetStartIndex: 47
+TargetEndIndex: 74
+
+SentenceID: en_Ray'sBoathouse_477775918:7
+Target: scallops
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_Ray'sBoathouse_477775918:7
+Target: scallops
+TargetStartIndex: 4
+TargetEndIndex: 12
+
+SentenceID: en_Ray'sBoathouse_477775918:8
+Target: grilled Alaskan King Salmon
+TargetStartIndex: 22
+TargetEndIndex: 49
+
+SentenceID: en_Ray'sBoathouse_477775918:8
+Target: creamed Washington russet potatoes
+TargetStartIndex: 66
+TargetEndIndex: 100
+
+SentenceID: en_Ray'sBoathouse_477775918:8
+Target: green beans
+TargetStartIndex: 111
+TargetEndIndex: 122
+
+SentenceID: en_Ray'sBoathouse_477775918:9
+Target: plate
+TargetStartIndex: 40
+TargetEndIndex: 45
+
+SentenceID: en_Ray'sBoathouse_477775918:10
+Target: server
+TargetStartIndex: 4
+TargetEndIndex: 10
+
+SentenceID: en_Ray'sBoathouse_477775918:10
+Target: Ray's
+TargetStartIndex: 115
+TargetEndIndex: 120
+
+SentenceID: en_Ray'sBoathouse_477775918:11
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Ray'sBoathouse_477775918:13
+Target: Ray's Boathouse
+TargetStartIndex: 35
+TargetEndIndex: 50
+
+SentenceID: en_Ray'sBoathouse_477775918:14
+Target: server
+TargetStartIndex: 88
+TargetEndIndex: 94
+
+SentenceID: en_Ray'sBoathouse_477775918:14
+Target: food
+TargetStartIndex: 99
+TargetEndIndex: 103
+
+SentenceID: en_Ray'sBoathouse_477775918:14
+Target: NULL
+TargetStartIndex: 0
+TargetEndIndex: 0
+
+SentenceID: en_Ray'sBoathouse_477775918:15
+Target: view
+TargetStartIndex: 14
+TargetEndIndex: 18
 

@@ -1,198 +1,2577 @@
-SentenceID: 1090587:1
-Polarity: positive
-
-SentenceID: 1090587:2
+SentenceID: en_BlueRibbonSushi_478218171:0
 Polarity: neutral
 
-SentenceID: 1090587:2
+SentenceID: en_BlueRibbonSushi_478218171:1
 Polarity: neutral
 
-SentenceID: 1090587:2
-Polarity: positive
-
-SentenceID: 1090587:3
-Polarity: neutral
-
-SentenceID: 1661043:0
-Polarity: positive
-
-SentenceID: 1661043:1
-Polarity: neutral
-
-SentenceID: 1661043:2
-Polarity: neutral
-
-SentenceID: 1661043:3
-Polarity: neutral
-
-SentenceID: 1661043:4
-Polarity: positive
-
-SentenceID: 1661043:5
-Polarity: neutral
-
-SentenceID: 1349391:0
-Polarity: positive
-
-SentenceID: 1349391:0
-Polarity: neutral
-
-SentenceID: 1349391:1
+SentenceID: en_BlueRibbonSushi_478218171:2
 Polarity: negative
 
-SentenceID: 1349391:1
+SentenceID: en_BlueRibbonSushi_478218171:3
 Polarity: negative
 
-SentenceID: 1349391:1
+SentenceID: en_BlueRibbonSushi_478218171:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218345:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218345:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218345:2
 Polarity: positive
 
-SentenceID: 1349391:1
+SentenceID: en_BlueRibbonSushi_478218345:2
 Polarity: positive
 
-SentenceID: 1349391:2
+SentenceID: en_BlueRibbonSushi_478218345:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218345:4
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965690:0
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965690:1
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965690:2
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965849:0
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_477965849:2
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965849:3
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965849:4
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965849:5
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965849:6
 Polarity: negative
 
-SentenceID: 1357554:0
+SentenceID: en_PagodaRestaurant_478006817:0
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_478006817:1
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_478006817:2
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_478006817:2
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_478006817:2
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_478006817:4
 Polarity: positive
 
-SentenceID: 1357554:2
-Polarity: neutral
-
-SentenceID: 1357554:3
-Polarity: neutral
-
-SentenceID: 1357554:3
-Polarity: neutral
-
-SentenceID: 1357554:4
-Polarity: positive
-
-SentenceID: 1357554:5
-Polarity: neutral
-
-SentenceID: 1730014:1
-Polarity: neutral
-
-SentenceID: 1730014:1
-Polarity: positive
-
-SentenceID: 1730014:2
-Polarity: neutral
-
-SentenceID: 1730014:2
-Polarity: positive
-
-SentenceID: 1730014:2
-Polarity: neutral
-
-SentenceID: 1730014:3
-Polarity: positive
-
-SentenceID: 1500453:1
-Polarity: neutral
-
-SentenceID: 1500453:1
-Polarity: neutral
-
-SentenceID: 1500453:2
-Polarity: positive
-
-SentenceID: 1500453:2
-Polarity: neutral
-
-SentenceID: 1500453:2
-Polarity: neutral
-
-SentenceID: 1500453:2
+SentenceID: en_PagodaRestaurant_478006817:4
 Polarity: negative
 
-SentenceID: 1500453:3
+SentenceID: en_PagodaRestaurant_478006817:5
 Polarity: neutral
 
-SentenceID: 1500453:3
-Polarity: neutral
-
-SentenceID: 1500453:4
-Polarity: neutral
-
-SentenceID: 1500453:4
-Polarity: neutral
-
-SentenceID: 1500453:4
-Polarity: neutral
-
-SentenceID: 1500453:4
-Polarity: neutral
-
-SentenceID: 1500453:5
-Polarity: neutral
-
-SentenceID: 505535:0
+SentenceID: en_ParkChaletGardenRestaurant_477778282:0
 Polarity: negative
 
-SentenceID: 505535:0
+SentenceID: en_ParkChaletGardenRestaurant_477778282:2
 Polarity: neutral
 
-SentenceID: 505535:1
+SentenceID: en_ParkChaletGardenRestaurant_477778282:3
 Polarity: neutral
 
-SentenceID: 505535:1
+SentenceID: en_ParkChaletGardenRestaurant_477778282:4
 Polarity: neutral
 
-SentenceID: 1016296:0
-Polarity: neutral
-
-SentenceID: 1016296:1
-Polarity: neutral
-
-SentenceID: 1016296:2
-Polarity: positive
-
-SentenceID: 1016296:3
-Polarity: neutral
-
-SentenceID: 1016296:4
-Polarity: neutral
-
-SentenceID: 1016296:4
-Polarity: neutral
-
-SentenceID: 1016296:4
-Polarity: positive
-
-SentenceID: 1016296:5
-Polarity: neutral
-
-SentenceID: Z#3:0
-Polarity: neutral
-
-SentenceID: Z#3:0
-Polarity: neutral
-
-SentenceID: Z#3:1
-Polarity: positive
-
-SentenceID: Z#3:2
-Polarity: positive
-
-SentenceID: Z#3:2
-Polarity: positive
-
-SentenceID: Z#3:3
-Polarity: neutral
-
-SentenceID: PP#9:0
-Polarity: neutral
-
-SentenceID: PP#9:1
+SentenceID: en_ParkChaletGardenRestaurant_477778282:5
 Polarity: negative
 
-SentenceID: PP#9:2
+SentenceID: en_MiopostoCaffe_478543071:0
 Polarity: positive
 
-SentenceID: PP#9:2
+SentenceID: en_MiopostoCaffe_478543071:1
 Polarity: neutral
 
-SentenceID: PP#9:3
+SentenceID: en_MiopostoCaffe_478543071:2
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478543071:3
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478543071:3
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075040:0
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075040:1
+Polarity: negative
+
+SentenceID: en_Murphy's_478075040:1
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075040:1
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075040:2
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075040:3
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075040:3
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075040:3
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075040:4
+Polarity: negative
+
+SentenceID: en_Murphy's_478075040:5
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075040:6
+Polarity: negative
+
+SentenceID: en_OpenSesame_477970939:0
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970939:3
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970939:4
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970939:4
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970939:5
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970939:6
+Polarity: neutral
+
+SentenceID: en_Sage_480875505:0
+Polarity: neutral
+
+SentenceID: en_Sage_480875505:1
+Polarity: neutral
+
+SentenceID: en_Sage_480875505:1
+Polarity: neutral
+
+SentenceID: en_Sage_480875505:2
+Polarity: neutral
+
+SentenceID: en_Sage_480875505:2
+Polarity: neutral
+
+SentenceID: en_Sage_480875505:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218900:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218900:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218900:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218900:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218900:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218900:3
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218900:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218900:4
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218900:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218900:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219453:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219453:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219453:1
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478219453:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219453:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219453:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219453:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219453:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219453:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219453:6
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_479929856:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_479929856:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_479929856:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_479929856:1
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_479929856:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_479929856:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_479929856:4
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_479929856:4
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_479929856:5
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_479929856:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_479929856:6
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218901:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218901:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218901:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218901:2
+Polarity: negative
+
+SentenceID: en_MercedesRestaurant_478010605:0
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010605:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010605:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010605:2
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010605:3
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_478010605:4
+Polarity: negative
+
+SentenceID: en_MercedesRestaurant_478010605:4
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010605:5
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_480852899:0
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_480852899:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_480852899:1
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_480852899:1
+Polarity: negative
+
+SentenceID: en_MercedesRestaurant_480852899:2
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_480852899:3
+Polarity: neutral
+
+SentenceID: en_Patsy'sPizzeria_478231878:0
+Polarity: neutral
+
+SentenceID: en_Patsy'sPizzeria_478231878:1
+Polarity: positive
+
+SentenceID: en_Patsy'sPizzeria_478231878:2
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218519:0
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218519:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218519:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218519:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218519:3
+Polarity: negative
+
+SentenceID: en_Ray'sBoathouse_477775919:0
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775919:1
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775919:1
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775919:2
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606540:0
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606540:0
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606540:0
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606540:1
+Polarity: positive
+
+SentenceID: en_ProfessorThom's_478606540:2
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606540:3
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606540:4
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606540:5
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606540:5
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606540:6
+Polarity: positive
+
+SentenceID: en_ProfessorThom's_478606538:0
+Polarity: positive
+
+SentenceID: en_ProfessorThom's_478606538:3
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606538:4
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606538:4
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606538:5
+Polarity: positive
+
+SentenceID: en_ProfessorThom's_478606538:6
+Polarity: positive
+
+SentenceID: en_ProfessorThom's_478606538:6
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606538:7
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606538:8
+Polarity: negative
+
+SentenceID: en_ProfessorThom's_478606538:9
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606538:10
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218520:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218520:2
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218520:4
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218520:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218520:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218520:7
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:0
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:2
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:4
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:4
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:5
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:5
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:6
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:7
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:8
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:8
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:9
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:0
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:0
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:0
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:2
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:3
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:3
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:3
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:4
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:4
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960693:0
+Polarity: positive
+
+SentenceID: en_India'sGrill_477960693:2
+Polarity: positive
+
+SentenceID: en_India'sGrill_477960693:3
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960693:3
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960693:4
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960693:5
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960693:5
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960694:0
+Polarity: negative
+
+SentenceID: en_India'sGrill_477960694:1
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960694:2
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960694:2
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960694:3
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960694:4
+Polarity: negative
+
+SentenceID: en_India'sGrill_477960694:4
+Polarity: negative
+
+SentenceID: en_India'sGrill_477960694:4
+Polarity: negative
+
+SentenceID: en_India'sGrill_477960694:5
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960694:6
+Polarity: negative
+
+SentenceID: en_India'sGrill_477960698:0
+Polarity: positive
+
+SentenceID: en_India'sGrill_477960698:0
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960698:1
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960698:2
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960698:2
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960698:2
+Polarity: positive
+
+SentenceID: en_India'sGrill_477960698:2
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960698:3
+Polarity: positive
+
+SentenceID: en_India'sGrill_477960698:3
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960698:4
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960698:5
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960698:7
+Polarity: positive
+
+SentenceID: en_India'sGrill_477960698:7
+Polarity: negative
+
+SentenceID: en_India'sGrill_477960698:8
+Polarity: positive
+
+SentenceID: en_India'sGrill_477960698:9
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010599:0
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_478010599:2
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010599:3
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970770:0
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970770:0
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970770:0
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970770:0
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970770:3
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970770:4
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010601:0
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010601:1
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_478010601:2
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010601:2
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010601:4
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_478010601:5
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970938:0
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970938:1
+Polarity: negative
+
+SentenceID: en_OpenSesame_477970938:2
+Polarity: negative
+
+SentenceID: en_OpenSesame_477970938:4
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970938:4
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970938:5
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970938:7
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970938:8
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970938:8
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970938:9
+Polarity: negative
+
+SentenceID: en_OpenSesame_477970940:0
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970940:1
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970940:1
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970940:2
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970940:3
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970940:3
+Polarity: negative
+
+SentenceID: en_OpenSesame_477970940:4
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970940:4
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970940:5
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970940:5
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970940:6
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970940:6
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970940:7
+Polarity: negative
+
+SentenceID: en_OpenSesame_477970940:8
+Polarity: positive
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:0
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:1
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:2
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:3
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:3
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:4
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:5
+Polarity: positive
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:5
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Polarity: negative
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Polarity: positive
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:8
+Polarity: positive
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:9
+Polarity: positive
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:9
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:10
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:11
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775917:0
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775917:1
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775917:2
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775917:3
+Polarity: negative
+
+SentenceID: en_Ray'sBoathouse_477775917:4
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_477965848:0
+Polarity: negative
+
+SentenceID: en_SchoonerOrLater_477965848:1
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Polarity: negative
+
+SentenceID: en_SchoonerOrLater_477965848:3
+Polarity: negative
+
+SentenceID: en_SchoonerOrLater_477965848:4
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965848:5
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965848:6
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_477965848:7
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965848:8
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542920:0
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_478542920:0
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542920:0
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542920:1
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542920:1
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542920:2
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542920:3
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_478542920:4
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542920:5
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542920:7
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542920:7
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775916:0
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775916:1
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775916:2
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775916:2
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775916:2
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970937:0
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970937:4
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970937:5
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970937:5
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970937:6
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970937:7
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970937:7
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970937:8
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970937:9
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970937:9
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970937:10
+Polarity: neutral
+
+SentenceID: en_PizzeriaBianco_477908895:0
+Polarity: neutral
+
+SentenceID: en_PizzeriaBianco_477908895:1
+Polarity: neutral
+
+SentenceID: en_PizzeriaBianco_477908895:2
+Polarity: negative
+
+SentenceID: en_PizzeriaBianco_477908895:2
+Polarity: negative
+
+SentenceID: en_PizzeriaBianco_477908895:2
+Polarity: negative
+
+SentenceID: en_SchoonerOrLater_477965689:0
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965689:0
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Polarity: negative
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965689:2
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218333:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218333:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218333:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218333:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218333:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218333:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218340:0
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218340:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218340:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218340:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218340:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218340:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218340:5
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218715:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218715:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218715:2
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218715:3
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218715:4
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218715:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218715:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218518:0
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218518:0
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218518:1
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218518:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218518:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218518:4
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:0
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:1
+Polarity: positive
+
+SentenceID: en_Murphy's_478075041:2
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:3
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:3
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:3
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:4
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:4
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:5
+Polarity: positive
+
+SentenceID: en_Murphy's_478075041:6
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:6
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:7
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075041:7
+Polarity: negative
+
+SentenceID: en_MercedesRestaurant_478010603:0
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010603:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010603:2
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_478010603:2
+Polarity: negative
+
+SentenceID: en_MercedesRestaurant_478010603:2
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010603:3
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010603:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218513:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218513:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218513:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218513:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218513:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218513:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218513:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218513:6
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542919:3
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542919:4
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542919:5
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542919:6
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542919:7
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542919:8
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542919:10
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_478010602:0
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010602:0
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Polarity: negative
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Polarity: negative
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Polarity: negative
+
+SentenceID: en_MercedesRestaurant_478010602:2
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010602:3
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960696:0
+Polarity: positive
+
+SentenceID: en_India'sGrill_477960696:1
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960696:2
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960696:3
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960696:4
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960696:5
+Polarity: negative
+
+SentenceID: en_India'sGrill_477960696:5
+Polarity: neutral
+
+SentenceID: en_India'sGrill_477960696:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218517:0
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218517:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218517:1
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218517:1
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218517:2
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218517:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218517:3
+Polarity: positive
+
+SentenceID: en_Murphy's_478075037:0
+Polarity: negative
+
+SentenceID: en_Murphy's_478075037:1
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075037:2
+Polarity: negative
+
+SentenceID: en_Murphy's_478075037:2
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075037:3
+Polarity: neutral
+
+SentenceID: en_Murphy's_478075037:3
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218509:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218509:2
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218509:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218342:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218342:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218342:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218342:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218342:3
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218342:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218342:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218342:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218512:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218512:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218512:1
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218512:1
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218512:2
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218512:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218512:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218512:3
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542921:0
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_478542921:0
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_478542921:1
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542921:1
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542921:2
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542921:3
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542921:5
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542921:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218339:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218339:1
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218339:3
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218339:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218339:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218339:5
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538242:0
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538242:1
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538242:2
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538242:3
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538242:4
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538242:5
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538242:6
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538242:7
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479842021:0
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479842021:3
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479842021:3
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479842021:4
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479842021:5
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_479842021:6
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479842021:7
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479842021:8
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:0
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:1
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:3
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:3
+Polarity: negative
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:4
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:5
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:6
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:7
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:9
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:10
+Polarity: positive
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:11
+Polarity: negative
+
+SentenceID: en_Ray'sBoathouse_477775920:0
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775920:1
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775920:2
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775920:3
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775920:3
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775920:3
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775920:4
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542922:0
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542922:0
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_478542922:1
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542922:1
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542922:2
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542922:3
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542922:3
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478542922:4
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542922:5
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_478542922:6
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542922:6
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542922:7
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_478542922:7
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478542922:8
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_478542922:8
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479615721:0
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479615721:1
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_479615721:2
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479615721:3
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_479615721:3
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_481226185:0
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_481226185:1
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_481226185:2
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_481226185:2
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_481226185:3
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_479983203:0
+Polarity: positive
+
+SentenceID: en_PagodaRestaurant_479983203:3
+Polarity: positive
+
+SentenceID: en_PagodaRestaurant_479983203:4
+Polarity: positive
+
+SentenceID: en_PagodaRestaurant_479983203:5
+Polarity: negative
+
+SentenceID: en_PagodaRestaurant_479983203:6
+Polarity: positive
+
+SentenceID: en_PagodaRestaurant_479983203:8
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_479983203:9
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_479983203:9
+Polarity: positive
+
+SentenceID: en_PagodaRestaurant_479983203:9
+Polarity: positive
+
+SentenceID: en_PagodaRestaurant_479983203:10
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_479983203:11
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_479983203:13
+Polarity: negative
+
+SentenceID: en_PagodaRestaurant_479983203:14
+Polarity: negative
+
+SentenceID: en_PagodaRestaurant_479983203:14
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_479983203:14
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_479983203:15
+Polarity: negative
+
+SentenceID: en_PagodaRestaurant_479983203:16
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_479983203:17
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_479983203:18
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_479983203:20
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478219459:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478219459:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219459:2
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478219459:3
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:0
+Polarity: negative
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:0
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:0
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:4
+Polarity: positive
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:7
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:9
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:10
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:11
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:12
+Polarity: positive
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:14
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:15
+Polarity: negative
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:16
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:16
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:16
+Polarity: positive
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:18
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:19
+Polarity: neutral
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:20
+Polarity: positive
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:21
+Polarity: negative
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:21
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218524:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218524:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218524:3
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218524:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218524:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218524:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218524:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218524:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218524:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218524:7
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218524:8
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218524:8
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965850:0
+Polarity: negative
+
+SentenceID: en_SchoonerOrLater_477965850:1
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965850:1
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965850:1
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_477965850:2
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_477965850:2
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_477965850:3
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965850:4
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_477965850:5
+Polarity: positive
+
+SentenceID: en_SchoonerOrLater_477965850:6
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965850:7
+Polarity: negative
+
+SentenceID: en_SchoonerOrLater_477965850:8
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965850:9
+Polarity: neutral
+
+SentenceID: en_SchoonerOrLater_477965850:10
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478219447:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219447:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219447:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219447:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478219447:4
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775915:0
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775915:1
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775915:2
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775915:2
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775915:3
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775915:4
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775915:5
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775915:6
+Polarity: negative
+
+SentenceID: en_Ray'sBoathouse_477775915:7
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_479991844:0
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_479991844:2
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_479991844:2
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_479991844:3
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_479991844:4
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606543:0
+Polarity: positive
+
+SentenceID: en_ProfessorThom's_478606543:1
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606543:3
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606543:4
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606543:4
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606543:4
+Polarity: neutral
+
+SentenceID: en_ProfessorThom's_478606543:5
+Polarity: negative
+
+SentenceID: en_ProfessorThom's_478606543:6
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:0
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538239:0
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:0
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:1
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:2
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:3
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:3
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:5
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:6
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:6
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:8
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:10
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:11
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:12
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:12
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:13
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538239:14
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:16
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:17
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:17
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:18
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:18
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:19
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538239:20
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538239:21
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218337:0
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218337:0
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218337:2
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218337:2
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218337:3
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218337:4
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480412257:0
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480412257:2
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480412257:3
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480412257:3
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480412257:4
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480412257:5
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480412257:6
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480412257:6
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480412257:7
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480412257:7
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480412257:8
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_478543072:0
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478543072:1
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478543072:2
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478543072:3
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478543072:3
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478543072:4
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478543072:4
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478543072:5
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478543072:6
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_478543072:6
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_478543072:7
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_479702043:0
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_479702043:1
+Polarity: positive
+
+SentenceID: en_MiopostoCaffe_479702043:2
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_479702043:3
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_479702043:4
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_479702043:4
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_479702043:5
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_479702043:6
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_479702043:7
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_479702043:9
+Polarity: neutral
+
+SentenceID: en_MiopostoCaffe_479702043:10
+Polarity: negative
+
+SentenceID: en_MiopostoCaffe_479702043:10
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480032670:0
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480032670:1
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480032670:1
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480032670:2
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480032670:3
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480032670:4
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480032670:5
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480032670:6
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480032670:7
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480032670:7
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480032670:8
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218334:2
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218334:3
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218334:4
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218334:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218334:5
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218334:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218334:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218334:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218334:7
+Polarity: negative
+
+SentenceID: en_PagodaRestaurant_478006816:0
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_478006816:1
+Polarity: neutral
+
+SentenceID: en_PagodaRestaurant_478006816:2
+Polarity: positive
+
+SentenceID: en_PagodaRestaurant_478006816:3
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480133929:3
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480133929:4
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480133929:4
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480133929:4
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480133929:5
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480133929:6
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480133929:7
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970936:0
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970936:1
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970936:2
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970936:2
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970936:3
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970936:4
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970936:4
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970936:4
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970936:4
+Polarity: positive
+
+SentenceID: en_OpenSesame_477970936:5
+Polarity: neutral
+
+SentenceID: en_OpenSesame_477970936:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218341:0
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218341:1
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218341:2
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218341:3
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218341:4
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218341:5
+Polarity: negative
+
+SentenceID: en_BlueRibbonSushi_478218341:6
+Polarity: positive
+
+SentenceID: en_BlueRibbonSushi_478218341:6
+Polarity: neutral
+
+SentenceID: en_BlueRibbonSushi_478218341:6
+Polarity: neutral
+
+SentenceID: en_Patsy'sPizzeria_478232062:0
+Polarity: positive
+
+SentenceID: en_Patsy'sPizzeria_478232062:1
+Polarity: neutral
+
+SentenceID: en_Patsy'sPizzeria_478232062:2
+Polarity: positive
+
+SentenceID: en_Patsy'sPizzeria_478232062:3
+Polarity: neutral
+
+SentenceID: en_Patsy'sPizzeria_478232062:4
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:0
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:1
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:2
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:3
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:4
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:5
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:5
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:6
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:7
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:8
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:9
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:9
+Polarity: positive
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:10
+Polarity: neutral
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:10
+Polarity: negative
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:11
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538111:0
+Polarity: negative
+
+SentenceID: en_StackRestaurant__Bar_478538111:3
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538111:3
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538111:4
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538111:4
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538111:5
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538111:5
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538111:6
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538111:7
+Polarity: neutral
+
+SentenceID: en_StackRestaurant__Bar_478538111:8
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538111:9
+Polarity: positive
+
+SentenceID: en_StackRestaurant__Bar_478538111:10
+Polarity: negative
+
+SentenceID: en_StackRestaurant__Bar_478538111:12
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010600:0
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010600:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010600:1
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010600:2
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010600:2
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_478010600:3
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010600:3
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010600:4
+Polarity: positive
+
+SentenceID: en_MercedesRestaurant_478010600:4
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010600:5
+Polarity: neutral
+
+SentenceID: en_MercedesRestaurant_478010600:5
+Polarity: negative
+
+SentenceID: en_SnoozeanAMEatery_480171723:0
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:1
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:3
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:3
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480171723:3
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:4
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:5
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:5
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480171723:6
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:7
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480171723:7
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480171723:7
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:8
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480171723:8
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480171723:10
+Polarity: positive
+
+SentenceID: en_SnoozeanAMEatery_480171723:10
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:11
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:12
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:12
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Polarity: negative
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Polarity: neutral
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:0
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:0
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:1
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:2
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:3
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775918:3
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775918:4
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Polarity: negative
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Polarity: negative
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:6
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:6
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:7
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:7
+Polarity: negative
+
+SentenceID: en_Ray'sBoathouse_477775918:8
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775918:8
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:8
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:9
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775918:10
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:10
+Polarity: negative
+
+SentenceID: en_Ray'sBoathouse_477775918:11
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:13
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:14
+Polarity: positive
+
+SentenceID: en_Ray'sBoathouse_477775918:14
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:14
+Polarity: neutral
+
+SentenceID: en_Ray'sBoathouse_477775918:15
 Polarity: neutral
 

@@ -120,70 +120,73 @@ def extract_opinion_target(text, total_exp_opinions):
     updated_pos_tags_on_words_in_sentence = nltk.pos_tag(updated_sentence_words_list)
     doc = nlp(updated_sentence)
     dependency_node = []
-    #print(text)
-    for dependency_edge in doc.sentences[0].dependencies:
-        dependency_node.append([dependency_edge[2].text, dependency_edge[0].id, dependency_edge[1]])
-    #print(dependency_node)
-    for i in range(0, len(dependency_node)):
-        if (int(dependency_node[i][1]) != 0):
-            #print(new_word_list)
-            #print(int(dependency_node[i][1])-1)
-            dependency_node[i][1] = dependency_node[(int(dependency_node[i][1])-1)][0]
-    target_list = []
-    for part in updated_pos_tags_on_words_in_sentence:
-        pos = part[1]
-        word = part[0]
-        if (pos == 'NN' or pos == 'JJ' or pos == 'JJR' or pos == 'NNS' or pos == 'RB'):
-            target_list.append(list(part))
-    feature_cluster = []
-    for target in target_list:
-        f_target_list = []
-        for j in dependency_node:
-            '''
-            print(f'J[0]: {j[0]}')
-            print(f'TARGET[0]: {target[0]}')
-            print(f'J[1]: {j[1]}')
-            '''
-            if ((target[0].find(str(j[0])) != -1 or target[0].find(str(j[1])) != -1) and (j[2] in ["nsubj", "acl:relcl", "obj", "dobj", "agent", "advmod", "amod", "neg", "prep_of", "acomp", "xcomp", "compound"])):
-                if j[0] == target[0]:
-                    f_target_list.append(j[1])
-                else:
-                    f_target_list.append(j[0])
-        feature_cluster.append([target[0], f_target_list])
-    #print(feature_cluster)
-    ote_with_emotion_adj = []
-    vocab = {}
-    for target in target_list:
-        #print(target)
-        vocab[target[0]] = target[1]
-    for target in feature_cluster:
-        if vocab[target[0]] == 'NN' or vocab[target[0]] == 'NNS' or vocab[target[0]] == 'NNP':
-            ote_with_emotion_adj.append(target)
-    for cluster in ote_with_emotion_adj:
-        for pos_tag_word in pos_tags_on_words_in_sentence:
-            pos_tag_word_list = pos_tag_word[0].split()
-            one_word_combined = ''.join(pos_tag_word_list)
-            if cluster[0] == one_word_combined and len(pos_tag_word_list) > 1:
-                cluster[0] = pos_tag_word[0]
-    #print(ote_with_emotion_adj)
-    #TODO what about Nulls?
-    targets_to_return = []
-    for i in range(0, total_exp_opinions):
-        if len(ote_with_emotion_adj) == 0:
-            targets_to_return.append(['NULL', "0", "0"])
-        elif i < len(ote_with_emotion_adj)-1:
-            #TODO just 0s?
-            targets_to_return.append([ote_with_emotion_adj[i][0], "0", "0"])
-        elif i >= len(ote_with_emotion_adj)-1:
-            if i == total_exp_opinions - 1 and i == len(ote_with_emotion_adj)-1:
+    try:
+        for dependency_edge in doc.sentences[0].dependencies:
+            dependency_node.append([dependency_edge[2].text, dependency_edge[0].id, dependency_edge[1]])
+         #print(dependency_node)
+        for i in range(0, len(dependency_node)):
+            if (int(dependency_node[i][1]) != 0):
+                #print(new_word_list)
+                #print(int(dependency_node[i][1])-1)
+                dependency_node[i][1] = dependency_node[(int(dependency_node[i][1])-1)][0]
+        target_list = []
+        for part in updated_pos_tags_on_words_in_sentence:
+            pos = part[1]
+            word = part[0]
+            if (pos == 'NN' or pos == 'JJ' or pos == 'JJR' or pos == 'NNS' or pos == 'RB'):
+                target_list.append(list(part))
+        feature_cluster = []
+        for target in target_list:
+            f_target_list = []
+            for j in dependency_node:
+                '''
+                print(f'J[0]: {j[0]}')
+                print(f'TARGET[0]: {target[0]}')
+                print(f'J[1]: {j[1]}')
+                '''
+                if ((target[0].find(str(j[0])) != -1 or target[0].find(str(j[1])) != -1) and (j[2] in ["nsubj", "acl:relcl", "obj", "dobj", "agent", "advmod", "amod", "neg", "prep_of", "acomp", "xcomp", "compound"])):
+                    if j[0] == target[0]:
+                        f_target_list.append(j[1])
+                    else:
+                        f_target_list.append(j[0])
+            feature_cluster.append([target[0], f_target_list])
+        #print(feature_cluster)
+        ote_with_emotion_adj = []
+        vocab = {}
+        for target in target_list:
+            #print(target)
+            vocab[target[0]] = target[1]
+        for target in feature_cluster:
+            if vocab[target[0]] == 'NN' or vocab[target[0]] == 'NNS' or vocab[target[0]] == 'NNP':
+                ote_with_emotion_adj.append(target)
+        for cluster in ote_with_emotion_adj:
+            for pos_tag_word in pos_tags_on_words_in_sentence:
+                pos_tag_word_list = pos_tag_word[0].split()
+                one_word_combined = ''.join(pos_tag_word_list)
+                if cluster[0] == one_word_combined and len(pos_tag_word_list) > 1:
+                    cluster[0] = pos_tag_word[0]
+        #print(ote_with_emotion_adj)
+        #TODO what about Nulls?
+        targets_to_return = []
+        for i in range(0, total_exp_opinions):
+            if len(ote_with_emotion_adj) == 0:
+                targets_to_return.append(['NULL', "0", "0"])
+            elif i < len(ote_with_emotion_adj)-1:
+                #TODO just 0s?
                 targets_to_return.append([ote_with_emotion_adj[i][0], "0", "0"])
-            elif i <= total_exp_opinions - 1:
-                target_compiled = ''
-                for c in ote_with_emotion_adj:
-                    target_compiled = c[0] + ' '
-                targets_to_return.append([target_compiled, "0", "0"])
-    return targets_to_return, ote_with_emotion_adj
+            elif i >= len(ote_with_emotion_adj)-1:
+                if i == total_exp_opinions - 1 and i == len(ote_with_emotion_adj)-1:
+                    targets_to_return.append([ote_with_emotion_adj[i][0], "0", "0"])
+                elif i <= total_exp_opinions - 1:
+                    target_compiled = ''
+                    for c in ote_with_emotion_adj:
+                        target_compiled = c[0] + ' '
+                    targets_to_return.append([target_compiled, "0", "0"])
+        return targets_to_return, ote_with_emotion_adj
     #return "BASIC", "0", "0"
+    except:
+        print(text)
+        return 'Problem', 'Here'
 
 def label_opinion_category(text, target_pred, total_exp_opinions):
     entities = label_opinion_entity(text, target_pred, total_exp_opinions)
@@ -337,5 +340,5 @@ if __name__ == "__main__":
     path_train = 'train_data/ABSA16_Restaurants_Train_SB1_v2.xml'
     path_test = 'test_gold_data/EN_REST_SB1_TEST.xml.gold'
     opinion_expected = True
-    all_reviews = parsing.parse_xml(path_trial, opinion_expected, stop_words)
+    all_reviews = parsing.parse_xml(path_test, opinion_expected, stop_words)
     process_reviews(all_reviews, stop_words)

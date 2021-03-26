@@ -1,198 +1,2577 @@
-SentenceID: 1090587:1
-Category: LOCATION#GENERAL
-
-SentenceID: 1090587:2
-Category: SERVICE#GENERAL
-
-SentenceID: 1090587:2
+SentenceID: en_BlueRibbonSushi_478218171:0
 Category: FOOD#QUALITY
 
-SentenceID: 1090587:2
-Category: FOOD#PRICES
-
-SentenceID: 1090587:3
+SentenceID: en_BlueRibbonSushi_478218171:1
 Category: FOOD#QUALITY
 
-SentenceID: 1661043:0
+SentenceID: en_BlueRibbonSushi_478218171:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218171:3
 Category: FOOD#QUALITY
 
-SentenceID: 1661043:1
+SentenceID: en_BlueRibbonSushi_478218171:4
 Category: FOOD#QUALITY
 
-SentenceID: 1661043:2
-Category: FOOD#QUALITY
-
-SentenceID: 1661043:3
-Category: FOOD#QUALITY
-
-SentenceID: 1661043:4
-Category: AMBIENCE#GENERAL
-
-SentenceID: 1661043:5
-Category: SERVICE#GENERAL
-
-SentenceID: 1349391:0
-Category: FOOD#QUALITY
-
-SentenceID: 1349391:0
-Category: SERVICE#GENERAL
-
-SentenceID: 1349391:1
-Category: FOOD#QUALITY
-
-SentenceID: 1349391:1
-Category: SERVICE#GENERAL
-
-SentenceID: 1349391:1
-Category: SERVICE#GENERAL
-
-SentenceID: 1349391:1
-Category: FOOD#QUALITY
-
-SentenceID: 1349391:2
+SentenceID: en_BlueRibbonSushi_478218345:0
 Category: RESTAURANT#GENERAL
 
-SentenceID: 1357554:0
+SentenceID: en_BlueRibbonSushi_478218345:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218345:2
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218345:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218345:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218345:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965690:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965690:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965690:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965849:0
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965849:2
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965849:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965849:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965849:5
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965849:6
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_478006817:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_PagodaRestaurant_478006817:1
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_478006817:2
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_478006817:2
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_478006817:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_PagodaRestaurant_478006817:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_PagodaRestaurant_478006817:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_PagodaRestaurant_478006817:5
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778282:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778282:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778282:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778282:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778282:5
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543071:0
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478543071:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543071:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543071:3
 Category: DRINKS#STYLE_OPTIONS
 
-SentenceID: 1357554:2
+SentenceID: en_MiopostoCaffe_478543071:3
 Category: FOOD#QUALITY
 
-SentenceID: 1357554:3
-Category: SERVICE#GENERAL
-
-SentenceID: 1357554:3
-Category: SERVICE#GENERAL
-
-SentenceID: 1357554:4
-Category: AMBIENCE#GENERAL
-
-SentenceID: 1357554:5
+SentenceID: en_Murphy's_478075040:0
 Category: RESTAURANT#GENERAL
 
-SentenceID: 1730014:1
+SentenceID: en_Murphy's_478075040:1
+Category: FOOD#QUALITY
+
+SentenceID: en_Murphy's_478075040:1
 Category: SERVICE#GENERAL
 
-SentenceID: 1730014:1
-Category: FOOD#QUALITY
-
-SentenceID: 1730014:2
-Category: FOOD#QUALITY
-
-SentenceID: 1730014:2
-Category: FOOD#QUALITY
-
-SentenceID: 1730014:2
-Category: FOOD#QUALITY
-
-SentenceID: 1730014:3
-Category: RESTAURANT#GENERAL
-
-SentenceID: 1500453:1
+SentenceID: en_Murphy's_478075040:1
 Category: AMBIENCE#GENERAL
 
-SentenceID: 1500453:1
+SentenceID: en_Murphy's_478075040:2
 Category: RESTAURANT#GENERAL
 
-SentenceID: 1500453:2
+SentenceID: en_Murphy's_478075040:3
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_Murphy's_478075040:3
 Category: FOOD#QUALITY
 
-SentenceID: 1500453:2
-Category: FOOD#QUALITY
-
-SentenceID: 1500453:2
-Category: FOOD#QUALITY
-
-SentenceID: 1500453:2
-Category: FOOD#QUALITY
-
-SentenceID: 1500453:3
-Category: FOOD#QUALITY
-
-SentenceID: 1500453:3
-Category: FOOD#QUALITY
-
-SentenceID: 1500453:4
-Category: AMBIENCE#GENERAL
-
-SentenceID: 1500453:4
-Category: FOOD#QUALITY
-
-SentenceID: 1500453:4
+SentenceID: en_Murphy's_478075040:3
 Category: SERVICE#GENERAL
 
-SentenceID: 1500453:4
-Category: AMBIENCE#GENERAL
-
-SentenceID: 1500453:5
+SentenceID: en_Murphy's_478075040:4
 Category: RESTAURANT#GENERAL
 
-SentenceID: 505535:0
-Category: AMBIENCE#GENERAL
-
-SentenceID: 505535:0
-Category: RESTAURANT#PRICES
-
-SentenceID: 505535:1
-Category: FOOD#QUALITY
-
-SentenceID: 505535:1
-Category: FOOD#QUALITY
-
-SentenceID: 1016296:0
+SentenceID: en_Murphy's_478075040:5
 Category: RESTAURANT#GENERAL
 
-SentenceID: 1016296:1
-Category: SERVICE#GENERAL
-
-SentenceID: 1016296:2
-Category: SERVICE#GENERAL
-
-SentenceID: 1016296:3
-Category: FOOD#QUALITY
-
-SentenceID: 1016296:4
-Category: FOOD#QUALITY
-
-SentenceID: 1016296:4
-Category: FOOD#QUALITY
-
-SentenceID: 1016296:4
-Category: RESTAURANT#MISCELLANEOUS
-
-SentenceID: 1016296:5
+SentenceID: en_Murphy's_478075040:6
 Category: RESTAURANT#GENERAL
 
-SentenceID: Z#3:0
+SentenceID: en_OpenSesame_477970939:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_OpenSesame_477970939:3
 Category: FOOD#QUALITY
 
-SentenceID: Z#3:0
-Category: AMBIENCE#GENERAL
-
-SentenceID: Z#3:1
-Category: AMBIENCE#GENERAL
-
-SentenceID: Z#3:2
-Category: FOOD#QUALITY
-
-SentenceID: Z#3:2
+SentenceID: en_OpenSesame_477970939:4
 Category: FOOD#PRICES
 
-SentenceID: Z#3:3
-Category: DRINKS#QUALITY
-
-SentenceID: PP#9:0
-Category: RESTAURANT#GENERAL
-
-SentenceID: PP#9:1
+SentenceID: en_OpenSesame_477970939:4
 Category: FOOD#QUALITY
 
-SentenceID: PP#9:2
+SentenceID: en_OpenSesame_477970939:5
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970939:6
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Sage_480875505:0
+Category: FOOD#QUALITY
+
+SentenceID: en_Sage_480875505:1
+Category: FOOD#QUALITY
+
+SentenceID: en_Sage_480875505:1
 Category: SERVICE#GENERAL
 
-SentenceID: PP#9:2
+SentenceID: en_Sage_480875505:2
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_Sage_480875505:2
 Category: FOOD#QUALITY
 
-SentenceID: PP#9:3
+SentenceID: en_Sage_480875505:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218900:0
 Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218900:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218900:2
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218900:2
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218900:2
+Category: FOOD#PRICES
+
+SentenceID: en_BlueRibbonSushi_478218900:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218900:4
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218900:4
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218900:5
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218900:6
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478219453:0
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478219453:0
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478219453:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478219453:1
+Category: RESTAURANT#PRICES
+
+SentenceID: en_BlueRibbonSushi_478219453:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478219453:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478219453:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478219453:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478219453:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478219453:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_479929856:0
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_479929856:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_479929856:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_479929856:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_479929856:2
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_479929856:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_479929856:4
+Category: RESTAURANT#PRICES
+
+SentenceID: en_BlueRibbonSushi_479929856:4
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_479929856:5
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_479929856:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_479929856:6
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218901:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218901:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218901:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218901:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010605:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010605:1
+Category: RESTAURANT#PRICES
+
+SentenceID: en_MercedesRestaurant_478010605:1
+Category: LOCATION#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010605:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010605:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010605:4
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010605:4
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010605:5
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_480852899:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_480852899:1
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_480852899:1
+Category: DRINKS#QUALITY
+
+SentenceID: en_MercedesRestaurant_480852899:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_480852899:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_480852899:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Patsy'sPizzeria_478231878:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Patsy'sPizzeria_478231878:1
+Category: FOOD#QUALITY
+
+SentenceID: en_Patsy'sPizzeria_478231878:2
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218519:0
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218519:2
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218519:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218519:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218519:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775919:0
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775919:1
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775919:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775919:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606540:0
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606540:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606540:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606540:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606540:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606540:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606540:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606540:5
+Category: FOOD#QUALITY
+
+SentenceID: en_ProfessorThom's_478606540:5
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_ProfessorThom's_478606540:6
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606538:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606538:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606538:4
+Category: FOOD#QUALITY
+
+SentenceID: en_ProfessorThom's_478606538:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606538:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606538:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606538:6
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_ProfessorThom's_478606538:7
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606538:8
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_ProfessorThom's_478606538:9
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606538:10
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218520:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218520:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218520:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218520:4
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218520:5
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218520:6
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_BlueRibbonSushi_478218520:7
+Category: SERVICE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:0
+Category: FOOD#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:4
+Category: FOOD#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:4
+Category: FOOD#PRICES
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:5
+Category: FOOD#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:5
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:7
+Category: DRINKS#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:8
+Category: DRINKS#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:8
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861889:9
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:0
+Category: FOOD#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:0
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:0
+Category: RESTAURANT#PRICES
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Category: FOOD#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Category: FOOD#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:1
+Category: FOOD#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:2
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477861893:4
+Category: RESTAURANT#PRICES
+
+SentenceID: en_India'sGrill_477960693:0
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960693:2
+Category: RESTAURANT#PRICES
+
+SentenceID: en_India'sGrill_477960693:3
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960693:3
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960693:4
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960693:5
+Category: LOCATION#GENERAL
+
+SentenceID: en_India'sGrill_477960693:5
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960694:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_India'sGrill_477960694:1
+Category: LOCATION#GENERAL
+
+SentenceID: en_India'sGrill_477960694:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_India'sGrill_477960694:2
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_India'sGrill_477960694:3
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960694:4
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960694:4
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960694:4
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960694:5
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_India'sGrill_477960694:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_India'sGrill_477960698:0
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:0
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:1
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:2
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:2
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:2
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:2
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:3
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:3
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_India'sGrill_477960698:5
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:7
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:7
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:8
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960698:9
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010599:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010599:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010599:2
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010599:3
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_OpenSesame_477970770:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_OpenSesame_477970770:0
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_OpenSesame_477970770:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_OpenSesame_477970770:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_OpenSesame_477970770:3
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970770:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010601:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010601:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010601:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010601:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010601:3
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010601:4
+Category: DRINKS#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010601:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_OpenSesame_477970938:0
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970938:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_OpenSesame_477970938:2
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970938:4
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_OpenSesame_477970938:4
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970938:5
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970938:7
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970938:8
+Category: SERVICE#GENERAL
+
+SentenceID: en_OpenSesame_477970938:8
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_OpenSesame_477970938:9
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_OpenSesame_477970940:0
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970940:1
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970940:1
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970940:2
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970940:3
+Category: FOOD#PRICES
+
+SentenceID: en_OpenSesame_477970940:3
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_OpenSesame_477970940:4
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970940:4
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970940:5
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970940:5
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_OpenSesame_477970940:6
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_OpenSesame_477970940:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_OpenSesame_477970940:7
+Category: SERVICE#GENERAL
+
+SentenceID: en_OpenSesame_477970940:8
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:0
+Category: DRINKS#QUALITY
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:3
+Category: DRINKS#QUALITY
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:3
+Category: FOOD#QUALITY
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:5
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Category: FOOD#QUALITY
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Category: FOOD#QUALITY
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Category: FOOD#QUALITY
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:7
+Category: FOOD#QUALITY
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:8
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:9
+Category: DRINKS#QUALITY
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:9
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:10
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778171:11
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775917:0
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_Ray'sBoathouse_477775917:1
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_Ray'sBoathouse_477775917:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775917:3
+Category: DRINKS#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775917:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965848:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965848:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965848:2
+Category: FOOD#PRICES
+
+SentenceID: en_SchoonerOrLater_477965848:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965848:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965848:5
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965848:6
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965848:7
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965848:8
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542920:0
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542920:0
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542920:0
+Category: DRINKS#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542920:1
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542920:1
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_MiopostoCaffe_478542920:2
+Category: DRINKS#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542920:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542920:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542920:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542920:7
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542920:7
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_Ray'sBoathouse_477775916:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775916:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775916:2
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775916:2
+Category: LOCATION#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775916:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_OpenSesame_477970937:0
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970937:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_OpenSesame_477970937:5
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970937:5
+Category: FOOD#PRICES
+
+SentenceID: en_OpenSesame_477970937:6
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970937:7
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_OpenSesame_477970937:7
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970937:8
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_OpenSesame_477970937:9
+Category: SERVICE#GENERAL
+
+SentenceID: en_OpenSesame_477970937:9
+Category: SERVICE#GENERAL
+
+SentenceID: en_OpenSesame_477970937:10
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_PizzeriaBianco_477908895:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_PizzeriaBianco_477908895:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_PizzeriaBianco_477908895:2
+Category: FOOD#QUALITY
+
+SentenceID: en_PizzeriaBianco_477908895:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_PizzeriaBianco_477908895:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965689:0
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965689:0
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965689:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965689:2
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_BlueRibbonSushi_478218333:0
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218333:0
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218333:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218333:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218333:2
+Category: DRINKS#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218333:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218340:0
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218340:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218340:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218340:4
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218340:4
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218340:4
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218340:5
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218715:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218715:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218715:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218715:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218715:4
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218715:5
+Category: RESTAURANT#PRICES
+
+SentenceID: en_BlueRibbonSushi_478218715:6
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218518:0
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218518:0
+Category: FOOD#PRICES
+
+SentenceID: en_BlueRibbonSushi_478218518:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218518:2
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218518:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218518:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_Murphy's_478075041:0
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_Murphy's_478075041:1
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_Murphy's_478075041:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Murphy's_478075041:3
+Category: FOOD#QUALITY
+
+SentenceID: en_Murphy's_478075041:3
+Category: FOOD#QUALITY
+
+SentenceID: en_Murphy's_478075041:3
+Category: FOOD#QUALITY
+
+SentenceID: en_Murphy's_478075041:4
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_Murphy's_478075041:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_Murphy's_478075041:5
+Category: FOOD#QUALITY
+
+SentenceID: en_Murphy's_478075041:6
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_Murphy's_478075041:6
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_Murphy's_478075041:7
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Murphy's_478075041:7
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_MercedesRestaurant_478010603:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010603:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010603:2
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010603:2
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010603:2
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010603:3
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010603:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218513:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218513:2
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218513:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218513:3
+Category: RESTAURANT#PRICES
+
+SentenceID: en_BlueRibbonSushi_478218513:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218513:5
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_BlueRibbonSushi_478218513:5
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218513:6
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542919:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542919:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542919:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542919:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542919:7
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_MiopostoCaffe_478542919:8
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542919:10
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010602:0
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010602:0
+Category: DRINKS#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010602:1
+Category: DRINKS#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010602:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010602:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_India'sGrill_477960696:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_India'sGrill_477960696:1
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960696:2
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960696:3
+Category: FOOD#PRICES
+
+SentenceID: en_India'sGrill_477960696:4
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_India'sGrill_477960696:5
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960696:5
+Category: FOOD#QUALITY
+
+SentenceID: en_India'sGrill_477960696:6
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218517:0
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218517:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218517:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218517:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218517:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218517:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218517:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_Murphy's_478075037:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Murphy's_478075037:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Murphy's_478075037:2
+Category: FOOD#QUALITY
+
+SentenceID: en_Murphy's_478075037:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_Murphy's_478075037:3
+Category: FOOD#QUALITY
+
+SentenceID: en_Murphy's_478075037:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218509:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: DRINKS#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: LOCATION#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218509:1
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218509:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218509:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218342:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218342:1
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218342:2
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218342:2
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218342:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218342:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218342:5
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218342:6
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218512:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218512:1
+Category: FOOD#PRICES
+
+SentenceID: en_BlueRibbonSushi_478218512:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218512:1
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218512:2
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_BlueRibbonSushi_478218512:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218512:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218512:3
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542921:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542921:0
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542921:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542921:1
+Category: FOOD#PRICES
+
+SentenceID: en_MiopostoCaffe_478542921:2
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542921:3
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542921:5
+Category: LOCATION#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542921:5
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218339:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218339:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218339:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218339:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218339:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218339:5
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538242:0
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538242:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538242:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538242:3
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538242:4
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538242:5
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538242:6
+Category: DRINKS#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538242:7
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_479842021:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SchoonerOrLater_479842021:3
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_479842021:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_479842021:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_479842021:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_479842021:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_479842021:7
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_479842021:8
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:6
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:7
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:9
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:10
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778210:11
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_Ray'sBoathouse_477775920:0
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775920:1
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775920:2
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_Ray'sBoathouse_477775920:3
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775920:3
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775920:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775920:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542922:0
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542922:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542922:1
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542922:1
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542922:2
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542922:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542922:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542922:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542922:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542922:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542922:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542922:7
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478542922:7
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542922:8
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478542922:8
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_479615721:0
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_479615721:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_479615721:2
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_SchoonerOrLater_479615721:3
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_479615721:3
+Category: DRINKS#QUALITY
+
+SentenceID: en_SchoonerOrLater_481226185:0
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_481226185:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_481226185:2
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_481226185:2
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_SchoonerOrLater_481226185:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_PagodaRestaurant_479983203:0
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_PagodaRestaurant_479983203:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_PagodaRestaurant_479983203:5
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_PagodaRestaurant_479983203:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_PagodaRestaurant_479983203:8
+Category: SERVICE#GENERAL
+
+SentenceID: en_PagodaRestaurant_479983203:9
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:9
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:9
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:10
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:11
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:13
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:14
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:14
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:14
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:15
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:16
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:17
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_479983203:18
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_PagodaRestaurant_479983203:20
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478219459:0
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Category: RESTAURANT#PRICES
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478219459:1
+Category: FOOD#PRICES
+
+SentenceID: en_BlueRibbonSushi_478219459:2
+Category: RESTAURANT#PRICES
+
+SentenceID: en_BlueRibbonSushi_478219459:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478219459:3
+Category: RESTAURANT#PRICES
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:0
+Category: FOOD#QUALITY
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:0
+Category: RESTAURANT#PRICES
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:7
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:9
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:10
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:11
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:12
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:14
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:15
+Category: SERVICE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:16
+Category: FOOD#QUALITY
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:16
+Category: RESTAURANT#PRICES
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:16
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:18
+Category: LOCATION#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:19
+Category: LOCATION#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:20
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:21
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_ParkChaletGardenRestaurant_477778211:21
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218524:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218524:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218524:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218524:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218524:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218524:4
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218524:4
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218524:5
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218524:6
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218524:7
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218524:8
+Category: FOOD#PRICES
+
+SentenceID: en_BlueRibbonSushi_478218524:8
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965850:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:1
+Category: LOCATION#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965850:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:2
+Category: FOOD#QUALITY
+
+SentenceID: en_SchoonerOrLater_477965850:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:7
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:8
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:9
+Category: SERVICE#GENERAL
+
+SentenceID: en_SchoonerOrLater_477965850:10
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478219447:1
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478219447:2
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478219447:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478219447:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478219447:4
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_Ray'sBoathouse_477775915:0
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775915:1
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775915:2
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_Ray'sBoathouse_477775915:2
+Category: FOOD#PRICES
+
+SentenceID: en_Ray'sBoathouse_477775915:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775915:4
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_Ray'sBoathouse_477775915:5
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775915:6
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775915:7
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_479991844:0
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Category: DRINKS#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Category: DRINKS#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_479991844:1
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_479991844:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_479991844:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_479991844:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_479991844:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606543:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606543:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606543:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_ProfessorThom's_478606543:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606543:4
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_ProfessorThom's_478606543:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606543:5
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_ProfessorThom's_478606543:6
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:0
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:0
+Category: SERVICE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538239:0
+Category: RESTAURANT#PRICES
+
+SentenceID: en_StackRestaurant__Bar_478538239:1
+Category: FOOD#PRICES
+
+SentenceID: en_StackRestaurant__Bar_478538239:2
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538239:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538239:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538239:5
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:6
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_StackRestaurant__Bar_478538239:6
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:8
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:10
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:11
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:12
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:12
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:13
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:14
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:16
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:17
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:17
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538239:18
+Category: RESTAURANT#PRICES
+
+SentenceID: en_StackRestaurant__Bar_478538239:18
+Category: SERVICE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538239:19
+Category: SERVICE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538239:20
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538239:21
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_BlueRibbonSushi_478218337:0
+Category: DRINKS#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218337:0
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218337:2
+Category: DRINKS#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218337:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218337:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218337:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480412257:0
+Category: RESTAURANT#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480412257:2
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480412257:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480412257:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480412257:4
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_SnoozeanAMEatery_480412257:5
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_480412257:6
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_480412257:6
+Category: FOOD#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480412257:7
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_480412257:7
+Category: FOOD#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480412257:8
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543072:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543072:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543072:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543072:3
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478543072:3
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_478543072:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543072:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543072:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543072:6
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543072:6
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_MiopostoCaffe_478543072:7
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_MiopostoCaffe_479702043:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_479702043:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MiopostoCaffe_479702043:2
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_479702043:3
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_MiopostoCaffe_479702043:4
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_MiopostoCaffe_479702043:4
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_MiopostoCaffe_479702043:5
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_479702043:6
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_479702043:7
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_479702043:9
+Category: FOOD#QUALITY
+
+SentenceID: en_MiopostoCaffe_479702043:10
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_MiopostoCaffe_479702043:10
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_480032670:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480032670:1
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_SnoozeanAMEatery_480032670:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480032670:2
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_480032670:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480032670:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480032670:5
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_480032670:6
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_480032670:7
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_480032670:7
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480032670:8
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218334:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218334:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218334:4
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218334:5
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218334:5
+Category: FOOD#PRICES
+
+SentenceID: en_BlueRibbonSushi_478218334:6
+Category: FOOD#PRICES
+
+SentenceID: en_BlueRibbonSushi_478218334:6
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218334:6
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218334:7
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_PagodaRestaurant_478006816:0
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_478006816:1
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_PagodaRestaurant_478006816:2
+Category: FOOD#QUALITY
+
+SentenceID: en_PagodaRestaurant_478006816:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480133929:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480133929:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480133929:4
+Category: DRINKS#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_480133929:4
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_480133929:5
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480133929:6
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480133929:7
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_OpenSesame_477970936:0
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970936:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_OpenSesame_477970936:2
+Category: FOOD#QUALITY
+
+SentenceID: en_OpenSesame_477970936:2
+Category: FOOD#PRICES
+
+SentenceID: en_OpenSesame_477970936:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_OpenSesame_477970936:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_OpenSesame_477970936:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_OpenSesame_477970936:4
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_OpenSesame_477970936:4
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_OpenSesame_477970936:5
+Category: SERVICE#GENERAL
+
+SentenceID: en_OpenSesame_477970936:6
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218341:0
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218341:1
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_BlueRibbonSushi_478218341:2
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218341:3
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218341:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_BlueRibbonSushi_478218341:5
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218341:6
+Category: FOOD#QUALITY
+
+SentenceID: en_BlueRibbonSushi_478218341:6
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_BlueRibbonSushi_478218341:6
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_Patsy'sPizzeria_478232062:0
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_Patsy'sPizzeria_478232062:1
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_Patsy'sPizzeria_478232062:2
+Category: FOOD#QUALITY
+
+SentenceID: en_Patsy'sPizzeria_478232062:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Patsy'sPizzeria_478232062:4
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:0
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:2
+Category: FOOD#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:3
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:4
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:5
+Category: FOOD#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:5
+Category: FOOD#QUALITY
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:6
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:7
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:8
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:9
+Category: SERVICE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:9
+Category: RESTAURANT#PRICES
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:10
+Category: SERVICE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:10
+Category: SERVICE#GENERAL
+
+SentenceID: en_CatalRestaurant__UvaBar_477862052:11
+Category: SERVICE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538111:0
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538111:3
+Category: SERVICE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538111:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538111:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538111:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538111:5
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538111:5
+Category: FOOD#QUALITY
+
+SentenceID: en_StackRestaurant__Bar_478538111:6
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_StackRestaurant__Bar_478538111:7
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_StackRestaurant__Bar_478538111:8
+Category: RESTAURANT#PRICES
+
+SentenceID: en_StackRestaurant__Bar_478538111:9
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_StackRestaurant__Bar_478538111:10
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_StackRestaurant__Bar_478538111:12
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_MercedesRestaurant_478010600:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010600:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010600:1
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010600:2
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010600:2
+Category: RESTAURANT#PRICES
+
+SentenceID: en_MercedesRestaurant_478010600:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010600:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_MercedesRestaurant_478010600:4
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010600:4
+Category: FOOD#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010600:5
+Category: DRINKS#QUALITY
+
+SentenceID: en_MercedesRestaurant_478010600:5
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480171723:0
+Category: RESTAURANT#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480171723:1
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480171723:3
+Category: AMBIENCE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480171723:3
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_480171723:3
+Category: RESTAURANT#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480171723:4
+Category: DRINKS#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480171723:5
+Category: DRINKS#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_480171723:5
+Category: DRINKS#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480171723:6
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_480171723:7
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_480171723:7
+Category: FOOD#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480171723:7
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_480171723:8
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_480171723:8
+Category: FOOD#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480171723:10
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_480171723:10
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_480171723:11
+Category: FOOD#QUALITY
+
+SentenceID: en_SnoozeanAMEatery_480171723:12
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480171723:12
+Category: SERVICE#GENERAL
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Category: FOOD#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Category: FOOD#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Category: DRINKS#PRICES
+
+SentenceID: en_SnoozeanAMEatery_480171723:13
+Category: DRINKS#PRICES
+
+SentenceID: en_Ray'sBoathouse_477775918:0
+Category: LOCATION#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775918:0
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775918:1
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775918:2
+Category: LOCATION#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775918:3
+Category: LOCATION#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775918:3
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775918:4
+Category: SERVICE#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:5
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_Ray'sBoathouse_477775918:6
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:6
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_Ray'sBoathouse_477775918:7
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:7
+Category: FOOD#STYLE_OPTIONS
+
+SentenceID: en_Ray'sBoathouse_477775918:8
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:8
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:8
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:9
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:10
+Category: SERVICE#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775918:10
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_Ray'sBoathouse_477775918:11
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_Ray'sBoathouse_477775918:13
+Category: RESTAURANT#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775918:14
+Category: SERVICE#GENERAL
+
+SentenceID: en_Ray'sBoathouse_477775918:14
+Category: FOOD#QUALITY
+
+SentenceID: en_Ray'sBoathouse_477775918:14
+Category: RESTAURANT#MISCELLANEOUS
+
+SentenceID: en_Ray'sBoathouse_477775918:15
+Category: LOCATION#GENERAL
 

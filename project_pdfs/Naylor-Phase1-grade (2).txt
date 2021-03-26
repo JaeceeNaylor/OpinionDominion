@@ -1,0 +1,52 @@
+TEAM NAME: Opinion Dominion
+TEAM MEMBERS: Jaecee Naylor
+TASK: SemEval 2016 Sentiment-Aspect Extraction from Restaurant Reviews
+
+System Design: A
+Evaluation: A-
+Demonstration: A
+Report: A
+---------------
+OVERALL: A (95)
+
+
+Strengths:
+
+* Looks like you got a lot of the infrastructure set up for this task
+  and created a baseline system. 
+
+* The report is well-written and contains a good amount of detail. 
+
+Weaknesses: 
+
+* The report seems confused about the task at hand, for example the
+  task description is not consistent with the terminology in the
+  results section. For example, you are not just extracting the
+  opinion target (OTE), but also extracting the attributes/aspects. And each
+  polarity value should be associated with a specific aspect. This is
+  what I expected that you'd be doing and I think is what you are
+  doing based on the evaluation results, but the discussions in the
+  report are not consistent with that. 
+
+* There is no discussion of how the data set was used for
+  evaluation. Also results are only reported for the trial data and
+  training data, but these results are not very meaningful because you
+  presumably used them for development. The only truly meaningful
+  results would be based on unseen test cases. 
+
+Feedback: 
+
+* For Phase 2, I will expect a system design that involves substantial
+  new components, ideally some sort of statistical or machine learning
+  model (at least for some part of this task). 
+
+* Please take some time to be sure that you completely understand all
+  the components of the task and the terminology for each part of the
+  task. For example, see:
+  https://alt.qcri.org/semeval2016/task5/data/uploads/absa2016_annotationguidelines.pdf
+  Your Phase 2 report should  describe the task and what your system does more
+  precisely. 
+
+* For Phase 2, please make sure that you present evaluation results
+  for a blind test set (or using cross-validation).  
+
