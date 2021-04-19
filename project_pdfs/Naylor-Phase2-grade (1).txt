@@ -1,0 +1,42 @@
+TEAM NAME: Opinion Dominion
+MEMBERS: Jaecee Naylor
+TASK: SemEval 2016 Sentiment-Aspect Extraction from Restaurant Reviews
+
+Phase 2 System Design & Novelty: A
+Evaluation: 
+Demonstration:
+Report: 
+---------------
+OVERALL: A+ (100)  Excellent Work!
+
+
+Feedback: 
+
+* excellent progress in Phase 2! Several new machine learning
+  components, including a CRF classifier to extract targets. 
+
+* good demo
+
+* both cross-validation and separate training/test splits is great!
+  Plus a third pseudo-test experiment ... you can probably skip that
+  one going forward. 
+
+* How many polarity values are there? If there are 3
+  (pos/neg/neutral), then the results could make sense. But if there
+  are only 2 (pos/neg), then your polarity results are close to 50/50
+  which means that the classifier isn't learning much (assuming a
+  roughly even split in the training data). And even if there are 3
+  classes, I'd expect to see better performance. So there might be a
+  bug somewhere or issue with the ways it's being trained, etc -- I'd
+  suggest investigating that model. 
+
+* How many different aspect categories are there? It would be nice to
+  see recall & precision scores for each of the classes. 
+
+* For Phase 3, I'd focus most of your effort on the Opinion Target
+  Extraction model, since that's the main IE component. It would be
+  nice to see an exact match score as well, and some analysis of
+  whether (say) there is often good overlap but not an exact match for
+  some common reasons (e.g., adjective often missed, or something like
+  that). 
+

@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET 
+import sys
 import nltk
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet
@@ -7,10 +8,19 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import sentiwordnet as swn
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
+import stanza
 import re
 
 nltk.download('stopwords')
-
+stanza.download('en')
+nlp = stanza.Pipeline('en')
+food = wordnet.synset('food.n.02')
+food = list(set([w for s in food.closure(lambda s:s.hyponyms()) for k in s.lemma_names() for w in k.split('_')]))
+#print(food)
+service = wordnet.synset('service.n.02')
+service = list(set([w for s in service.closure(lambda s:s.hyponyms()) for w in s.lemma_names()]))
+#print(service)
+polarities = {2: 'positive', 1: 'neutral', 0: 'negative'}
 '''
 ===============================================================================================================
                                                 CLASSES
@@ -54,6 +64,9 @@ class Sentence:
         self.word_shapes = []
         self.words_are_stop_words = []
         self.word_types = []
+        self.wordSemantics = []
+        self.syntacticConstruction = []
+        self.lexicoSemanticConstruction = []
         string_check = re.compile('[@_!#$%^&*()<>?/\|}{~:]')
         for word in self.tokenized_words_in_sentence:
             self.word_shapes.append(self.word_shape(word))
@@ -71,9 +84,51 @@ class Sentence:
                 self.word_types.append('C')
             else:
                 self.word_types.append('N')
+            self.wordSemantics.append(0)
+            self.syntacticConstruction.append(0)
+            self.lexicoSemanticConstruction.append(0)
+        self.headWord = ""
+        self.sentPolarity = -1
+        self.extract_features(text)
+
+    def extract_features(self, text):
+        doc = nlp(text)
+        self.sentPolarity = int(doc.sentences[0].sentiment)
+        #print(doc)
+        try:
+            
+            for dependency_edge in doc.sentences[0].dependencies:
+                #print(dependency_edge)
+                if (int(dependency_edge[0].id) == 0):
+                    self.headWord = dependency_edge[2].text
+                else:
+                    if dependency_edge[0].xpos in {'NN', 'JJ', 'JJR', 'NNS', 'RB'}:
+                        if dependency_edge[1] in {"nsubj", "acl:relcl", "obj", "dobj", "agent", "advmod", "amod", "neg", "prep_of", "acomp", "xcomp", "compound"}:
+                            if (int(dependency_edge[0].id) - 1 != -1):
+                                if int(dependency_edge[0].id) - 1 >= len(self.syntacticConstruction):
+                                    self.syntacticConstruction[len(self.syntacticConstruction) -1] = 1
+                                else:
+                                    self.syntacticConstruction[int(dependency_edge[0].id) - 1] = 1
+                        if dependency_edge[2].xpos in {'NN', 'JJ', 'JJR', 'NNS', 'RB'}:
+                            if dependency_edge[1] in {"nsubj", "acl:relcl", "obj", "dobj", "agent", "advmod", "amod", "neg", "prep_of", "acomp", "xcomp", "compound"}:
+                                if (int(dependency_edge[2].id) - 1 != -1):
+                                    if int(dependency_edge[2].id) - 1 >= len(self.wordSemantics):
+                                        self.wordSemantics[len(self.wordSemantics) -1] = 1
+                                    else:
+                                        self.wordSemantics[int(dependency_edge[2].id) - 1] = 1
+                    if dependency_edge[2].xpos in {'NN', 'JJ', 'JJR', 'NNS', 'RB'}:
+                        if dependency_edge[1] in {"nsubj", "acl:relcl", "obj", "dobj", "agent", "advmod", "amod", "neg", "prep_of", "acomp", "xcomp", "compound"}:
+                            if (int(dependency_edge[2].id) - 1 != -1):
+                                if int(dependency_edge[2].id) - 1 >= len(self.syntacticConstruction):
+                                    self.syntacticConstruction[len(self.syntacticConstruction) -1] = 1
+                                else:
+                                    self.syntacticConstruction[int(dependency_edge[2].id) - 1] = 1
+        except IndexError as err:
+            print("Unexpected error: {0}".format(err))
+            print(text)
+        #return 'Problem', 'Here'
             
         
-    
     def word_shape(self, text):
         t1 = re.sub('[A-Z]', 'X', text)
         t2 = re.sub('[a-z]', 'x', t1)

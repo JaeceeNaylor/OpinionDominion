@@ -383,8 +383,12 @@ def create_feature_vectors_bio(all_reviews):
                     word_shape = sentence.word_shapes[i]
                     word_type = sentence.word_types[i]
                     is_stop_word = sentence.words_are_stop_words[i]
+                    semantic_relation = sentence.wordSemantics[i]
+                    syntactic_const = sentence.syntacticConstruction[i]
                     feature_vec = {
                         'bias': 1.0,
+                        'syntactic_const' = syntactic_const,
+                        'semantic_relation' = semantic_relation,
                         'word': word, 
                         'pos': pos, 
                         'word_shape': word_shape, 

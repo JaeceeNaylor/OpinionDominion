@@ -245,7 +245,7 @@ SentenceID: TFS#5:2
 Polarity: positive
 
 SentenceID: TFS#5:4
-Polarity: positive
+Polarity: negative
 
 SentenceID: TFS#5:5
 Polarity: positive
@@ -269,7 +269,7 @@ SentenceID: TFS#5:8
 Polarity: positive
 
 SentenceID: TFS#5:12
-Polarity: negative
+Polarity: positive
 
 SentenceID: TFS#5:13
 Polarity: negative
@@ -299,10 +299,10 @@ SentenceID: TFS#5:21
 Polarity: negative
 
 SentenceID: TFS#5:23
-Polarity: positive
+Polarity: negative
 
 SentenceID: TFS#5:23
-Polarity: positive
+Polarity: negative
 
 SentenceID: TFS#5:24
 Polarity: negative
@@ -317,10 +317,10 @@ SentenceID: TFS#5:25
 Polarity: positive
 
 SentenceID: TFS#5:26
-Polarity: negative
+Polarity: positive
 
 SentenceID: TFS#5:26
-Polarity: negative
+Polarity: positive
 
 SentenceID: TFS#5:27
 Polarity: positive
@@ -548,16 +548,16 @@ SentenceID: BG#5:3
 Polarity: positive
 
 SentenceID: BG#5:4
-Polarity: negative
+Polarity: neutral
 
 SentenceID: BG#5:4
-Polarity: negative
+Polarity: neutral
 
 SentenceID: BG#5:4
-Polarity: negative
+Polarity: neutral
 
 SentenceID: BG#5:4
-Polarity: negative
+Polarity: neutral
 
 SentenceID: BG#5:5
 Polarity: negative
@@ -581,10 +581,10 @@ SentenceID: BG#8:1
 Polarity: positive
 
 SentenceID: BG#8:3
-Polarity: positive
+Polarity: negative
 
 SentenceID: BG#8:3
-Polarity: positive
+Polarity: negative
 
 SentenceID: BG#8:5
 Polarity: positive
@@ -608,10 +608,10 @@ SentenceID: DBG#2:4
 Polarity: negative
 
 SentenceID: DBG#2:6
-Polarity: negative
+Polarity: neutral
 
 SentenceID: DBG#2:6
-Polarity: negative
+Polarity: neutral
 
 SentenceID: DBG#2:8
 Polarity: negative
@@ -620,7 +620,7 @@ SentenceID: DBG#2:8
 Polarity: negative
 
 SentenceID: DBG#2:9
-Polarity: positive
+Polarity: negative
 
 SentenceID: DBG#2:10
 Polarity: positive
@@ -662,7 +662,7 @@ SentenceID: DBG#7:0
 Polarity: positive
 
 SentenceID: DBG#7:3
-Polarity: negative
+Polarity: positive
 
 SentenceID: DBG#7:4
 Polarity: negative
@@ -701,7 +701,7 @@ SentenceID: DBG#7:15
 Polarity: negative
 
 SentenceID: DBG#7:16
-Polarity: negative
+Polarity: positive
 
 SentenceID: ADLT#9:0
 Polarity: positive
@@ -854,7 +854,7 @@ SentenceID: DBG#6:2
 Polarity: positive
 
 SentenceID: DBG#6:4
-Polarity: negative
+Polarity: positive
 
 SentenceID: DBG#6:5
 Polarity: positive
@@ -878,13 +878,13 @@ SentenceID: DBG#6:7
 Polarity: positive
 
 SentenceID: DBG#1:0
-Polarity: negative
+Polarity: positive
 
 SentenceID: DBG#1:0
-Polarity: negative
+Polarity: positive
 
 SentenceID: DBG#1:0
-Polarity: negative
+Polarity: positive
 
 SentenceID: BHD#1:0
 Polarity: positive
@@ -938,7 +938,7 @@ SentenceID: Z#7:4
 Polarity: positive
 
 SentenceID: Z#7:5
-Polarity: negative
+Polarity: positive
 
 SentenceID: Z#10:0
 Polarity: positive
@@ -995,7 +995,7 @@ SentenceID: FF#4:3
 Polarity: positive
 
 SentenceID: FF#4:4
-Polarity: positive
+Polarity: negative
 
 SentenceID: FF#4:5
 Polarity: positive
@@ -1070,7 +1070,7 @@ SentenceID: FF#3:9
 Polarity: negative
 
 SentenceID: FF#3:10
-Polarity: negative
+Polarity: neutral
 
 SentenceID: FF#3:11
 Polarity: negative
@@ -1091,7 +1091,7 @@ SentenceID: FF#3:17
 Polarity: negative
 
 SentenceID: FF#3:19
-Polarity: negative
+Polarity: positive
 
 SentenceID: FF#3:20
 Polarity: neutral
@@ -1178,10 +1178,10 @@ SentenceID: BHD#4:0
 Polarity: positive
 
 SentenceID: BHD#4:2
-Polarity: negative
+Polarity: neutral
 
 SentenceID: BHD#4:2
-Polarity: negative
+Polarity: neutral
 
 SentenceID: BHD#4:3
 Polarity: positive
@@ -1250,10 +1250,10 @@ SentenceID: BFC#7:10
 Polarity: positive
 
 SentenceID: BFC#7:11
-Polarity: positive
+Polarity: negative
 
 SentenceID: BFC#7:11
-Polarity: positive
+Polarity: negative
 
 SentenceID: BFC#7:12
 Polarity: negative
@@ -1277,7 +1277,7 @@ SentenceID: ADLT#6:4
 Polarity: negative
 
 SentenceID: ADLT#6:5
-Polarity: positive
+Polarity: negative
 
 SentenceID: ADLT#6:6
 Polarity: positive
@@ -1403,7 +1403,7 @@ SentenceID: ADLT#11:3
 Polarity: negative
 
 SentenceID: ADLT#11:4
-Polarity: positive
+Polarity: negative
 
 SentenceID: WE#1:0
 Polarity: positive
@@ -1442,10 +1442,10 @@ SentenceID: FF#6:6
 Polarity: positive
 
 SentenceID: FF#6:7
-Polarity: positive
+Polarity: negative
 
 SentenceID: FF#6:8
-Polarity: positive
+Polarity: neutral
 
 SentenceID: FF#6:10
 Polarity: positive

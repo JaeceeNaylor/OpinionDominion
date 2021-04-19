@@ -59,7 +59,7 @@ SentenceID: TFS#11:0
 Category: FOOD#QUALITY
 
 SentenceID: TFS#11:1
-Category: FOOD#QUALITY
+Category: RESTAURANT#GENERAL
 
 SentenceID: TFS#11:3
 Category: FOOD#QUALITY
@@ -74,7 +74,7 @@ SentenceID: TFS#11:4
 Category: RESTAURANT#GENERAL
 
 SentenceID: TFS#11:5
-Category: RESTAURANT#MISCELLANEOUS
+Category: RESTAURANT#GENERAL
 
 SentenceID: TFS#11:6
 Category: RESTAURANT#GENERAL
@@ -122,13 +122,13 @@ SentenceID: PP#3:1
 Category: FOOD#QUALITY
 
 SentenceID: PP#3:3
-Category: SERVICE#GENERAL
+Category: RESTAURANT#GENERAL
 
 SentenceID: BHD#6:0
 Category: FOOD#QUALITY
 
 SentenceID: BHD#6:1
-Category: AMBIENCE#GENERAL
+Category: SERVICE#GENERAL
 
 SentenceID: BHD#6:2
 Category: RESTAURANT#MISCELLANEOUS
@@ -170,7 +170,7 @@ SentenceID: TM#6:2
 Category: FOOD#QUALITY
 
 SentenceID: TM#6:3
-Category: SERVICE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: TM#6:4
 Category: FOOD#QUALITY
@@ -203,22 +203,22 @@ SentenceID: TVU#6:4
 Category: SERVICE#GENERAL
 
 SentenceID: TVU#6:5
-Category: RESTAURANT#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: TVU#6:5
-Category: RESTAURANT#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: TVU#6:6
-Category: AMBIENCE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: TVU#6:7
 Category: RESTAURANT#GENERAL
 
 SentenceID: TVU#6:8
-Category: RESTAURANT#GENERAL
+Category: SERVICE#GENERAL
 
 SentenceID: TVU#6:8
-Category: RESTAURANT#GENERAL
+Category: SERVICE#GENERAL
 
 SentenceID: TVU#6:9
 Category: RESTAURANT#GENERAL
@@ -230,7 +230,7 @@ SentenceID: ADLT#3:1
 Category: RESTAURANT#GENERAL
 
 SentenceID: ADLT#3:2
-Category: AMBIENCE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: ADLT#3:3
 Category: RESTAURANT#MISCELLANEOUS
@@ -254,13 +254,13 @@ SentenceID: TFS#5:6
 Category: DRINKS#PRICES
 
 SentenceID: TFS#5:7
-Category: RESTAURANT#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: TFS#5:7
-Category: RESTAURANT#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: TFS#5:7
-Category: RESTAURANT#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: TFS#5:8
 Category: RESTAURANT#MISCELLANEOUS
@@ -278,7 +278,7 @@ SentenceID: TFS#5:16
 Category: FOOD#QUALITY
 
 SentenceID: TFS#5:17
-Category: FOOD#QUALITY
+Category: RESTAURANT#GENERAL
 
 SentenceID: TFS#5:18
 Category: RESTAURANT#GENERAL
@@ -305,10 +305,10 @@ SentenceID: TFS#5:23
 Category: RESTAURANT#GENERAL
 
 SentenceID: TFS#5:24
-Category: SERVICE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: TFS#5:24
-Category: SERVICE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: TFS#5:25
 Category: FOOD#QUALITY
@@ -323,7 +323,7 @@ SentenceID: TFS#5:26
 Category: SERVICE#GENERAL
 
 SentenceID: TFS#5:27
-Category: RESTAURANT#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: TFS#5:29
 Category: SERVICE#GENERAL
@@ -368,19 +368,19 @@ SentenceID: CLF#3:7
 Category: SERVICE#GENERAL
 
 SentenceID: CLF#3:8
-Category: RESTAURANT#MISCELLANEOUS
+Category: FOOD#STYLE_OPTIONS
 
 SentenceID: CLF#3:9
 Category: FOOD#PRICES
 
 SentenceID: CLF#3:10
-Category: DRINKS#QUALITY
+Category: SERVICE#GENERAL
 
 SentenceID: CLF#3:11
 Category: AMBIENCE#GENERAL
 
 SentenceID: CLF#3:12
-Category: SERVICE#GENERAL
+Category: RESTAURANT#GENERAL
 
 SentenceID: CLF#3:13
 Category: DRINKS#QUALITY
@@ -389,13 +389,13 @@ SentenceID: CLF#3:13
 Category: DRINKS#QUALITY
 
 SentenceID: CLF#3:14
-Category: SERVICE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: CLF#3:16
 Category: FOOD#QUALITY
 
 SentenceID: CLF#3:17
-Category: SERVICE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: CLF#3:18
 Category: SERVICE#GENERAL
@@ -422,10 +422,10 @@ SentenceID: CLF#3:24
 Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: CLF#3:25
-Category: RESTAURANT#GENERAL
+Category: SERVICE#GENERAL
 
 SentenceID: CLF#3:26
-Category: RESTAURANT#MISCELLANEOUS
+Category: FOOD#QUALITY
 
 SentenceID: CLF#3:27
 Category: AMBIENCE#GENERAL
@@ -455,22 +455,22 @@ SentenceID: CLF#3:30
 Category: RESTAURANT#GENERAL
 
 SentenceID: CLF#3:31
-Category: RESTAURANT#GENERAL
+Category: FOOD#STYLE_OPTIONS
 
 SentenceID: CLF#3:31
-Category: RESTAURANT#GENERAL
+Category: FOOD#STYLE_OPTIONS
 
 SentenceID: CLF#3:31
-Category: RESTAURANT#GENERAL
+Category: FOOD#STYLE_OPTIONS
 
 SentenceID: CLF#3:32
 Category: RESTAURANT#GENERAL
 
 SentenceID: BFC#9:0
-Category: DRINKS#QUALITY
+Category: FOOD#QUALITY
 
 SentenceID: BFC#9:4
-Category: SERVICE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: BFC#9:5
 Category: FOOD#STYLE_OPTIONS
@@ -479,16 +479,16 @@ SentenceID: BFC#9:6
 Category: SERVICE#GENERAL
 
 SentenceID: BFC#9:7
-Category: AMBIENCE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: BFC#9:8
-Category: FOOD#STYLE_OPTIONS
+Category: SERVICE#GENERAL
 
 SentenceID: BFC#9:8
-Category: FOOD#STYLE_OPTIONS
+Category: SERVICE#GENERAL
 
 SentenceID: BFC#9:8
-Category: FOOD#STYLE_OPTIONS
+Category: SERVICE#GENERAL
 
 SentenceID: BFC#9:9
 Category: FOOD#QUALITY
@@ -503,7 +503,7 @@ SentenceID: BFC#9:14
 Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: BFC#9:16
-Category: FOOD#QUALITY
+Category: FOOD#PRICES
 
 SentenceID: BFC#9:17
 Category: FOOD#QUALITY
@@ -581,10 +581,10 @@ SentenceID: BG#8:1
 Category: FOOD#QUALITY
 
 SentenceID: BG#8:3
-Category: RESTAURANT#PRICES
+Category: FOOD#PRICES
 
 SentenceID: BG#8:3
-Category: RESTAURANT#PRICES
+Category: FOOD#PRICES
 
 SentenceID: BG#8:5
 Category: SERVICE#GENERAL
@@ -605,7 +605,7 @@ SentenceID: DBG#2:3
 Category: FOOD#QUALITY
 
 SentenceID: DBG#2:4
-Category: RESTAURANT#MISCELLANEOUS
+Category: FOOD#QUALITY
 
 SentenceID: DBG#2:6
 Category: FOOD#QUALITY
@@ -614,22 +614,22 @@ SentenceID: DBG#2:6
 Category: FOOD#QUALITY
 
 SentenceID: DBG#2:8
-Category: SERVICE#GENERAL
+Category: RESTAURANT#GENERAL
 
 SentenceID: DBG#2:8
-Category: SERVICE#GENERAL
+Category: RESTAURANT#GENERAL
 
 SentenceID: DBG#2:9
-Category: SERVICE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: DBG#2:10
 Category: RESTAURANT#GENERAL
 
 SentenceID: DBG#2:11
-Category: FOOD#PRICES
+Category: SERVICE#GENERAL
 
 SentenceID: DBG#2:11
-Category: FOOD#PRICES
+Category: SERVICE#GENERAL
 
 SentenceID: DBG#2:14
 Category: RESTAURANT#GENERAL
@@ -638,16 +638,16 @@ SentenceID: DBG#2:15
 Category: RESTAURANT#GENERAL
 
 SentenceID: CLF#7:0
-Category: AMBIENCE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: CLF#7:0
-Category: AMBIENCE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: CLF#7:2
-Category: RESTAURANT#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: CLF#7:2
-Category: RESTAURANT#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: CLF#7:3
 Category: SERVICE#GENERAL
@@ -662,7 +662,7 @@ SentenceID: DBG#7:0
 Category: RESTAURANT#GENERAL
 
 SentenceID: DBG#7:3
-Category: SERVICE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: DBG#7:4
 Category: FOOD#QUALITY
@@ -671,10 +671,10 @@ SentenceID: DBG#7:4
 Category: FOOD#QUALITY
 
 SentenceID: DBG#7:5
-Category: SERVICE#GENERAL
+Category: RESTAURANT#GENERAL
 
 SentenceID: DBG#7:6
-Category: FOOD#QUALITY
+Category: AMBIENCE#GENERAL
 
 SentenceID: DBG#7:7
 Category: FOOD#QUALITY
@@ -683,16 +683,16 @@ SentenceID: DBG#7:8
 Category: FOOD#QUALITY
 
 SentenceID: DBG#7:9
-Category: FOOD#QUALITY
+Category: FOOD#STYLE_OPTIONS
 
 SentenceID: DBG#7:9
-Category: FOOD#QUALITY
+Category: FOOD#STYLE_OPTIONS
 
 SentenceID: DBG#7:10
 Category: SERVICE#GENERAL
 
 SentenceID: DBG#7:12
-Category: FOOD#QUALITY
+Category: RESTAURANT#GENERAL
 
 SentenceID: DBG#7:14
 Category: FOOD#QUALITY
@@ -710,7 +710,7 @@ SentenceID: ADLT#9:2
 Category: SERVICE#GENERAL
 
 SentenceID: ADLT#9:3
-Category: SERVICE#GENERAL
+Category: RESTAURANT#GENERAL
 
 SentenceID: ADLT#9:4
 Category: FOOD#QUALITY
@@ -758,10 +758,10 @@ SentenceID: Z#6:0
 Category: RESTAURANT#GENERAL
 
 SentenceID: Z#6:1
-Category: AMBIENCE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: Z#6:1
-Category: AMBIENCE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: Z#6:2
 Category: RESTAURANT#MISCELLANEOUS
@@ -809,10 +809,10 @@ SentenceID: Z#6:12
 Category: FOOD#QUALITY
 
 SentenceID: Z#6:13
-Category: RESTAURANT#MISCELLANEOUS
+Category: RESTAURANT#PRICES
 
 SentenceID: Z#6:13
-Category: RESTAURANT#MISCELLANEOUS
+Category: RESTAURANT#PRICES
 
 SentenceID: Z#6:14
 Category: RESTAURANT#GENERAL
@@ -827,28 +827,28 @@ SentenceID: CLF#6:1
 Category: SERVICE#GENERAL
 
 SentenceID: CLF#6:3
-Category: RESTAURANT#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: CLF#6:4
 Category: SERVICE#GENERAL
 
 SentenceID: CLF#6:5
-Category: SERVICE#GENERAL
+Category: DRINKS#QUALITY
 
 SentenceID: CLF#6:5
-Category: SERVICE#GENERAL
+Category: DRINKS#QUALITY
 
 SentenceID: CLF#6:5
-Category: SERVICE#GENERAL
+Category: DRINKS#QUALITY
 
 SentenceID: CLF#6:5
-Category: SERVICE#GENERAL
+Category: DRINKS#QUALITY
 
 SentenceID: CLF#6:6
 Category: RESTAURANT#GENERAL
 
 SentenceID: DBG#6:0
-Category: FOOD#QUALITY
+Category: RESTAURANT#GENERAL
 
 SentenceID: DBG#6:2
 Category: RESTAURANT#GENERAL
@@ -857,7 +857,7 @@ SentenceID: DBG#6:4
 Category: FOOD#QUALITY
 
 SentenceID: DBG#6:5
-Category: AMBIENCE#GENERAL
+Category: SERVICE#GENERAL
 
 SentenceID: DBG#6:7
 Category: FOOD#QUALITY
@@ -923,10 +923,10 @@ SentenceID: Z#7:1
 Category: RESTAURANT#GENERAL
 
 SentenceID: Z#7:2
-Category: RESTAURANT#MISCELLANEOUS
+Category: AMBIENCE#GENERAL
 
 SentenceID: Z#7:2
-Category: RESTAURANT#MISCELLANEOUS
+Category: AMBIENCE#GENERAL
 
 SentenceID: Z#7:3
 Category: FOOD#QUALITY
@@ -944,10 +944,10 @@ SentenceID: Z#10:0
 Category: FOOD#QUALITY
 
 SentenceID: Z#10:2
-Category: AMBIENCE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: Z#10:2
-Category: AMBIENCE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: Z#10:3
 Category: AMBIENCE#GENERAL
@@ -977,10 +977,10 @@ SentenceID: P#7:5
 Category: FOOD#QUALITY
 
 SentenceID: P#7:7
-Category: AMBIENCE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: P#7:7
-Category: AMBIENCE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: FF#4:0
 Category: RESTAURANT#GENERAL
@@ -992,29 +992,29 @@ SentenceID: FF#4:2
 Category: SERVICE#GENERAL
 
 SentenceID: FF#4:3
-Category: SERVICE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: FF#4:4
 Category: RESTAURANT#GENERAL
 
 SentenceID: FF#4:5
-Category: FOOD#QUALITY
+Category: RESTAURANT#GENERAL
 
 SentenceID: FF#4:6
 Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: FF#4:7
-Category: SERVICE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: FF#4:7
-Category: SERVICE#GENERAL
-
-SentenceID: FF#4:8
 Category: FOOD#QUALITY
 
 SentenceID: FF#4:8
 Category: FOOD#QUALITY
 
+SentenceID: FF#4:8
+Category: FOOD#QUALITY
+
 SentenceID: FF#4:9
 Category: DRINKS#STYLE_OPTIONS
 
@@ -1028,19 +1028,19 @@ SentenceID: FF#4:9
 Category: DRINKS#STYLE_OPTIONS
 
 SentenceID: FF#4:10
-Category: SERVICE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: FF#4:10
-Category: SERVICE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: FF#4:10
-Category: SERVICE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: FF#4:11
 Category: FOOD#QUALITY
 
 SentenceID: FF#3:0
-Category: RESTAURANT#MISCELLANEOUS
+Category: RESTAURANT#GENERAL
 
 SentenceID: FF#3:1
 Category: FOOD#QUALITY
@@ -1085,16 +1085,16 @@ SentenceID: FF#3:15
 Category: SERVICE#GENERAL
 
 SentenceID: FF#3:16
-Category: SERVICE#GENERAL
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: FF#3:17
-Category: FOOD#STYLE_OPTIONS
+Category: FOOD#QUALITY
 
 SentenceID: FF#3:19
-Category: SERVICE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: FF#3:20
-Category: FOOD#QUALITY
+Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: FF#3:22
 Category: SERVICE#GENERAL
@@ -1148,7 +1148,7 @@ SentenceID: CLF#4:3
 Category: RESTAURANT#GENERAL
 
 SentenceID: CLF#4:5
-Category: FOOD#STYLE_OPTIONS
+Category: AMBIENCE#GENERAL
 
 SentenceID: CLF#4:6
 Category: RESTAURANT#GENERAL
@@ -1157,7 +1157,7 @@ SentenceID: CLF#4:10
 Category: RESTAURANT#GENERAL
 
 SentenceID: CLF#4:11
-Category: RESTAURANT#GENERAL
+Category: AMBIENCE#GENERAL
 
 SentenceID: CLF#4:12
 Category: AMBIENCE#GENERAL
@@ -1172,16 +1172,16 @@ SentenceID: CLF#4:12
 Category: AMBIENCE#GENERAL
 
 SentenceID: CLF#4:13
-Category: RESTAURANT#MISCELLANEOUS
+Category: RESTAURANT#GENERAL
 
 SentenceID: BHD#4:0
 Category: RESTAURANT#GENERAL
 
 SentenceID: BHD#4:2
-Category: FOOD#QUALITY
+Category: SERVICE#GENERAL
 
 SentenceID: BHD#4:2
-Category: FOOD#QUALITY
+Category: SERVICE#GENERAL
 
 SentenceID: BHD#4:3
 Category: FOOD#QUALITY
@@ -1190,13 +1190,13 @@ SentenceID: BHD#4:3
 Category: FOOD#QUALITY
 
 SentenceID: BHD#4:4
-Category: RESTAURANT#MISCELLANEOUS
+Category: RESTAURANT#GENERAL
 
 SentenceID: BHD#4:4
-Category: RESTAURANT#MISCELLANEOUS
+Category: RESTAURANT#GENERAL
 
 SentenceID: BHD#4:5
-Category: RESTAURANT#GENERAL
+Category: DRINKS#STYLE_OPTIONS
 
 SentenceID: BHD#4:6
 Category: FOOD#STYLE_OPTIONS
@@ -1211,7 +1211,7 @@ SentenceID: BFC#7:0
 Category: FOOD#QUALITY
 
 SentenceID: BFC#7:2
-Category: RESTAURANT#MISCELLANEOUS
+Category: FOOD#PRICES
 
 SentenceID: BFC#7:3
 Category: SERVICE#GENERAL
@@ -1235,19 +1235,19 @@ SentenceID: BFC#7:5
 Category: DRINKS#QUALITY
 
 SentenceID: BFC#7:6
-Category: FOOD#QUALITY
+Category: RESTAURANT#GENERAL
 
 SentenceID: BFC#7:7
 Category: SERVICE#GENERAL
 
 SentenceID: BFC#7:8
-Category: FOOD#STYLE_OPTIONS
+Category: FOOD#QUALITY
 
 SentenceID: BFC#7:9
 Category: FOOD#QUALITY
 
 SentenceID: BFC#7:10
-Category: FOOD#QUALITY
+Category: RESTAURANT#GENERAL
 
 SentenceID: BFC#7:11
 Category: SERVICE#GENERAL
@@ -1256,7 +1256,7 @@ SentenceID: BFC#7:11
 Category: SERVICE#GENERAL
 
 SentenceID: BFC#7:12
-Category: FOOD#QUALITY
+Category: AMBIENCE#GENERAL
 
 SentenceID: ADLT#6:0
 Category: FOOD#QUALITY
@@ -1271,10 +1271,10 @@ SentenceID: ADLT#6:2
 Category: FOOD#QUALITY
 
 SentenceID: ADLT#6:3
-Category: FOOD#QUALITY
+Category: DRINKS#QUALITY
 
 SentenceID: ADLT#6:4
-Category: RESTAURANT#GENERAL
+Category: AMBIENCE#GENERAL
 
 SentenceID: ADLT#6:5
 Category: SERVICE#GENERAL
@@ -1283,7 +1283,7 @@ SentenceID: ADLT#6:6
 Category: AMBIENCE#GENERAL
 
 SentenceID: ADLT#6:7
-Category: RESTAURANT#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: NP#9:0
 Category: FOOD#QUALITY
@@ -1310,7 +1310,7 @@ SentenceID: TFS#2:1
 Category: FOOD#QUALITY
 
 SentenceID: TFS#2:2
-Category: SERVICE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: TFS#2:3
 Category: RESTAURANT#GENERAL
@@ -1331,13 +1331,13 @@ SentenceID: BHD#8:2
 Category: FOOD#QUALITY
 
 SentenceID: P#3:0
-Category: FOOD#STYLE_OPTIONS
+Category: RESTAURANT#GENERAL
 
 SentenceID: P#3:2
-Category: FOOD#QUALITY
+Category: AMBIENCE#GENERAL
 
 SentenceID: P#3:2
-Category: FOOD#QUALITY
+Category: AMBIENCE#GENERAL
 
 SentenceID: P#3:3
 Category: AMBIENCE#GENERAL
@@ -1361,28 +1361,28 @@ SentenceID: CLF#8:2
 Category: RESTAURANT#GENERAL
 
 SentenceID: CLF#8:3
-Category: RESTAURANT#MISCELLANEOUS
+Category: FOOD#QUALITY
 
 SentenceID: CLF#8:4
-Category: RESTAURANT#MISCELLANEOUS
+Category: FOOD#PRICES
 
 SentenceID: CLF#8:5
-Category: FOOD#QUALITY
+Category: RESTAURANT#GENERAL
 
 SentenceID: CLF#8:6
 Category: SERVICE#GENERAL
 
 SentenceID: CLF#8:7
-Category: SERVICE#GENERAL
+Category: FOOD#STYLE_OPTIONS
 
 SentenceID: CLF#8:8
 Category: RESTAURANT#MISCELLANEOUS
 
 SentenceID: CLF#8:9
-Category: RESTAURANT#GENERAL
+Category: RESTAURANT#PRICES
 
 SentenceID: CLF#8:9
-Category: RESTAURANT#GENERAL
+Category: RESTAURANT#PRICES
 
 SentenceID: ADLT#11:0
 Category: RESTAURANT#GENERAL
@@ -1409,13 +1409,13 @@ SentenceID: WE#1:0
 Category: RESTAURANT#GENERAL
 
 SentenceID: WE#1:3
-Category: FOOD#QUALITY
+Category: FOOD#PRICES
 
 SentenceID: WE#1:3
-Category: FOOD#QUALITY
+Category: FOOD#PRICES
 
 SentenceID: WE#1:3
-Category: FOOD#QUALITY
+Category: FOOD#PRICES
 
 SentenceID: WE#1:4
 Category: FOOD#QUALITY
@@ -1430,7 +1430,7 @@ SentenceID: FF#6:0
 Category: SERVICE#GENERAL
 
 SentenceID: FF#6:3
-Category: AMBIENCE#GENERAL
+Category: RESTAURANT#GENERAL
 
 SentenceID: FF#6:5
 Category: SERVICE#GENERAL
@@ -1481,7 +1481,7 @@ SentenceID: FF#10:5
 Category: SERVICE#GENERAL
 
 SentenceID: FF#10:6
-Category: SERVICE#GENERAL
+Category: FOOD#QUALITY
 
 SentenceID: FF#10:7
 Category: FOOD#QUALITY
