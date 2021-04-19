@@ -21,6 +21,7 @@ service = wordnet.synset('service.n.02')
 service = list(set([w for s in service.closure(lambda s:s.hyponyms()) for w in s.lemma_names()]))
 #print(service)
 polarities = {2: 'positive', 1: 'neutral', 0: 'negative'}
+
 '''
 ===============================================================================================================
                                                 CLASSES

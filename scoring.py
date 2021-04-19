@@ -1,4 +1,12 @@
-
+c = {
+    0: 'RESTAURANT#GENERAL', 1: 'RESTAURANT#PRICES', 2: 'RESTAURANT#MISCELLANEOUS', 
+    3: 'FOOD#PRICES', 4: 'FOOD#QUALITY', 5: 'FOOD#STYLE_OPTIONS', 
+    6: 'DRINKS#PRICES', 7: 'DRINKS#QUALITY', 8: 'DRINKS#STYLE_OPTIONS',    
+    9: 'AMBIENCE#GENERAL', 
+    10: 'SERVICE#GENERAL', 
+    11: 'LOCATION#GENERAL' 
+}
+polarities = {2: 'positive', 1: 'neutral', 0: 'negative'}
 '''
 ===============================================================================================================
                                             Calculate Feature Scores
