@@ -16,6 +16,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import confusion_matrix 
 from sklearn.model_selection import train_test_split
 #from sklearn_crfsuite import CRF
+
 from sklearn.model_selection import KFold
 from sklearn.linear_model import LogisticRegression
 import re
@@ -26,9 +27,10 @@ import review_opinion_sent
 import sys
 import re
 import tensorflow as tf
+from tf2crf import CRF, ModelWithCRFLoss
 import keras
 from keras import Sequential, Model, Input
-from keras.layers import Dense, Embedding, GRU, Dropout, Bidirectional, SpatialDropout1D, Activation, LSTM, TimeDistributed, Dropout, CRF
+from keras.layers import Dense, Embedding, GRU, Dropout, Bidirectional, SpatialDropout1D, Activation, LSTM, TimeDistributed, Dropout
 from keras.utils import to_categorical, plot_model
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
@@ -53,7 +55,6 @@ def process_reviews(all_reviews, stop_words):
     X_C_Train, X_C_Test, Y_C_Train, Y_C_Test = train_test_split(X_Category, Y_Category, random_state = 0, shuffle = False) #default 25% become test examples
     X_P_Train, X_P_Test, Y_P_train, Y_P_Test = train_test_split(X_Polarity, Y_Polarity, random_state = 0, shuffle = False)
     X_T_Train, X_T_Test, Y_T_Train, Y_T_Test = train_test_split(X_Target_BIO, Y_Target_BIO, random_state = 0, shuffle = False)
-
     clf_l = LogisticRegression(random_state=0).fit(X_C_Train, Y_C_Train)
     clf_l_category_predictions = clf_l.predict(X_C_Test)
     accuracy = clf_l.score(X_C_Test, Y_C_Test)
@@ -131,23 +132,149 @@ def process_reviews(all_reviews, stop_words):
     output_file_creation.create_files(category_predicted_file_name, category_expected_file_name, all_reviews, 'CATEGORY')
 
 def get_model(input_dim, output_dim, input_length, n_tags):
-    model = Sequential()
-    model.add(Embedding(input_dim=input_dim, output_dim=output_dim, input_length=input_length))
-    model.add(Bidirectional(LSTM(units=output_dim, return_sequences=True, dropout=0.2, recurrent_dropout=0.2), merge_mode = 'concat'))
-   # model.add(Bidirectional(GRU(units=output_dim, return_sequences=True, dropout=0.2, recurrent_dropout=0.2), merge_mode = 'concat'))
+    inputs = Input(shape = (None,))
+    model = Embedding(input_dim=input_dim, output_dim=output_dim, input_length=input_length)(inputs)
+    model = Bidirectional(LSTM(units=output_dim, return_sequences=True, dropout=0.2, recurrent_dropout=0.2), merge_mode = 'concat')(model)
+    #model.add(Bidirectional(GRU(units=output_dim, return_sequences=True, dropout=0.2, recurrent_dropout=0.2), merge_mode = 'concat'))
     #model.add(LSTM(units=output_dim, return_sequences=True, dropout=0.5, recurrent_dropout=0.5))
-    model.add(TimeDistributed(Dense(n_tags, activation="relu")))
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    #model = TimeDistributed(Dense(n_tags, activation="softmax"))
+    #crf_model_target = CRF(algorithm='lbfgs', c1=0.1, c2=0.1, max_iterations=100, all_possible_transitions=False).fit(X_T_Train, Y_T_Train)
+    #crf_target_predictions = crf_model_target.predict(X_T_Test)
+    crf = CRF(n_tags)
+    out = crf(model)
+
+    model = Model(inputs, out)
+    model = ModelWithCRFLoss(model, sparse_target=True)
+    model.compile(optimizer='adam')
+    #model.compile(loss=crf.loss_function, optimizer='rmsprop', metrics=[crf.accuracy])
     #model.summary()
     return model
 
+#Could expand BIO to matcsh on the specific categories as well
+def create_feature_vectors_bio_crf(all_reviews):
+    X_BIO = []
+    Y_BIO = []
+    for review in all_reviews:
+        for sentence in review.sentences:
+            for opinion in sentence.opinions_expected:
+                answer = []
+                word_feature_vec = []
+                for i in range(len(sentence.words)):
+                    prev_word = ''
+                    prev_word_2 = ''
+                    prev_pos = ''
+                    prev_pos_2 = ''
+                    prev_shape = ''
+                    prev_shape_2 = ''
+                    prev_type = ''
+                    prev_type_2 = ''
+                    if i > 0:
+                        prev_word = sentence.words[i-1]
+                        prev_pos = sentence.pos_tags_on_words_in_sentence[i-1][1]
+                        prev_shape = sentence.word_shapes[i-1]
+                        prev_type = sentence.word_types[i-1]
+                    else:
+                        prev_word = "SIGMA"
+                        prev_pos = 'SIGMA_POS'
+                        prev_shape = 'SIGMA_SHAPE'
+                        prev_type = 'SIGMA_TYPE'
+                    if i > 1:
+                        prev_word_2 = sentence.words[i-2]
+                        prev_pos_2 = sentence.pos_tags_on_words_in_sentence[i-2][1]
+                        prev_shape_2 = sentence.word_shapes[i-2]
+                        prev_type_2 = sentence.word_types[i-2]
+                    else:
+                        prev_word_2 = 'SIGMA'
+                        prev_pos_2 = 'SIGMA_POS'
+                        prev_shape_2 = 'SIGMA_SHAPE'
+                        prev_type_2 = 'SIGMA_TYPE'
+                    next_word = ''
+                    next_word_2 = ''
+                    next_word_3 = ''
+                    next_pos = ''
+                    next_pos_2 = ''
+                    next_shape = ''
+                    next_shape_2 = ''
+                    next_type = ''
+                    next_type_2 = ''
+                    if i < len(sentence.words) - 1:
+                        next_word = sentence.words[i+1]
+                        next_pos = sentence.pos_tags_on_words_in_sentence[i+1][1]
+                        next_shape = sentence.word_shapes[i+1]
+                        next_type = sentence.word_types[i+1]
+                    else:
+                        next_word = "OMEGA"
+                        next_pos = 'OMEGA_POS'
+                        next_shape = 'OMEGA_SHAPE'
+                        next_type = 'OMEGA_TYPE'
+                    if i < len(sentence.words) - 2:
+                        next_word_2 = sentence.words[i+2]
+                        next_pos_2 = sentence.pos_tags_on_words_in_sentence[i+2][1]
+                        next_shape_2 = sentence.word_shapes[i+2]
+                        next_type_2 = sentence.word_types[i+2]
+                    else:
+                        next_word_2 = 'OMEGA'
+                        next_pos_2 = 'OMEGA_POS'
+                        next_shape_2 = 'OMEGA_SHAPE'
+                        next_type_2 = 'OMEGA_TYPE'
+                    if i < len(sentence.words) - 3:
+                        next_word_3 = sentence.words[i+3]
+                    else:
+                        next_word_3 = 'OMEGA'
+                    word = sentence.words[i]
+                    pos = sentence.pos_tags_on_words_in_sentence[i][1] #[i] is tuple ie ('Would', 'MD')
+                    word_shape = sentence.word_shapes[i]
+                    word_type = sentence.word_types[i]
+                    is_stop_word = sentence.words_are_stop_words[i]
+                    feature_vec = {
+                        'bias': 1.0,
+                        'word': word, 
+                        'pos': pos, 
+                        'word_shape': word_shape, 
+                        'word_type': word_type, 
+                        'is_stop_word': is_stop_word,
+                        #suffix
+                        # prefix 
+                        'prev_word': prev_word, 
+                        'prev_word_2': prev_word_2, 
+                        'next_word': next_word, 
+                        'next_word_2': next_word_2, 
+                        'next_word_3': next_word_3,
+                        'prev_pos': prev_pos,
+                        'prev_pos_2': prev_pos_2,
+                        'prev_shape': prev_shape,
+                        'prev_shape_2': prev_shape_2,
+                        'prev_type': prev_type,
+                        'prev_type_2': prev_type_2,
+                        'next_pos': next_pos,
+                        'next_pos_2': next_pos_2,
+                        'next_shape': next_shape,
+                        'next_shape_2': next_shape_2,
+                        'next_type': next_type,
+                        'next_type_2': next_type_2
+                    }
+                    target_words = opinion.target.split()
+                    target_found = False
+                    for j in range(len(target_words)):
+                        if target_words[j] == word and j == 0:
+                            target_found = True
+                            answer.append('B')
+                        elif target_words[j] == word and j >= 1 and target_found == False:
+                            target_found = True
+                            answer.append('I')
+                    if target_found == False:
+                        answer.append('O')
+                    word_feature_vec.append(feature_vec)
+                X_BIO.append(word_feature_vec)
+                Y_BIO.append(answer)
+    #X_BIO = np.array(X_BIO)
+    #Y_BIO = np.array(Y_BIO)
+    return X_BIO, Y_BIO
+
 
 def train_model(X, y, model):
-    loss = list()
     for i in range(25):
-        hist = model.fit(X, y, batch_size=100, verbose=1, epochs=1, validation_split=0.2)
-        loss.append(hist.history['loss'][0])
-    return loss
+        hist = model.fit(X, y, batch_size=100, verbose=1, epochs=1)
 
 def process_reviews_all(all_reviews, all_test_reviews, stop_words):
     end_vocab, all_vocab, all_pos, all_word_shapes, all_word_types = create_vocab(all_reviews, stop_words)
@@ -454,7 +581,7 @@ if __name__ == "__main__":
     path_train = 'train_data/ABSA16_Restaurants_Train_SB1_v2.xml'
     path_test = 'test_gold_data/EN_REST_SB1_TEST.xml.gold'
     opinion_expected = True
-    all_reviews = parsing.parse_xml(path_train, opinion_expected, stop_words)
+    all_reviews = parsing.parse_xml(path_trial, opinion_expected, stop_words)
     process_reviews(all_reviews, stop_words)
     all_test_reviews = parsing.parse_xml(path_test, opinion_expected, stop_words)
     process_reviews_all(all_reviews, all_test_reviews, stop_words)
