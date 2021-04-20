@@ -132,20 +132,28 @@ def process_reviews(all_reviews, stop_words):
     output_file_creation.create_files(category_predicted_file_name, category_expected_file_name, all_reviews, 'CATEGORY')
 
 def get_model(input_dim, output_dim, input_length, n_tags):
-    inputs = Input(shape = (None,))
-    model = Embedding(input_dim=input_dim, output_dim=output_dim, input_length=input_length)(inputs)
-    model = Bidirectional(LSTM(units=output_dim, return_sequences=True, dropout=0.2, recurrent_dropout=0.2), merge_mode = 'concat')(model)
+    #inputs = Input(shape = (None,))
+    #model = Embedding(input_dim=input_dim, output_dim=output_dim, input_length=input_length)(inputs)
+    #model = Bidirectional(LSTM(units=output_dim, return_sequences=True, dropout=0.2, recurrent_dropout=0.2), merge_mode = 'concat')(model)
     #model.add(Bidirectional(GRU(units=output_dim, return_sequences=True, dropout=0.2, recurrent_dropout=0.2), merge_mode = 'concat'))
     #model.add(LSTM(units=output_dim, return_sequences=True, dropout=0.5, recurrent_dropout=0.5))
     #model = TimeDistributed(Dense(n_tags, activation="softmax"))
+    #crf = CRF(n_tags)
+    #out = crf(model)
+    model = Sequential()
+    model.add(Embedding(input_dim=input_dim, output_dim=output_dim, input_length=input_length))
+    model.add(Bidirectional(LSTM(units=output_dim, return_sequences=True, dropout=0.2, recurrent_dropout=0.2), merge_mode = 'concat'))
+   # model.add(Bidirectional(GRU(units=output_dim, return_sequences=True, dropout=0.2, recurrent_dropout=0.2), merge_mode = 'concat'))
+    #model.add(LSTM(units=output_dim, return_sequences=True, dropout=0.5, recurrent_dropout=0.5))
+    model.add(TimeDistributed(Dense(n_tags, activation="softmax")))
+    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
     #crf_model_target = CRF(algorithm='lbfgs', c1=0.1, c2=0.1, max_iterations=100, all_possible_transitions=False).fit(X_T_Train, Y_T_Train)
     #crf_target_predictions = crf_model_target.predict(X_T_Test)
-    crf = CRF(n_tags)
-    out = crf(model)
+    
 
-    model = Model(inputs, out)
-    model = ModelWithCRFLoss(model, sparse_target=True)
-    model.compile(optimizer='adam')
+    #model = Model(inputs, out)
+    #model = ModelWithCRFLoss(model, sparse_target=True)
+    #model.compile(optimizer='adam')
     #model.compile(loss=crf.loss_function, optimizer='rmsprop', metrics=[crf.accuracy])
     #model.summary()
     return model
@@ -348,8 +356,6 @@ def predict_opinions_cv(all_reviews, train_index, test_index, l_category_predict
                 #classifier for each performs worse -- one vs rest is below this comment
                 #opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', clf_category_predictions[predict_index], clf_polarity_predictions[predict_index])
                 opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', l_category_predictions[predict_index], l_polarity_predications[predict_index])
-                #TODO remove to submit
-                opinion_predicted.setPolarity(sentence)
                 #opinion_predicted.print_attr()
                 predict_index += 1
                 sentence.opinions_predicted.append(opinion_predicted)
@@ -385,8 +391,6 @@ def predict_opinions_all(all_reviews, l_category_predictions, l_polarity_predica
                 #classifier for each performs worse -- one vs rest is below this comment
                 #opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', clf_category_predictions[predict_index], clf_polarity_predictions[predict_index])
                 opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', l_category_predictions[predict_index], l_polarity_predications[predict_index])
-                #TODO remove to submit
-                opinion_predicted.setPolarity(sentence)
                 #opinion_predicted.print_attr()
                 predict_index += 1
                 sentence.opinions_predicted.append(opinion_predicted)
@@ -434,8 +438,6 @@ def predict_opinions(all_reviews, X_C_Train, Y_Target_BIO, l_category_prediction
                 #classifier for each performs worse -- one vs rest is below this comment
                 #opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', clf_category_predictions[predict_index], clf_polarity_predictions[predict_index])
                 opinion_predicted = review_opinion_sent.Opinion(sentence.sentence_id, sentence.review_id, target, '0', '0', l_category_predictions[predict_index], l_polarity_predications[predict_index])
-                #TODO remove to submit
-                opinion_predicted.setPolarity(sentence)
                 #opinion_predicted.print_attr()
                 predict_index += 1
                 sentence.opinions_predicted.append(opinion_predicted)

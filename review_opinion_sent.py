@@ -169,11 +169,10 @@ class Opinion:
         self.polarity = polarity
         self.correctly_labeled_target_words = 0
         self.total_target_words = len(target.split())
-
-    #TODO comment out in submitted version
+    
     def setPolarity(self, sentence):
         self.polarity = polarities[sentence.sentPolarity]
-    
+
     def print_attr(self):
         print(f'REVIEW_ID: {self.review_id}')
         print(f'SENTENCE_ID: {self.sentence_id}')
